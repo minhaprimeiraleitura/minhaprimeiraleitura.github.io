@@ -1,3 +1,24 @@
+<!-- O QUE FALTA !!!!!
+
+- verificar o carregamento da página modal após um tempo
+- ajeitar a página modal acima
+- colocar comentários nos posts
+- colocar navegação na lista dos posts
+- colocar navegação no final do post
+- colocar no final do post relação de posts alternativos
+- colocar compartilhamento das postagens (social share)
+- atribuir no rodapé os tags sociais
+- colocar no HEAD parte necessária (comparar com o original)
+- colocar Google Analytics
+- colocar Facebook Pixels
+- juntar CSS em um arquivo só
+- juntar JS em um arquivo só
+- Verificar velocidade de carregamento e fazer ajustes
+
+
+-->
+
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html lang="pt" b:css='false' >
@@ -6,21 +27,20 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
-    <link rel="shortcut icon" href="assets/images/faviicon-mpl-321-32x32.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"/>
+    <link rel="shortcut icon" href="https://4.bp.blogspot.com/-v8atMSK4DXw/WdWEmIJJk-I/AAAAAAAABNY/Fvp-myE3Kjkrcg0-NnbC1IBV8FL60Tp9ACLcBGAs/s1600/faviicon-MPL-32.png" type="image/x-icon"/>
     <meta name="description" content=""/>
     <b:if cond='data:blog.pageType == "index"'>
         <title><data:blog.pageTitle/> | O melhor livro infantil para seu filho começar a ler</title>
     <b:else/>
         <title><data:blog.pageName/> – <data:blog.title/></title>
     </b:if>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/font-awesome-solid/../css/fontawesome.min.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/font-awesome-solid/css/solid.min.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/web/assets/mobirise-icons/mobirise-icons.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-reboot.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/tether/tether.min.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/bootstrap/css/bootstrap-grid.min.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/bootstrap/css/bootstrap-reboot.min.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/dropdown/css/style.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/socicon/css/styles.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/animatecss/animate.min.css"/>
@@ -73,7 +93,7 @@
             <div class="container">
                 <div class="media-container-row">
                     <div class="title col-12 col-md-10">                <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>A Primeira Leitura do seu Filho
-        </strong><div><strong>começa por aqui</strong></div></h2>
+                    </strong><div><strong>começa por aqui</strong></div></h2>
                         <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Quer melhorar a leitura do seu filho? Você sempre achou um desafio a criança começar a ler sozinha e tomar gosto pela leitura?<br/><br/></h3>
                         
                     </div>
@@ -97,6 +117,7 @@
             </div>
 
         </section>
+
 
         <section class="testimonials1 cid-rjQpZii0vD" id="testimonials1-2">
             <div class="container">
@@ -280,21 +301,23 @@
                         <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5">BAIXE GRÁTIS AQUI. Só preencher para receber o link da amostra.</h3>
                     </div>
                 </div>
-
                 <div class="row py-2 justify-content-center">
-                    <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
+                    <div class="col-12 col-lg-6  col-md-8 ">
                         <!-- Formbuilder Form -->
-                        <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="MPL Form"><input type="hidden" name="email" data-form-email="true" value="2zuHQx95WIOoMJcajtwr5Xozv999CbXUA9oGsp2QsqxS6JD+TjqkU+uyylc9mOpqZOlKIjABu8PNgeyBO7b8RXkb5p2IbJ3Y6onCs0lUQEd8WzmDKLcoozCc5GOZf4qd"/>
+                        <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="mbr-form form-with-styler" target="_blank" novalidate="">
                             <div class="row">
                                 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar! Você receberá novas instruções.</div>
                                 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">preencha um email válido</div>
                             </div>
                             <div class="dragArea row">
                                 <div class="form-group col" data-for="email">
-                                    <input type="email" name="email" placeholder="Coloque aqui o seu melhor email" data-form-field="Email" required="required" class="form-control display-7" id="email-form3-b"/>
+                                    <input type="email" value="" name="EMAIL" class="required email form-control display-7" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Coloque aqui o seu melhor email"/>
+                                    <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
+                                    <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
                                 </div>
                             </div>
-                            <div class="dragArea row">                        <div class="col-auto input-group-btn"><button type="submit" class="btn  btn-success display-5">EU QUERO!</button></div>
+                            <div class="dragArea row">
+                                <div class="col-auto input-group-btn"><button type="submit" class="btn  btn-success">EU QUERO!</button></div>
                             </div>
                         </form><!-- Formbuilder Form -->
                     </div>
@@ -490,9 +513,9 @@
             </b:widget>
         </b:section>
 
-                    
 
     <b:else/>
+
 
         <div id="post"></div>
 
@@ -500,22 +523,23 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="title col-12 col-lg-8">
-                        <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5">Escreva seu email abaixo para entrar para a nossa lista e ainda receba o link da amostra do primeiro livro da coleção (2 sílabas).</h3>
+                        <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5">Escreva seu <b>email</b> abaixo para entrar para a nossa lista e ainda <b>receba o link</b> da amostra do primeiro livro da coleção (2 sílabas).</h3>
                     </div>
                 </div>
                 <div class="row py-2 justify-content-center">
-                    <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
+                    <div class="col-12 col-lg-6  col-md-8 ">
                         <!-- Formbuilder Form -->
-                        <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="MPL Form"><input type="hidden" name="email" data-form-email="true" value="nxnaZhPDnmJZdyLR2cE98VR3qwgcZzqG1iD6frnk9tITHwUYy+Pz8sKrJLv8mkmEARX8VN0703Hl3uytfz5ucA4YiMdNT8S6my1rxGsbHSez5iAwop/tmrCp0cazdlen"/>
+                        <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" id="mc-embedded-subscribe-form" method="post" class="mbr-form form-with-styler" target="_blank">
                             <div class="row">
                                 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Verifique sua caixa de email e de Spam</div>
                                 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
                             </div>
                             <div class="dragArea row">
                                 <div class="form-group col" data-for="email">
-                                    <input type="email" name="email" placeholder="Digite seu Email" data-form-field="Email" required="required" class="form-control display-7" id="email-form3-v"/>
+                                    <input type="email" name="EMAIL" placeholder="Digite seu Email" data-form-field="Email" required="required" class="form-control display-7" id="mce-EMAIL"/>
                                 </div>
-                                <div class="col-auto input-group-btn"><button type="submit" class="btn btn-primary display-4">ASSINE E BAIXE<br/> GRÁTIS NOSSO EBOOK</button></div>
+                                <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+                                <div class="col-auto input-group-btn"><button type="submit" class="btn btn-primary display-4">ASSINE E BAIXE<br/>GRÁTIS NOSSO EBOOK</button></div>
                             </div>
                         </form><!-- Formbuilder Form -->
                     </div>
@@ -565,20 +589,22 @@
             </div>
 
             <div class="row py-2 justify-content-center">
-                <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
+                <div class="col-12 col-lg-6  col-md-8 ">
                     <!-- Formbuilder Form -->
-                    <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="MPL Form"><input type="hidden" name="email" data-form-email="true" value="WzO6BFnwt4kq/1KiYuTSrkjMNvJgB7VgHN7c2eo0Q9V+drCOgmFYw6Wo6HSjNntfvAfE9a09IxtzH67JDtCwvcTRPqyycxguDtnx5zAUyp1ZzLpgWRNIAD+PojFRQzyf"/>
+                    <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" class="mbr-form form-with-styler">
                         <div class="row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar! Você receberá novas instruções.</div>
-                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                            </div>
+                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
                         </div>
                         <div class="dragArea row">
                             <div class="form-group col" data-for="email">
-                                <input type="email" name="email" placeholder="Coloque aqui o seu melhor email" data-form-field="Email" required="required" class="form-control display-7" id="email-form3-q"/>
+                                <input type="email" name="EMAIL" placeholder="Coloque aqui o seu melhor email" data-form-field="Email" required="required" class="form-control display-7" id="mce-EMAIL"/>
+                                <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> seu email estará seguro.</i></small>
                             </div>
+                            <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
                         </div>
-                        <div class="dragArea row">                        <div class="col-auto input-group-btn"><button type="submit" class="btn  btn-success display-5">Entrar na Lista e Receber o Ebook GRÁTIS</button></div>
+                        <div class="dragArea row">
+                            <div class="col-auto input-group-btn"><button type="submit" class="btn  btn-success display-5">Entrar na Lista e Receber o Ebook GRÁTIS</button></div>
                         </div>
                     </form><!-- Formbuilder Form -->
                 </div>
@@ -621,6 +647,7 @@
         </div>
     </section>
 
+
     <section class="mbr-section" id="witsec-modal-window-block-1b" data-rv-view="64">
 
         <style>
@@ -634,26 +661,44 @@
         }
         </style>
 
-        
-        
-        <div><div class="modal fade" id="baixar-ebook" tabindex="-1" role="dialog" aria-labelledby="baixar-ebookLabel" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="baixar-ebookLabel">O livro será enviado ao seu email</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="baixar-ebook_body"><div class="row py-2 justify-content-center">
-                <div class="col-12 col-lg-6  col-md-8 ">
-                    <!-- Formbuilder Form -->
-                    <form action="carlos.correia@minhaprimeiraleitura.com.br" name="Mobirise Form" method="POST" class="mbr-form form-with-styler">
-                        <div class="row">
-                            
-                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+        <div class="modal fade" id="baixar-ebook" tabindex="-1" role="dialog" aria-labelledby="baixar-ebookLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color:#073b4c; color:#fff">
+                        <h5 class="no-anim modal-title" id="baixar-ebookLabel">O livro será enviado ao seu email</h5>
+                        <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                    </div>
+                    <div class="modal-body" id="baixar-ebook_body">
+                        <div class="row py-2 justify-content-center">
+                            <div class="col-12 col-lg-6  col-md-8 ">
+                            <!-- Formbuilder Form -->
+                                <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" method="post" class="mbr-form form-with-styler" target="_blank" novalidate="">
+                                    <div class="row">
+                                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
+                                    </div>
+                                    <div class="dragArea row">
+                                        <div class="form-group col" data-for="email">
+                                            <input  type="text" value="" name="FNAME" id="mce-FNAME" class="form-control" aria-describedby="nameHelp" placeholder="Digite seu nome aqui (OPCIONAL)"/>
+                                            <br/>
+                                            <input type="email" name="EMAIL" placeholder="Digite seu Email" id="mce-EMAIL" aria-describedby="emailHelp"  data-form-field="Email" required="required" class="form-control"/>
+                                            <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
+                                            <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+                                        </div>
+                                        <div class="col-auto input-group-btn ">
+                                            <button type="submit" class="btn btn-primary">BAIXE GRÁTIS NOSSO EBOOK</button>
+                                        </div>
+                                    </div>
+                                </form><!-- Formbuilder Form -->
                             </div>
                         </div>
-                        <div class="dragArea row">
-                            <div class="form-group col" data-for="email">
-                                <input type="email" name="email" placeholder="Digite seu Email" data-form-field="Email" required="required" class="form-control"/>
-                            </div>
-                            <div class="col-auto input-group-btn "><button type="submit" class="btn btn-primary"> BAIXE GRÁTIS NOSSO EBOOK</button></div>
-                        </div>
-                    </form><!-- Formbuilder Form -->
+                    </div>
+                    <div class="modal-footer" style="background-color:#073b4c"></div>
                 </div>
-            </div></div><div class="modal-footer"></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#baixar-ebook").on("hidden.bs.modal", function () {    var html = $( "#baixar-ebook_body" ).html();    $( "#baixar-ebook_body" ).empty();    $( "#baixar-ebook_body" ).append(html);  })});</script></div>
+            </div>
+        </div>
+    
+    
+        <script>document.addEventListener("DOMContentLoaded", function() {  $("#baixar-ebook").on("hidden.bs.modal", function () {    var html = $( "#baixar-ebook_body" ).html();    $( "#baixar-ebook_body" ).empty();    $( "#baixar-ebook_body" ).append(html);  })});</script>
 
         <script>
         if (typeof OpenModal === 'undefined') {
@@ -691,6 +736,7 @@
 
     </section>
 
+
     <section class="mbr-section" id="witsec-modal-window-block-1c" data-rv-view="65">
 
         <style>
@@ -704,40 +750,55 @@
         }
         </style>
 
-        
-        
-        <div><div class="modal fade" id="abertura-modal" tabindex="-1" role="dialog" aria-labelledby="abertura-modalLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="abertura-modalLabel">Faça parte da nossa Turminha</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="abertura-modal_body"><form class="form-horizontal">
-    <fieldset>
+        <div class="modal fade" id="abertura-modal" tabindex="-1" role="dialog" aria-labelledby="abertura-modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg " role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="no-anim modal-title" id="abertura-modalLabel">Faça parte da nossa Turminha</h5>
+                        <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                    </div>
+                    <div class="modal-body" id="abertura-modal_body">
+                        <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="POST" id="mc-embedded-subscribe-form" data-form-title="MPL Form" target="_blank" class="form-horizontal">
+                            <fieldset>
+                                <!-- Form Name -->
+                                <legend>baixar ebook modal</legend>
+                                <!-- Text input-->
+                                <div class="form-group"> 
+                                  <div class="col-md-8">
+                                      <input name="FNAME" id="mce-FNAME" type="text" placeholder="Digite seu nome (OPCIONAL)" class="form-control input-md"/>
+                                  </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="form-group">
+                                  <label class="col-md-4 control-label" for="email"></label>  
+                                  <div class="col-md-6">
+                                      <input name="email" type="text" placeholder="Digite seu Email" data-form-field="Email" class="form-control input-md" required="required" id="mce-EMAIL"/>
+                                      <span class="help-block">você receberá por email. Seu email estará seguro.</span>  
+                                  </div>
+                                </div>
 
-    <!-- Form Name -->
-    <legend>baixar ebook modal</legend>
+                                <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
 
-    <!-- Text input-->
-    <div class="form-group"> 
-      <div class="col-md-8">
-      <input id="nome" name="nome" type="text" placeholder="Digite seu nome (opcional)" class="form-control input-md"/>
-      </div>
-    </div>
+                                <!-- Button -->
+                                <div class="form-group">
+                                  <label class="col-md-4 control-label" for="singlebutton"></label>
+                                  <div class="col-md-4">
+                                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Baixar Agora</button>
+                                  </div>
+                                </div>
 
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="email"></label>  
-      <div class="col-md-6">
-      <input id="email" name="email" type="text" placeholder="Digite seu Email" class="form-control input-md" required=""/>
-      <span class="help-block">você receberá por email. Seu email estará seguro.</span>  
-      </div>
-    </div>
-
-    <!-- Button -->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="singlebutton"></label>
-      <div class="col-md-4">
-        <button id="singlebutton" name="singlebutton" class="btn btn-primary">Baixar Agora</button>
-      </div>
-    </div>
-
-    </fieldset>
-    </form></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Baixar</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#abertura-modal").on("hidden.bs.modal", function () {    var html = $( "#abertura-modal_body" ).html();    $( "#abertura-modal_body" ).empty();    $( "#abertura-modal_body" ).append(html);  })});</script></div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="mbr-section-btn">
+                            <a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Baixar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>document.addEventListener("DOMContentLoaded", function() {  $("#abertura-modal").on("hidden.bs.modal", function () {    var html = $( "#abertura-modal_body" ).html();    $( "#abertura-modal_body" ).empty();    $( "#abertura-modal_body" ).append(html);  })});</script>
 
         <script>
         if (typeof OpenModal === 'undefined') {
@@ -773,7 +834,8 @@
         }
         </script>
 
-    </section><script>
+    </section>
+    <script>
     document.addEventListener("DOMContentLoaded", function() {
       if (modalGetCookie("abertura-modal_viewed") == "") {
         setTimeout( function() {
@@ -786,20 +848,22 @@
     </script>
 
 
-      <script src="assets/web/assets/jquery/jquery.min.js"></script>
-      <script src="assets/popper/popper.min.js"></script>
-      <script src="assets/tether/tether.min.js"></script>
-      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-      <script src="assets/dropdown/js/script.min.js"></script>
-      <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-      <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
-      <script src="assets/smoothscroll/smooth-scroll.js"></script>
-      <script src="assets/snow-plugins/schnee.js"></script>
-      <script src="assets/theme/js/script.js"></script>
-      <script src="assets/formoid/formoid.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/tether/tether.min.js"></script>
+
+    <script src="https://minhaprimeiraleitura.github.io/assets/dropdown/js/script.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/viewportchecker/jquery.viewportchecker.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/snow-plugins/schnee.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/theme/js/script.js"></script>
+    <!--script src="https://minhaprimeiraleitura.github.io/assets/formoid/formoid.min.js"></script-->
       
       
-     <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-        <input name="animation" type="hidden"/>
-      </body>
+    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <input name="animation" type="hidden"/>
+
+</body>
 </html>
