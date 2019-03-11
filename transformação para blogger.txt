@@ -1,0 +1,91 @@
+PASSO A PASSO
+====================================
+Transformar html para xml do Blogger
+====================================
+1) incluir no início (primeira linha): <?xml version="1.0" encoding="UTF-8" ?>
+
+2) para não carregar CSS desnecessário:
+<html b:css='false' 
+
+3) substituir:
+<head> => &lt;head&gt;
+</head> => &lt;/head&gt;&lt;!--<head/>--&gt;
+
+4) colocar o faviicon correto.
+Ex.: https://4.bp.blogspot.com/-v8atMSK4DXw/WdWEmIJJk-I/AAAAAAAABNY/Fvp-myE3Kjkrcg0-NnbC1IBV8FL60Tp9ACLcBGAs/s1600/faviicon-MPL-32.png
+
+5) colocar a parte do título do site:
+<b:if cond='data:blog.pageType == "index"'>
+        <title><data:blog.pageTitle/> | O melhor livro infantil para seu filho começar a ler</title>
+   <b:else/>
+        <title><data:blog.pageName/> – <data:blog.title/></title>
+ </b:if>
+
+6) ter pelo menos 1 item de skin:
+&lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin>*/</b:skin>
+
+7) colocar em meta viewport:
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"/>
+
+8) LINK CSS trocar <link bootstrap, font-awesome, etc.... pelos links de CDN
+  ver em cada site onde estão os links de carregamento
+ex.:
+  https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
+9) LINK JS trocar <link bootstrap, jquery, etc.... pelos links de CDN
+  ver em cada site onde estão os links de carregamento
+ex.:
+  https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
+10) Substituir nos links de CSS e JS a chamada de arquivo local para arquivo na rede
+ex.:
+  <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/
+  <script src="https://minhaprimeiraleitura.github.io/assets/
+
+11) Substituir nas imagens a chamada de arquivo local para arquivo de rede
+Ex.:
+<img src="https://2.bp.blogspot.com/-eq6o3rc3dOI/XIP9zfFU6rI/AAAAAAAABVc/QZCxeFbq-RU5YblTG2eJjlZvmkFOZph1ACLcBGAs/s320/logo%2Bminha%2Bprimeira%2Bleitura.png"
+
+12) Substituir ou colocar / no final:
+.1- <!---  ---> => <!--  -->
+.2- <meta => .../>
+.3- <link => .../>
+.4- <br>=><br/>
+.5- <img => .../>
+.6- <input => .../>
+
+) Tirar e ou substituir &nbsp; por espaço
+
+13) Em javascript, substituir
+  & por &amp;
+  < por &lt;
+
+14) Colocar nas imagens  alt="@@@@" title="@@@@" , onde @@@@ são palavras chaves para o site
+Ex.:  alt="pato no lago" title="O Pato no Lago"
+
+
+15) incluir IF INDEX ELSE POSTS: 
+
+<b:if cond='data:blog.pageType == "index"'>
+<b:else/>
+</b:if> 
+
+16) mesclar o arquivo original ao corpo mínimo do xml do blogger colocando os dados de posts (ver arquivo layout mínimo para ser usado no blogger => arquivo do tipo xml)
+
+
+) Verificar todos os formulários colocando o código correto
+
+) Retirar todo o campo " data-form-type="formoid" " onde há formulário interno.
+Ex.:<div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid"> <== RETIRAR!!!
+        <!-- Formbuilder Form -->
+        <form action="//minhaprimeiraleitura.us16.l
+
+ data-form-title="MPL Form"
+<input type="hidden" name="email" data-form-email="true"/>
+
+) juntar CSS e JS em poucos arquivos
+
+
+
+SITES PARA VISUALIZAR:
+https://bloggerbook.blakbin.com/
