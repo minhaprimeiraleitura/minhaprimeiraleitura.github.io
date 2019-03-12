@@ -10,6 +10,8 @@ Transformar html para xml do Blogger
 3) substituir:
 <head> => &lt;head&gt;
 </head> => &lt;/head&gt;&lt;!--<head/>--&gt;
+</body> => &lt;!--</body>--&gt; &lt;/body&gt;
+
 
 4) colocar o faviicon correto.
 Ex.: https://4.bp.blogspot.com/-v8atMSK4DXw/WdWEmIJJk-I/AAAAAAAABNY/Fvp-myE3Kjkrcg0-NnbC1IBV8FL60Tp9ACLcBGAs/s1600/faviicon-MPL-32.png

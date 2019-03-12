@@ -1,16 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang="pt" b:css='false'>
+&lt;head&gt;
+
 <!-- O QUE FALTA !!!!!
 
-- verificar o carregamento da página modal após um tempo
-- ajeitar a página modal acima
 - colocar comentários nos posts
 - colocar navegação na lista dos posts
 - colocar navegação no final do post
 - colocar no final do post relação de posts alternativos
 - colocar compartilhamento das postagens (social share)
 - atribuir no rodapé os tags sociais
-- colocar no HEAD parte necessária (comparar com o original)
-- colocar Google Analytics
-- colocar Facebook Pixels
 - juntar CSS em um arquivo só
 - juntar JS em um arquivo só
 - Verificar velocidade de carregamento e fazer ajustes
@@ -22,25 +22,33 @@ SOCIAL SHARE
 
 -->
 
-
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html>
-<html lang="pt" b:css='false'>
-&lt;head&gt;
-
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"/>
 
     <link rel="shortcut icon" href="https://4.bp.blogspot.com/-v8atMSK4DXw/WdWEmIJJk-I/AAAAAAAABNY/Fvp-myE3Kjkrcg0-NnbC1IBV8FL60Tp9ACLcBGAs/s1600/faviicon-MPL-32.png" type="image/x-icon"/>
-    <meta name="description" content=""/>
+    <meta name="description" content="Livro Infantil de alfabetização para ajudar a criança a ler sozinha. Coleção Minha Primeira Leitura."/>
+    <meta name="author" content="Carlos Correia"/>
+    <meta name='keywords' content='alfabetização e letramento, educação infantil, livro infantil, gosto pela leitura, gostar de ler'/>
 
     <b:if cond='data:blog.pageType == "index"'>
         <title><data:blog.pageTitle/> | O melhor livro infantil para seu filho começar a ler</title>
     <b:else/>
         <title><data:blog.pageName/> – <data:blog.title/></title>
+        <meta content='2006225306314131' property='fb:admins'/>
+        <meta content='2006225306314131' property='fb:app_id'/>
     </b:if>
+
+    <meta name="robots" content="index,follow" />
+    
+
+    <meta property="og:url" expr:content="data:blog.url" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" expr:content="data:blog.pageTitle" />
+    <meta property="og:site_name" content="Minha Primeira Leitura"/>
+    <meta property="og:description" expr:content="data:blog.description" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-reboot.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
@@ -57,13 +65,29 @@ SOCIAL SHARE
 
     &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin>*/</b:skin>
 
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '285592308511323');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=285592308511323&amp;ev=PageView&amp;noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
 &lt;/head&gt;&lt;!--<head/>--&gt;
 
 <body>
     <section class="menu cid-rjQoFUogMp" once="menu" id="menu2-0">
-
-
-
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <div class="hamburger">
@@ -76,12 +100,11 @@ SOCIAL SHARE
     <div class="menu-logo">
         <div class="navbar-brand">
             <span class="navbar-logo">
-                <a href="http://minhaprimeiraleitura.com.br">
-                    <img src="https://2.bp.blogspot.com/-eq6o3rc3dOI/XIP9zfFU6rI/AAAAAAAABVc/QZCxeFbq-RU5YblTG2eJjlZvmkFOZph1ACLcBGAs/s320/logo%2Bminha%2Bprimeira%2Bleitura.png" alt="Coleção Minha Primeira Leitura" title="Coleção Minha Primeira Leitura" style="height: 3.8rem;"/>
+                <a href="http://www.minhaprimeiraleitura.com.br">
+                    <img src="https://1.bp.blogspot.com/-YTG6Z4oD5jw/XIaU57Llr9I/AAAAAAAABVw/MBihthAh3gIK1430DrqyI4aacKgCq0iLACLcBGAs/s1600/logo%2Bminha%2Bprimeira%2Bleitura%2Bv2.png" alt="Coleção Minha Primeira Leitura" title="Coleção Minha Primeira Leitura" style="height: 3.8rem;"/>
                 </a>
             </span>
-            <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-4" href="http://www.minhaprimeiraleitura.com.br">
-                    coleção Minha Primeira Leitura</a></span>
+            <span class="navbar-caption-wrap" style="color:#b8fbff">coleção Minha Primeira Leitura</span>
         </div>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -465,7 +488,7 @@ SOCIAL SHARE
                     <div class="step-text-content">
                         <h4 class="mbr-step-title pb-3 mbr-fonts-style display-5">Ilustrações</h4>
                         <p class="mbr-step-text mbr-fonts-style display-7">
-                            Ilustração de acordo com a frase, para facilitar a identificação e o compreensão do texto</p>
+                            Ilustração de acordo com a frase, para facilitar a identificação e a compreensão do texto</p>
                     </div>
                 </div>
             </div>
@@ -553,11 +576,10 @@ SOCIAL SHARE
             </div>
         </section>
 
-        <b:section id='postagens' class="features3 cid-rjQw86wztH" showaddelement='yes'>
+        <!--  artigos do blog -->
+        <b:section id='postagens' class="" showaddelement='yes'>
             <b:widget id='Blog1' locked='true' title='Postagens no blog' type='Blog'>
                 <b:includable id='main'>
-
-
                     <section class="features3 cid-rjQw86wztH" id="features3-j">
                         <div class="container">
                             <div class="media-container-row">
@@ -567,7 +589,7 @@ SOCIAL SHARE
                                             <a expr:name='data:post.id'/>
                                             <div class="card-img">
                                                 <a expr:href="data:post.url" class="btn btn-primary display-4">
-                                                    <img expr:src='data:post.thumbnailUrl' alt="data:post.title"/>
+                                                    <img expr:src='data:post.thumbnailUrl' expr:alt="data:post.title" expr:title="data:post.title"/>
                                                 </a>
                                             </div>
                                             <div class="card-box">
@@ -582,35 +604,31 @@ SOCIAL SHARE
                             </div>
                         </div>
                     </section>
-
-
                     <section class="header1 cid-rkkuxnhE5C" id="header16-1n">
                         <div class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col-md-10 align-center">
                                     <div class="mbr-section-btn">
-                                        <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co"><span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
+                                        <!--b:if cond='data:newerPageUrl'-->
+                                        <a class="btn btn-md btn-primary-outline display-4" expr:href="data:olderPageUrl"><span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
                                         <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co"><span class="fas fa-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
-                                        <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co"><span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
+                                        <a class="btn btn-md btn-primary-outline display-4" expr:href="data:newerPageUrl"><span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
 
-
+                    <b:include name='quickedit'/> <!-- automaticamente coloca botão de edição -->
                 </b:includable>
+
             </b:widget>
         </b:section>
 
     <b:else/>
 
         <section class="mbr-section" id="witsec-anchor-block-u" data-rv-view="2401">
-
-
-        <div id="post"></div>
-
-
+          <div id="post"></div>
         </section>
 
         <section class="mbr-section form3 cid-rjTYFdkmov" id="form3-v" data-rv-view="3138">
@@ -643,241 +661,180 @@ SOCIAL SHARE
         </div>
         </section>
 
-        <section class="mbr-section content4 cid-rkkcIc3hnH" id="content4-1d">
+        <!--  postagem do blog -->
+        <b:section id='main' class="" showaddelement='yes'>
+
+          <b:widget id='Blog2' locked='true' title='Postagem' type='Blog'>
+            <b:includable id='main' var='data'>
+              <b:loop values='data:posts' var='post'>
+
+                <section class="mbr-section content4 cid-rkkcIc3hnH" id="content4-1d">
+                  <div class="container">
+                    <div class="media-container-row">
+                      <div class="title col-12 col-md-8">
+                        <h2 class="align-center pb-3 mbr-fonts-style display-2">
+                          <strong><data:post.title/></strong>
+                        </h2>
+                        <b:if cond='data:top.showTimestamp'>
+                          <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><data:post.timestamp/></h3>
+                        </b:if>                
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- botões sociais - horizontal -->
+                <section class="cid-rkkcNwTy5C" id="social-buttons3-1e">
+                  <div class="container">
+                    <div class="media-container-row">
+                      <div class="col-md-8 align-center">
+                        <div class="mbr-social-likes">
+                          <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
+                              <i class="socicon socicon-facebook"></i>
+                          </span>
+                          <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
+                              <i class="socicon socicon-twitter"></i>
+                          </span>
+                          <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
+                              <i class="socicon socicon-pinterest"></i>
+                          </span>
+                          <span class="btn btn-social mailru socicon-bg-mail mx-2" title="Share link on Mailru">
+                              <i class="socicon socicon-mail"></i>
+                          </span>
+                          <span class="btn btn-social whatsapp socicon-bg-whatsapp mx-2" title="Share link on Whatsapp">
+                              <i class="socicon socicon-whatsapp"></i>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="mbr-section article content1 cid-rkkdeio7ds" id="content1-1g">
+                  <div class="container">
+                    <div class="media-container-row">
+                      <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8">
+                        <data:post.body/>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- botões sociais - horizontal -->
+                <section class="cid-rkkdmjFoKm" id="social-buttons3-1h">
+                  <div class="container">
+                    <div class="media-container-row">
+                      <div class="col-md-8 align-center">
+                        <div class="mbr-social-likes">
+                          <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
+                              <i class="socicon socicon-facebook"></i>
+                          </span>
+                          <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
+                              <i class="socicon socicon-twitter"></i>
+                          </span>
+                          <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
+                              <i class="socicon socicon-pinterest"></i>
+                          </span>
+                          <span class="btn btn-social mailru socicon-bg-mail mx-2" title="Share link on Mailru">
+                              <i class="socicon socicon-mail"></i>
+                          </span>
+                          <span class="btn btn-social whatsapp socicon-bg-whatsapp mx-2" title="Share link on Whatsapp">
+                              <i class="socicon socicon-whatsapp"></i>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
 
 
+                <section class="header1 cid-rkkpvNMjHw" id="header16-1k">
+                  <div class="container">
+                    <div class="row justify-content-md-center">
+                      <div class="col-md-10 align-center">
+                        <p class="mbr-text pb-3 mbr-fonts-style display-5">Leia mais artigos</p>
+                        <div class="mbr-section-btn">
+                          <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co">
+                            <span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
+                          <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co">
+                            <span class="fas fa-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
+                          <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co">
+                            <span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
 
-        <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>
-                    Article Title with Solid Background
-                </strong></h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
-                    postado por</h3>
-                
-            </div>
-        </div>
-        </div>
-        </section>
+                <section class="mbr-section content4 cid-rkm8XV1gCX" id="content4-1l">
+                  <div class="container">
+                    <div class="media-container-row">
+                      <div class="title col-12 col-md-8">
+                        <h2 class="align-center pb-3 mbr-fonts-style display-5">E aí? O que achou deste artigo?</h2>
+                        <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Deixe seu comentário, ideias e sugestões aqui.</h3>
+                      </div>
+                    </div>
+                  </div>
+                </section>
 
-        <section class="cid-rkkcNwTy5C" id="social-buttons3-1e">
+                <section class="mbr-section mbr-section__comments" id="facebook-comments-block-1j" data-rv-view="2420" style="background-color: rgb(248, 248, 248); padding-top: 0rem; padding-bottom: 3rem;">
+                  <div class="mbr-section__container mbr-section__container--isolated addons-container">
+                    <div class="addons-row">
+                      <div class="addons-container-inner">
+                        <div class="facebookPlaceholder" data-numposts="10">
+                          <h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src="assets/images/facebook-comments.jpg"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
 
+                <section class="mbr-section content4 cid-rkm840iB5p" id="content4-1k">
+                  <div class="container">
+                    <div class="media-container-row">
+                      <div class="title col-12 col-md-8">
+                        <h2 class="align-center pb-3 mbr-fonts-style display-5">Mais artigos para você</h2>
+                      </div>
+                    </div>
+                  </div>
+                </section>
 
+              </b:loop>
+            </b:includable>
+          </b:widget>
 
-
-
-        <div class="container">
-        <div class="media-container-row">
-            <div class="col-md-8 align-center">
-                
-                <div>
-                    <div class="mbr-social-likes">
-                        <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
-                            <i class="socicon socicon-facebook"></i>
-                        </span>
-                        <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
-                            <i class="socicon socicon-twitter"></i>
-                        </span>
-                        
-                        
-                        
-                        <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
-                            <i class="socicon socicon-pinterest"></i>
-                        </span>
-                        <span class="btn btn-social mailru socicon-bg-mail mx-2" title="Share link on Mailru">
-                            <i class="socicon socicon-mail"></i>
-                        </span>                        <span class="btn btn-social whatsapp socicon-bg-whatsapp mx-2" title="Share link on Whatsapp">
-                            <i class="socicon socicon-whatsapp"></i>
-                        </span>                    </div>
+          <b:widget id='PopularPosts1' locked='false' title='Postagens populares' type='PopularPosts'>
+            <b:includable id='main'>
+              <section class="features3 cid-rkksWSAiy0" id="features3-1m">
+                <div class="container">
+                  <div class="media-container-row">
+                    <b:loop values='data:posts' var='post'>
+                      <div class="card p-3 col-12 col-md-6 col-lg-3">
+                          <div class="card-wrapper">
+                              <a expr:name='data:post.id'/>
+                              <div class="card-img">
+                                  <a expr:href="data:post.href" class="btn btn-primary display-4">
+                                      <img expr:src='data:post.thumbnailUrl' expr:alt="data:post.title" expr:title="data:post.title"/>
+                                  </a>
+                              </div>
+                              <div class="card-box">
+                                  <h4 class="card-title mbr-fonts-style display-7"><data:post.title/></h4>
+                              </div>
+                              <div class="mbr-section-btn text-center">
+                                  <a expr:href="data:post.href" class="btn btn-primary display-4">Leia Mais</a>
+                              </div>
+                          </div>
+                      </div>
+                    </b:loop>
+                  </div>
                 </div>
-            </div>
-        </div>
-        </div>
-        </section>
-
-        <section class="mbr-section article content1 cid-rkkdeio7ds" id="content1-1g">
+              </section>
+            </b:includable>
+          </b:widget>
 
 
+        </b:section>
 
-        <div class="container">
-        <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8"><p>
-                <strong> Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools <a href="https://mobirise.co/">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p></div>
-        </div>
-        </div>
-        </section>
-
-        <section class="cid-rkkdmjFoKm" id="social-buttons3-1h">
-
-
-
-
-
-        <div class="container">
-        <div class="media-container-row">
-            <div class="col-md-8 align-center">
-                <h2 class="pb-3 mbr-section-title mbr-fonts-style display-7">
-                    compartilhe este artigo nas redes sociais</h2>
-                <div>
-                    <div class="mbr-social-likes">
-                        <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
-                            <i class="socicon socicon-facebook"></i>
-                        </span>
-                        <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
-                            <i class="socicon socicon-twitter"></i>
-                        </span>
-                        
-                        
-                        
-                        <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
-                            <i class="socicon socicon-pinterest"></i>
-                        </span>
-                        <span class="btn btn-social mailru socicon-bg-mail mx-2" title="Share link on Mailru">
-                            <i class="socicon socicon-mail"></i>
-                        </span>
-                        <span class="btn btn-social whatsapp socicon-bg-whatsapp mx-2" title="Share link on Whatsapp">
-                            <i class="socicon socicon-whatsapp"></i>
-                        </span>                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        </section>
-
-        <section class="header1 cid-rkkpvNMjHw" id="header16-1k">
-
-
-
-
-
-        <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-md-10 align-center">
-                
-                
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">Leia mais artigos</p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co"><span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a> <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co"><span class="fas fa-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a> <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co"><span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a></div>
-            </div>
-        </div>
-        </div>
-
-        </section>
-
-        <section class="mbr-section content4 cid-rkm8XV1gCX" id="content4-1l">
-
-
-
-        <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-5">
-                    E aí? O que achou deste artigo?</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
-                    Deixe seu comentário, ideias e sugestões aqui.</h3>
-                
-            </div>
-        </div>
-        </div>
-        </section>
-
-        <section class="mbr-section mbr-section__comments" id="facebook-comments-block-1j" data-rv-view="2420" style="background-color: rgb(248, 248, 248); padding-top: 0rem; padding-bottom: 3rem;">
-         
-        <div class="mbr-section__container mbr-section__container--isolated addons-container">
-        <div class="addons-row">
-            <div class="addons-container-inner"><div class="facebookPlaceholder" data-numposts="10"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src="assets/images/facebook-comments.jpg"/></div></div>
-            
-           
-        </div>
-        </div>
-        </section>
-
-        <section class="mbr-section content4 cid-rkm840iB5p" id="content4-1k">
-
-
-
-        <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-5">
-                    Mais artigos para você</h2>
-                
-                
-            </div>
-        </div>
-        </div>
-        </section>
-
-        <section class="features3 cid-rkksWSAiy0" id="features3-1m">
-
-
-
-
-        <div class="container">
-        <div class="media-container-row">
-            <div class="card p-3 col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <img src="assets/images/alphabet-99374-1280-1280x905.jpg" alt="MÉTODOS DE ALFABETIZAÇÃO" title=""/>
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">CONHEÇA QUAIS SÃO OS MÉTODOS DE ALFABETIZAÇÃO E ESCOLHA A MAIS ADEQUADA PARA O SEU FILHO</h4>
-                        
-                    </div>
-                    <div class="mbr-section-btn text-center"><a href="https://mobirise.co" class="btn btn-primary display-4">
-                            Leia Mais</a></div>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <img src="assets/images/alphabet-99374-1280-1280x905.jpg" alt="ATIVIDADES DE ALFABETIZAÇÃO" title=""/>
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">7 ATIVIDADES DE ALFABETIZAÇÃO INCRÍVEIS QUE O SEU FILHO VAI AMAR FAZER</h4>
-                        
-                    </div>
-                    <div class="mbr-section-btn text-center"><a href="https://mobirise.co" class="btn btn-primary display-4">
-                            Leia Mais</a></div>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <img src="assets/images/alphabet-99374-1280-1280x905.jpg" alt="" title=""/>
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">Crianças com dificuldade na leitura</h4>
-                        
-                    </div>
-                    <div class="mbr-section-btn text-center"><a href="https://mobirise.co" class="btn btn-primary display-4">
-                            Leia Mais</a></div>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <img src="assets/images/alphabet-99374-1280-1280x905.jpg" alt="" title=""/>
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">
-                            Unlimited Sites
-                        </h4>
-                        
-                    </div>
-                    <div class="mbr-section-btn text-center">
-                        <a href="https://mobirise.co" class="btn btn-primary display-4">
-                            Learn More
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        </section>
 
     </b:if>
 
@@ -972,94 +929,115 @@ SOCIAL SHARE
 
     <section class="mbr-section" id="witsec-modal-window-block-1b" data-rv-view="2447">
 
-    <style>
-    /* Let's not animate the contents of modal windows */
-    .no-anim {
-    -webkit-animation: none !important;
-    -moz-animation: none !important;
-    -o-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
-    }
-    </style>
+      <style>
+          /* Let's not animate the contents of modal windows */
+          .no-anim {
+          -webkit-animation: none !important;
+          -moz-animation: none !important;
+          -o-animation: none !important;
+          -ms-animation: none !important;
+          animation: none !important;
+          }
+      </style>
 
-
-
-    <div><div class="modal fade" id="baixar-ebook" tabindex="-1" role="dialog" aria-labelledby="baixar-ebookLabel" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="baixar-ebookLabel">O livro será enviado ao seu email</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="baixar-ebook_body"><div class="row py-2 justify-content-center">
-                        <div class="col-12 col-lg-6  col-md-8 ">
-                        <!-- Formbuilder Form -->
-                            <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" method="post" class="mbr-form form-with-styler" target="_blank" novalidate="">
-                                <div class="row">
-                                    <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
-                                </div>
-                                <div class="dragArea row">
-                                    <div class="form-group col" data-for="email">
-                                        <input type="text" value="" name="FNAME" id="mce-FNAME" class="form-control" aria-describedby="nameHelp" placeholder="Digite seu nome aqui (OPCIONAL)"/>
-                                        <br/>
-                                        <input type="email" name="EMAIL" placeholder="Digite seu Email" id="mce-EMAIL" aria-describedby="emailHelp" data-form-field="Email" required="required" class="form-control"/>
-                                        <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
-                                        <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+      <div class="modal fade" id="baixar-ebook" tabindex="-1" role="dialog" aria-labelledby="baixar-ebookLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color:#073b4c; color:#fff">
+                        <h5 class="no-anim modal-title" id="baixar-ebookLabel">O livro será enviado ao seu email</h5>
+                        <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                    </div>
+                    <div class="modal-body" id="baixar-ebook_body">
+                        <div class="row py-2 justify-content-center">
+                            <div class="col-12 col-lg-6  col-md-8 ">
+                            <!-- Formbuilder Form -->
+                                <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" method="post" class="mbr-form form-with-styler" target="_blank" novalidate="">
+                                    <div class="row">
+                                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
                                     </div>
-                                    <div class="col-auto input-group-btn ">
-                                        <button type="submit" class="btn btn-primary">BAIXE GRÁTIS NOSSO EBOOK</button>
+                                    <div class="dragArea row">
+                                        <div class="form-group col" data-for="email">
+                                            <input  type="text" value="" name="FNAME" id="mce-FNAME" class="form-control" aria-describedby="nameHelp" placeholder="Digite seu nome aqui (OPCIONAL)"/>
+                                            <br/>
+                                            <input type="email" name="EMAIL" placeholder="Digite seu Email" id="mce-EMAIL" aria-describedby="emailHelp"  data-form-field="Email" required="required" class="form-control"/>
+                                            <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
+                                            <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+                                        </div>
+                                        <div class="col-auto input-group-btn ">
+                                            <button type="submit" class="btn btn-primary">BAIXE GRÁTIS NOSSO EBOOK</button>
+                                        </div>
                                     </div>
-                                </div>
-                            </form><!-- Formbuilder Form -->
+                                </form><!-- Formbuilder Form -->
+                            </div>
                         </div>
-                    </div></div><div class="modal-footer"></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#baixar-ebook").on("hidden.bs.modal", function () {    var html = $( "#baixar-ebook_body" ).html();    $( "#baixar-ebook_body" ).empty();    $( "#baixar-ebook_body" ).append(html);  })});</script></div>
+                    </div>
+                    <div class="modal-footer" style="background-color:#073b4c"></div>
+                </div>
+            </div>
+        </div>
 
-    <script>
-    if (typeof OpenModal === 'undefined') {
-    OpenModal = function(modalName) {
-    	if ($('#' + modalName).length)
-    		$('#' + modalName).modal('show');
-    	else
-    		alert("Sorry, but there is no modal for " + modalName);
-    }
-    }
+      <script>document.addEventListener("DOMContentLoaded", function() {  $("#baixar-ebook").on("hidden.bs.modal", function () {    var html = $( "#baixar-ebook_body" ).html();    $( "#baixar-ebook_body" ).empty();    $( "#baixar-ebook_body" ).append(html);  })});</script>
 
-    function modalSetCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-    }
+      <script>
+          if (typeof OpenModal === 'undefined') {
+          OpenModal = function(modalName) {
+            if ($('#' + modalName).length)
+              $('#' + modalName).modal('show');
+            else
+              alert("Sorry, but there is no modal for " + modalName);
+          }
+          }
 
-    function modalGetCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i &lt;ca.length; i++) {
-    	var c = ca[i];
-    	while (c.charAt(0) == ' ') {
-    		c = c.substring(1);
-    	}
-    	if (c.indexOf(name) == 0) {
-    		return c.substring(name.length, c.length);
-    	}
-    }
-    return "";
-    }
-    </script>
+          function modalSetCookie(cname, cvalue, exdays) {
+          var d = new Date();
+          d.setTime(d.getTime() + (exdays*24*60*60*1000));
+          var expires = "expires="+ d.toUTCString();
+          document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+          }
+
+          function modalGetCookie(cname) {
+          var name = cname + "=";
+          var decodedCookie = decodeURIComponent(document.cookie);
+          var ca = decodedCookie.split(';');
+          for(var i = 0; i &lt;ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+              c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+              return c.substring(name.length, c.length);
+            }
+          }
+          return "";
+          }
+      </script>
 
     </section>
 
     <section class="mbr-section" id="witsec-modal-window-block-1c" data-rv-view="2448">
 
-    <style>
-    /* Let's not animate the contents of modal windows */
-    .no-anim {
-    -webkit-animation: none !important;
-    -moz-animation: none !important;
-    -o-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
-    }
-    </style>
+        <style>
+        /* Let's not animate the contents of modal windows */
+        .no-anim {
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+        }
+        </style>
 
 
 
-    <div><div class="modal fade" id="abertura-modal" tabindex="-1" role="dialog" aria-labelledby="abertura-modalLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="abertura-modalLabel">Faça parte da nossa Turminha</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="abertura-modal_body"><form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="POST" id="mc-embedded-subscribe-form" data-form-title="MPL Form" target="_blank" class="mbr-form form-with-styler">
+        <div class="modal fade" id="abertura-modal" tabindex="-1" role="dialog" aria-labelledby="abertura-modalLabel" aria-hidden="true">
+          <div class="modal-dialog  modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="no-anim modal-title" id="abertura-modalLabel">Faça parte da nossa Turminha</h5>
+                  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                </div>
+                <div class="modal-body" id="abertura-modal_body">
+                  <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="POST" id="mc-embedded-subscribe-form" data-form-title="MPL Form" target="_blank" class="mbr-form form-with-styler">
                         <fieldset>
                             <!-- Form Name -->
                             <p for="mce-EMAIL">Quer ver <span style="background-color:#f7ed4a">AGORA MESMO</span> seu filho lendo com mais <span style="background-color:#f7ed4a">CONFIANÇA e GOSTAR DA LEITURA</span>?<br/>Que tal?</p>
@@ -1073,7 +1051,7 @@ SOCIAL SHARE
                             <!-- Text input-->
                             <div class="form-group"> 
                               <div class="col-md-10">
-                                  <input name="email" type="text" placeholder="Digite seu Email" data-form-field="Email" class="form-control input-md" required="required" id="mce-EMAIL"/>
+                                  <input name="EMAIL" type="text" placeholder="Digite seu Email" data-form-field="EMAIL" class="form-control input-md" required="required" id="mce-EMAIL"/>
                                   <span class="help-block">você receberá por email. Seu email estará seguro.</span>  
                               </div>
                             </div>
@@ -1087,57 +1065,33 @@ SOCIAL SHARE
                                 </div>
                             </div>  
                         </fieldset>
-                    </form></div><div class="modal-footer"></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#abertura-modal").on("hidden.bs.modal", function () {    var html = $( "#abertura-modal_body" ).html();    $( "#abertura-modal_body" ).empty();    $( "#abertura-modal_body" ).append(html);  })});</script></div>
+                  </form>
+                </div>
+                <div class="modal-footer"></div>
+              </div>
+            </div>
+          </div>
+          <!-- funções após inicialização-->
+          <script> 
+              $(document).ready(function() {
+                  function showInscricaoModal() {
+                    if (!window.sessionStorage.getItem("popup-exibida"))
+                    {
+                         $('#abertura-modal').modal('show');
+                         window.sessionStorage.setItem("popup-exibida", "1");
+                    }
+                  }
 
-    <script>
-    if (typeof OpenModal === 'undefined') {
-    OpenModal = function(modalName) {
-    	if ($('#' + modalName).length)
-    		$('#' + modalName).modal('show');
-    	else
-    		alert("Sorry, but there is no modal for " + modalName);
-    }
-    }
+                  setTimeout(showInscricaoModal(),3000);
 
-    function modalSetCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-    }
+              });
+          </script>
+    </section>
 
-    function modalGetCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i &lt;ca.length; i++) {
-    	var c = ca[i];
-    	while (c.charAt(0) == ' ') {
-    		c = c.substring(1);
-    	}
-    	if (c.indexOf(name) == 0) {
-    		return c.substring(name.length, c.length);
-    	}
-    }
-    return "";
-    }
-    </script>
-
-    </section><script>
-    document.addEventListener("DOMContentLoaded", function() {
-    if (modalGetCookie("abertura-modal_viewed") == "") {
-    setTimeout( function() {
-    if (document.cookie)
-    modalSetCookie("abertura-modal_viewed", true, 3600);
-    OpenModal("abertura-modal");
-    } , 1000);
-    }
-    });
-    </script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/tether/tether.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/popper/popper.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/bootstrap/js/bootstrap.min.js"></script>
 
     <script src="https://minhaprimeiraleitura.github.io/assets/tether/tether.min.js"></script>
     <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
@@ -1151,5 +1105,32 @@ SOCIAL SHARE
     <script src="https://minhaprimeiraleitura.github.io/assets/theme/js/script.js"></script>
 
 
-</body>
+&lt;!--</body>--&gt; &lt;/body&gt;
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124180364-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-124180364-1');
+  </script>
+
+    <!-- funções após inicialização-->
+    <script> 
+        $(document).ready(function() {
+            function showInscricaoModal() {
+              if (!window.sessionStorage.getItem("popup-exibida"))
+              {
+                   $('#abertura-modal').modal('show');
+                   window.sessionStorage.setItem("popup-exibida", "1");
+              }
+            }
+
+            setTimeout(showInscricaoModal(),3000);
+
+        });
+    </script>
+
 </html>
