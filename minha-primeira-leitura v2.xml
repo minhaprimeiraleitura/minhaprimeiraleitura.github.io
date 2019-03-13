@@ -5,17 +5,19 @@
 
 <!-- O QUE FALTA !!!!!
 
-- colocar comentários nos posts
+- verificar se funciona comentários nos posts
 - colocar navegação na lista dos posts
-- colocar navegação no final do post
-- colocar no final do post relação de posts alternativos
-- colocar compartilhamento das postagens (social share)
-- atribuir no rodapé os tags sociais
+- atribuir no rodapé as tags sociais
 - juntar CSS em um arquivo só
 - juntar JS em um arquivo só
 - Verificar velocidade de carregamento e fazer ajustes
 
 
+Correcoes a serem feitas:
+- em mobile, campos do formulario Email e botao estao sobrepostos
+- em post
+  - colocar a cor do texto mais forte 
+  - funcionar o botao de compartilhamento
 
 SOCIAL SHARE
 <script async src="//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&product="sticky-share-buttons"></script>
@@ -99,9 +101,9 @@ SOCIAL SHARE
     </button>
     <div class="menu-logo">
         <div class="navbar-brand">
-            <span class="navbar-logo">
+            <span class="navbar-logo mbr-figure">
                 <a href="http://www.minhaprimeiraleitura.com.br">
-                    <img src="https://1.bp.blogspot.com/-YTG6Z4oD5jw/XIaU57Llr9I/AAAAAAAABVw/MBihthAh3gIK1430DrqyI4aacKgCq0iLACLcBGAs/s1600/logo%2Bminha%2Bprimeira%2Bleitura%2Bv2.png" alt="Coleção Minha Primeira Leitura" title="Coleção Minha Primeira Leitura" style="height: 3.8rem;"/>
+                    <img src="https://1.bp.blogspot.com/-YTG6Z4oD5jw/XIaU57Llr9I/AAAAAAAABVw/MBihthAh3gIK1430DrqyI4aacKgCq0iLACLcBGAs/s1600/logo%2Bminha%2Bprimeira%2Bleitura%2Bv2.png" alt="Coleção MPL" title="Coleção Minha Primeira Leitura" style="height: 3.8rem;"/>
                 </a>
             </span>
             <span class="navbar-caption-wrap" style="color:#b8fbff">coleção Minha Primeira Leitura</span>
@@ -713,7 +715,7 @@ SOCIAL SHARE
                 <section class="mbr-section article content1 cid-rkkdeio7ds" id="content1-1g">
                   <div class="container">
                     <div class="media-container-row">
-                      <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8">
+                      <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8 mbr-figure">
                         <data:post.body/>
                       </div>
                     </div>
@@ -725,28 +727,11 @@ SOCIAL SHARE
                   <div class="container">
                     <div class="media-container-row">
                       <div class="col-md-8 align-center">
-                        <div class="mbr-social-likes">
-                          <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
-                              <i class="socicon socicon-facebook"></i>
-                          </span>
-                          <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
-                              <i class="socicon socicon-twitter"></i>
-                          </span>
-                          <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
-                              <i class="socicon socicon-pinterest"></i>
-                          </span>
-                          <span class="btn btn-social mailru socicon-bg-mail mx-2" title="Share link on Mailru">
-                              <i class="socicon socicon-mail"></i>
-                          </span>
-                          <span class="btn btn-social whatsapp socicon-bg-whatsapp mx-2" title="Share link on Whatsapp">
-                              <i class="socicon socicon-whatsapp"></i>
-                          </span>
-                        </div>
+                        <div class="sharethis-inline-share-buttons"></div>
                       </div>
                     </div>
                   </div>
                 </section>
-
 
                 <section class="header1 cid-rkkpvNMjHw" id="header16-1k">
                   <div class="container">
@@ -754,12 +739,14 @@ SOCIAL SHARE
                       <div class="col-md-10 align-center">
                         <p class="mbr-text pb-3 mbr-fonts-style display-5">Leia mais artigos</p>
                         <div class="mbr-section-btn">
-                          <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co">
-                            <span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
-                          <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co">
+                          <b:if cond='data:olderPageUrl'>
+                            <a class="btn btn-md btn-primary-outline display-4" expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:olderPageTitle'><span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
+                          </b:if>
+                          <a class="btn btn-md btn-primary-outline display-4" expr:href='data:blog.homepageUrl'>
                             <span class="fas fa-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
-                          <a class="btn btn-md btn-primary-outline display-4" href="https://mobirise.co">
-                            <span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
+                          <b:if cond='data:newerPageUrl'>
+                            <a class="btn btn-md btn-primary-outline display-4" expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:newerPageTitle'><span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
+                          </b:if>
                         </div>
                       </div>
                     </div>
@@ -803,6 +790,7 @@ SOCIAL SHARE
             </b:includable>
           </b:widget>
 
+
           <b:widget id='PopularPosts1' locked='false' title='Postagens populares' type='PopularPosts'>
             <b:includable id='main'>
               <section class="features3 cid-rkksWSAiy0" id="features3-1m">
@@ -814,7 +802,7 @@ SOCIAL SHARE
                               <a expr:name='data:post.id'/>
                               <div class="card-img">
                                   <a expr:href="data:post.href" class="btn btn-primary display-4">
-                                      <img expr:src='data:post.thumbnailUrl' expr:alt="data:post.title" expr:title="data:post.title"/>
+                                      <img expr:src='data:post.thumbnail' expr:alt="data:post.title" expr:title="data:post.title"/>
                                   </a>
                               </div>
                               <div class="card-box">
@@ -1116,6 +1104,9 @@ SOCIAL SHARE
 
     gtag('config', 'UA-124180364-1');
   </script>
+
+  <!-- SocialShareThis -->
+  <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>
 
     <!-- funções após inicialização-->
     <script> 
