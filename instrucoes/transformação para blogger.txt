@@ -86,7 +86,11 @@ Ex.:<div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid"> <== RETIRA
 <input type="hidden" name="email" data-form-email="true"/>
 
 ) juntar CSS e JS em poucos arquivos
+ver sites:
+https://jscompress.com/
+https://www.giftofspeed.com/css-compressor/
 
+) otimizar imagens
 
 
 SITES PARA VISUALIZAR:

@@ -51,14 +51,14 @@ SOCIAL SHARE
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-reboot.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
 
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/tether/tether.min.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/style.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/all/all.min.css"/>
+    <!--link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/style.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/dropdown/css/style.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/socicon/css/styles.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/animatecss/animate.min.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/snow-plugins/style.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/theme/css/style.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/mobirise/css/mbr-additional.css" type="text/css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/mobirise/css/mbr-additional.css" type="text/css"/-->
 
     &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin>*/</b:skin>
 
@@ -1067,25 +1067,17 @@ SOCIAL SHARE
     </section>
 
     <script src="https://minhaprimeiraleitura.github.io/assets/web/assets/jquery/jquery.min.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/tether/tether.min.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/popper/popper.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/aaa/js/tether-popper.min.js"></script>
     <script src="https://minhaprimeiraleitura.github.io/assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/facebook-script.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/dropdown/js/script.min.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/smoothscroll/smooth-scroll.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/touchswipe/jquery.touch-swipe.min.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/viewportchecker/jquery.viewportchecker.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/sociallikes/social-likes.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/snow-plugins/schnee.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/theme/js/script.js"></script>
+    <script async='async' src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/all/js/all.min.js"></script>
 
 
 &lt;!--</body>--&gt; &lt;/body&gt;
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124180364-1"></script>
+  <script async='async' src="https://www.googletagmanager.com/gtag/js?id=UA-124180364-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

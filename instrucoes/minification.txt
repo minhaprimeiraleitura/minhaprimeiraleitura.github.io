@@ -1,0 +1,26 @@
+assets/all/all.min.js
+=====================
+
+    assets/facebook-plugin/facebook-script.js
+    assets/dropdown/js/script.min.js
+    assets/smoothscroll/smooth-scroll.js
+    assets/touchswipe/jquery.touch-swipe.min.js
+
+    assets/viewportchecker/jquery.viewportchecker.js
+    assets/sociallikes/social-likes.js
+    assets/snow-plugins/schnee.js
+    assets/theme/js/script.js
+
+
+
+assets/all/all.min.css
+===========+==========
+
+ <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/tether/tether.min.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/style.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/dropdown/css/style.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/socicon/css/styles.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/animatecss/animate.min.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/snow-plugins/style.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/theme/css/style.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/mobirise/css/mbr-additional.css" type="text/css"/>
