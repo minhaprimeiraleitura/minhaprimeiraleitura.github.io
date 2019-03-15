@@ -5,7 +5,6 @@
 
 <!-- O QUE FALTA !!!!!
 
-- verificar se funciona comentários nos posts
 - colocar navegação na lista dos posts
 - atribuir no rodapé as tags sociais
 - juntar CSS em um arquivo só
@@ -14,10 +13,6 @@
 
 
 Correcoes a serem feitas:
-- em mobile, campos do formulario Email e botao estao sobrepostos
-- em post
-  - colocar a cor do texto mais forte 
-  - funcionar o botao de compartilhamento
 
 SOCIAL SHARE
 <script async src="//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&product="sticky-share-buttons"></script>
@@ -106,7 +101,6 @@ SOCIAL SHARE
                     <img src="https://1.bp.blogspot.com/-YTG6Z4oD5jw/XIaU57Llr9I/AAAAAAAABVw/MBihthAh3gIK1430DrqyI4aacKgCq0iLACLcBGAs/s1600/logo%2Bminha%2Bprimeira%2Bleitura%2Bv2.png" alt="Coleção MPL" title="Coleção Minha Primeira Leitura" style="height: 3.8rem;"/>
                 </a>
             </span>
-            <span class="navbar-caption-wrap" style="color:#b8fbff">coleção Minha Primeira Leitura</span>
         </div>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -346,41 +340,36 @@ SOCIAL SHARE
         </section>
 
         <section class="mbr-section form3 cid-rjQsYKNjxB" id="form3-b" data-rv-view="3118">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="title col-12 col-lg-8">
+                        <h2 class="align-center pb-2 mbr-fonts-style display-2"><strong>Se Interessou? É claro!</strong></h2>
+                        <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5">BAIXE GRÁTIS AQUI. Só preencher para receber o link da amostra.</h3>
+                    </div>
+                </div>
 
-
-
-
-
-        <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-12 col-lg-8">
-                <h2 class="align-center pb-2 mbr-fonts-style display-2"><strong>Se Interessou? É claro!</strong></h2>
-                <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5">BAIXE GRÁTIS AQUI. Só preencher para receber o link da amostra.</h3>
-            </div>
-        </div>
-
-        <div class="row py-2 justify-content-center">
-            <div class="col-12 col-lg-6  col-md-8 mbr-form">
-                <!-- Formbuilder Form -->
-                <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="mbr-form form-with-styler" target="_blank" novalidate="">
-                            <div class="row">
-                                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar! Você receberá novas instruções.</div>
-                                <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">preencha um email válido</div>
-                            </div>
-                            <div class="dragArea row">
-                                <div class="form-group col" data-for="email">
-                                    <input type="email" value="" name="EMAIL" class="required email form-control display-7" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Coloque aqui o seu melhor email"/>
-                                    <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
-                                    <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+                <div class="row py-2 justify-content-center">
+                    <div class="col-12 col-lg-6 col-md-8">
+                        <!-- Formbuilder Form -->
+                        <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="mbr-form form-with-styler" target="_blank" novalidate="">
+                            <div class="dragArea">
+                                <div class="col-md-12  form-group">
+                                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar! Você receberá novas instruções.</div>
+                                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">preencha um email válido</div>
+                                </div>
+                                <div data-for="email" class="form-group">
+                                        <input type="email" value="" name="EMAIL" class="required email form-control display-7" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Coloque aqui o seu melhor email"/>
+                                        <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
+                                        <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+                                </div>
+                                <div class="input-group-btn col-md-12 mt-2 align-center">
+                                        <button type="submit" class="btn btn-success display-5">EU QUERO!</button>
                                 </div>
                             </div>
-                            <div class="dragArea row">
-                                <div class="col-auto input-group-btn"><button type="submit" class="btn  btn-success display-5">EU QUERO!</button></div>
-                            </div>
                         </form><!-- Formbuilder Form -->
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
         </section>
 
         <section class="mbr-section" id="witsec-anchor-block-o" data-rv-view="2382">
@@ -621,7 +610,7 @@ SOCIAL SHARE
                         </div>
                     </section>
 
-                    <b:include name='quickedit'/> <!-- automaticamente coloca botão de edição -->
+                    <!--b:include name='quickedit'/--> <!-- automaticamente coloca botão de edição -->
                 </b:includable>
 
             </b:widget>
@@ -638,7 +627,7 @@ SOCIAL SHARE
         <div class="row justify-content-center">
             <div class="title col-12 col-lg-8">
                 
-                <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5">Escreva seu <strong>email</strong> abaixo para entrar para a nossa lista e ainda <strong>receba o link</strong> da amostra do primeiro livro da coleção (2 sílabas).</h3>
+                <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5">Escreva seu <strong>email</strong> abaixo para entrar para a nossa lista e <strong>receber o link</strong> da amostra do primeiro livro da coleção (2 sílabas).</h3>
             </div>
         </div>
 
@@ -650,7 +639,7 @@ SOCIAL SHARE
                                 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Verifique sua caixa de email e de Spam</div>
                                 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
                             </div>
-                            <div class="dragArea row">
+                            <div class="dragArea">
                                 <div class="form-group col" data-for="email">
                                     <input type="email" name="EMAIL" placeholder="Digite seu Email" data-form-field="Email" required="required" class="form-control display-7" id="mce-EMAIL"/>
                                 </div>
@@ -715,7 +704,8 @@ SOCIAL SHARE
                 <section class="mbr-section article content1 cid-rkkdeio7ds" id="content1-1g">
                   <div class="container">
                     <div class="media-container-row">
-                      <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8 mbr-figure">
+                      <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8 mbr-figure" style="color:#232323; ">
+                        <!--style>h2,h3,h4: rgb(52, 134, 35);</style-->
                         <data:post.body/>
                       </div>
                     </div>
@@ -836,24 +826,24 @@ SOCIAL SHARE
     </div>
 
     <div class="row py-2 justify-content-center">
-        <div class="col-12 col-lg-6  col-md-8 ">
+        <div class="col-12 col-lg-6 col-md-8 mbr-form">
             <!-- Formbuilder Form -->
             <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" class="mbr-form form-with-styler">
-                    <div class="row">
+                <div class="dragArea">
+                    <div class="form-group">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar! Você receberá novas instruções.</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
                     </div>
-                    <div class="dragArea row">
-                        <div class="form-group col" data-for="email">
-                            <input type="email" name="EMAIL" placeholder="Coloque aqui o seu melhor email" data-form-field="Email" required="required" class="form-control display-7" id="mce-EMAIL"/>
-                            <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> seu email estará seguro.</i></small>
-                        </div>
-                        <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+                    <div class="form-group" data-for="email">
+                        <input type="email" name="EMAIL" placeholder="Coloque aqui o seu melhor email" data-form-field="Email" required="required" class="form-control display-7" id="mce-EMAIL"/>
+                        <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> seu email estará seguro.</i></small>
                     </div>
-                    <div class="dragArea row">
-                        <div class="col-auto input-group-btn"><button type="submit" class="btn  btn-success display-5">Entrar na Lista e Receber o Ebook GRÁTIS</button></div>
+                    <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+                    <div class="input-group-btn mt-2 align-center">
+                        <button type="submit" class="btn btn-success display-5">Entrar na Lista e Receber o Ebook GRÁTIS</button>
                     </div>
-                </form><!-- Formbuilder Form -->
+                </div>
+            </form><!-- Formbuilder Form -->
         </div>
     </div>
     </div>
@@ -1081,7 +1071,6 @@ SOCIAL SHARE
     <script src="https://minhaprimeiraleitura.github.io/assets/popper/popper.min.js"></script>
     <script src="https://minhaprimeiraleitura.github.io/assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="https://minhaprimeiraleitura.github.io/assets/tether/tether.min.js"></script>
     <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
     <script src="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/facebook-script.js"></script>
     <script src="https://minhaprimeiraleitura.github.io/assets/dropdown/js/script.min.js"></script>

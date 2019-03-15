@@ -1,0 +1,22 @@
+{
+  "name": "minha-primeira-leitura",
+  "version": "1.0.0",
+  "description": "site HTML e XML CSS JS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhaprimeiraleitura/minhaprimeiraleitura.github.io.git"
+  },
+  "author": "Carlos Correia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhaprimeiraleitura/minhaprimeiraleitura.github.io/issues"
+  },
+  "homepage": "https://github.com/minhaprimeiraleitura/minhaprimeiraleitura.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
