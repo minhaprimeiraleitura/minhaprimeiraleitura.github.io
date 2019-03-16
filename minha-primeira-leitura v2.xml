@@ -699,8 +699,7 @@ SOCIAL SHARE
                 <section class="mbr-section article content1 cid-rkkdeio7ds" id="content1-1g">
                   <div class="container">
                     <div class="media-container-row">
-                      <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8 mbr-figure" style="color:#232323; ">
-                        <!--style>h2,h3,h4: rgb(52, 134, 35);</style-->
+                      <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8 mbr-figure postagens">
                         <data:post.body/>
                       </div>
                     </div>
