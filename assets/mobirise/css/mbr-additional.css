@@ -2279,6 +2279,36 @@ body {
 .cid-rkkdeio7ds .mbr-text P {
   color: #232323;
 }
+.cid-rkkdeio7ds .postagens {
+  font-size: 21px;
+  line-height: 30px;
+  color: #073b4c!important;
+}
+.cid-rkkdeio7ds .postagens h1,
+.cid-rkkdeio7ds .postagens h2,
+.cid-rkkdeio7ds .postagens h3,
+.cid-rkkdeio7ds .postagens h4,
+.cid-rkkdeio7ds .postagens h5,
+.cid-rkkdeio7ds .postagens h6 {
+  padding: 0;
+  margin: 60px 30px;
+  line-height: 40px;
+}
+.cid-rkkdeio7ds .postagens h2,
+.cid-rkkdeio7ds .postagens h4 {
+  margin: 60px 0px 30px;
+}
+.cid-rkkdeio7ds .postagens ol,
+.cid-rkkdeio7ds .postagens ul {
+  padding: 0 5%;
+  margin: 10px 0 30px;
+}
+.cid-rkkdeio7ds .postagens ol li,
+.cid-rkkdeio7ds .postagens ul li {
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
 .cid-rkkdmjFoKm {
   padding-top: 30px;
   padding-bottom: 30px;
