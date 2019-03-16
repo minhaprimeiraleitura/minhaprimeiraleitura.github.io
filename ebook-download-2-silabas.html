@@ -177,21 +177,44 @@ Ideal para se fazer a primeira leiturinha do livro.">
 	}
 	</style>
 
-	
-	
-	<div><div class="modal fade" id="baixe-livro-gratis" tabindex="-1" role="dialog" aria-labelledby="baixe-livro-gratisLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="baixe-livro-gratisLabel">BAIXE GRÁTIS AGORA</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="baixe-livro-gratis_body">Preencha abaixo para você receber o e-book em seu email.
- <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                        <div class="form-group">
-                          <input type="text" value="" name="FNAME" id="mce-FNAME" class="form-control" aria-describedby="nameHelp" placeholder="Digite seu Nome aqui (opcional)">
+  <div class="modal fade" id="baixe-livro-gratis" tabindex="-1" role="dialog" aria-labelledby="baixe-livro-gratisLabel" aria-hidden="true">  
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:#073b4c; color:#fff">
+            <h5 class="no-anim modal-title" id="baixar-ebookLabel">O livro será enviado ao seu email</h5>
+            <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+        </div>
+        <div class="modal-body" id="baixar-ebook_body">
+            <div class="row py-2 justify-content-center">
+                <div class="col-12 col-lg-6  col-md-8 ">
+                <!-- Formbuilder Form -->
+                    <form action="//minhaprimeiraleitura.us16.list-manage.com/subscribe/post?u=25b90da819589e8698f9ac048&amp;id=4d7fd93fd4" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" method="post" class="mbr-form form-with-styler" target="_blank" novalidate="">
+                        <div class="row">
+                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
                         </div>
-                        <div class="form-group">
-                          <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Digite seu email">
-                          <small id="emailHelp" class="form-text text-muted">Nunca entregaremos seu email a ninguém.</small>
+                        <div class="dragArea row">
+                            <div class="form-group col" data-for="email">
+                                <input  type="text" value="" name="FNAME" id="mce-FNAME" class="form-control" aria-describedby="nameHelp" placeholder="Digite seu nome aqui (OPCIONAL)"/>
+                                <br/>
+                                <input type="email" name="EMAIL" placeholder="Digite seu Email" id="mce-EMAIL" aria-describedby="emailHelp"  data-form-field="Email" required="required" class="form-control"/>
+                                <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
+                                <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
+                            </div>
+                            <div class="col-auto input-group-btn ">
+                                <button type="submit" class="btn btn-primary">BAIXE GRÁTIS NOSSO EBOOK</button>
+                            </div>
                         </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value="">
-                        <button type="submit" class="btn btn-md btn-success">EU QUERO!</button>
-                      </form></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#baixe-livro-gratis").on("hidden.bs.modal", function () {    var html = $( "#baixe-livro-gratis_body" ).html();    $( "#baixe-livro-gratis_body" ).empty();    $( "#baixe-livro-gratis_body" ).append(html);  })});</script></div>
+                    </form><!-- Formbuilder Form -->
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer" style="background-color:#073b4c"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>document.addEventListener("DOMContentLoaded", function() {  $("#baixe-livro-gratis").on("hidden.bs.modal", function () {    var html = $( "#baixe-livro-gratis_body" ).html();    $( "#baixe-livro-gratis_body" ).empty();    $( "#baixe-livro-gratis_body" ).append(html);  })});</script>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {

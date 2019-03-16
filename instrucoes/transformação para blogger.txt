@@ -85,13 +85,17 @@ Ex.:<div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid"> <== RETIRA
  data-form-title="MPL Form"
 <input type="hidden" name="email" data-form-email="true"/>
 
+) colocar <style .... dentro do HTML no início e colocar style="... dentro do bloco anterior. Se for necessário, transformar o bloco <style> em arquivo externo.
+
 ) juntar CSS e JS em poucos arquivos
 ver sites:
 https://jscompress.com/
 https://www.giftofspeed.com/css-compressor/
 
 ) otimizar imagens
-
+https://tinyjpg.com/
+https://tinypng.com/
+https://www.giftofspeed.com/optimize-images/
 
 SITES PARA VISUALIZAR:
 https://bloggerbook.blakbin.com/
