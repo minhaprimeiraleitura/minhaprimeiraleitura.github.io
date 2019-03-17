@@ -827,23 +827,27 @@
         </div>
         <div class="row social-row">
             <div class="social-list align-right pb-2">
-            <div class="soc-item">
+                <div class="soc-item">
                     <a href="https://twitter.com/leituraminha" target="_blank">
-                        <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                        <span class="icon-twitter mbr-iconfont mbr-iconfont-social"></span>
                     </a>
-                </div><div class="soc-item">
+                </div>
+                <div class="soc-item">
                     <a href="https://www.facebook.com/minhaprimeiraleitura" target="_blank">
-                        <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
+                        <span class="mbr-iconfont mbr-iconfont-social icon-facebook"></span>
                     </a>
-                </div><div class="soc-item">
+                </div>
+                <div class="soc-item">
                     <a href="https://www.youtube.com/c/minhaprimeiraleitura" target="_blank">
-                        <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                        <span class="icon-youtube-play mbr-iconfont mbr-iconfont-social"></span>
                     </a>
-                </div><div class="soc-item">
+                </div>
+                <div class="soc-item">
                     <a href="https://instagram.com/minhaprimeiraleitura" target="_blank">
-                        <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                        <span class="icon-instagram mbr-iconfont mbr-iconfont-social"></span>
                     </a>
-                </div></div>
+                </div>
+            </div>
         </div>
         <div class="row row-copirayt">
             <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
