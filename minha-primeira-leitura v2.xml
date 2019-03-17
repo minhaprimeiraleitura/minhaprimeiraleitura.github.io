@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-reboot.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
     <!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/-->
 
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/fonts/fontello/css/style.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/fonts/fontello/css/fontello.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/dropdown/css/style.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/animatecss/animate.min.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/snow-plugins/style.css"/>
@@ -348,7 +348,7 @@
                                 </div>
                                 <div data-for="email" class="form-group">
                                         <input type="email" value="" name="EMAIL" class="required email form-control display-7" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Coloque aqui o seu melhor email"/>
-                                        <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
+                                        <small id="emailHelp" class="form-text text-muted text-right"><i class="icon-lock"> Não realizamos spans.</i></small>
                                         <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
                                 </div>
                                 <div class="input-group-btn col-md-12 mt-2 align-center">
@@ -585,9 +585,9 @@
                                 <div class="col-md-10 align-center">
                                     <div class="mbr-section-btn">
                                         <!--b:if cond='data:newerPageUrl'-->
-                                        <a class="btn btn-md btn-primary-outline display-4" expr:href="data:olderPageUrl"><span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
-                                        <a class="btn btn-md btn-primary-outline display-4" href="http://minhaprimeiraleitura.com.br"><span class="fas fa-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
-                                        <a class="btn btn-md btn-primary-outline display-4" expr:href="data:newerPageUrl"><span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
+                                        <a class="btn btn-md btn-primary-outline display-4" expr:href="data:olderPageUrl"><span class="icon-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
+                                        <a class="btn btn-md btn-primary-outline display-4" href="http://minhaprimeiraleitura.com.br"><span class="icon-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
+                                        <a class="btn btn-md btn-primary-outline display-4" expr:href="data:newerPageUrl"><span class="icon-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
                                     </div>
                                 </div>
                             </div>
@@ -697,12 +697,12 @@
                         <p class="mbr-text pb-3 mbr-fonts-style display-5">Leia mais artigos</p>
                         <div class="mbr-section-btn">
                           <b:if cond='data:olderPageUrl'>
-                            <a class="btn btn-md btn-primary-outline display-4" expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:olderPageTitle'><span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
+                            <a class="btn btn-md btn-primary-outline display-4" expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:olderPageTitle'><span class="icon-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
                           </b:if>
                           <a class="btn btn-md btn-primary-outline display-4" expr:href='data:blog.homepageUrl'>
-                            <span class="fas fa-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
+                            <span class="icon-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
                           <b:if cond='data:newerPageUrl'>
-                            <a class="btn btn-md btn-primary-outline display-4" expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:newerPageTitle'><span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
+                            <a class="btn btn-md btn-primary-outline display-4" expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:newerPageTitle'><span class="icon-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
                           </b:if>
                         </div>
                       </div>
@@ -803,7 +803,7 @@
                     </div>
                     <div class="form-group" data-for="email">
                         <input type="email" name="EMAIL" placeholder="Coloque aqui o seu melhor email" data-form-field="Email" required="required" class="form-control display-7" id="mce-EMAIL"/>
-                        <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> seu email estará seguro.</i></small>
+                        <small id="emailHelp" class="form-text text-muted text-right"><i class="icon-lock"> seu email estará seguro.</i></small>
                     </div>
                     <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
                     <div class="input-group-btn mt-2 align-center">
@@ -892,7 +892,7 @@
                                             <input  type="text" value="" name="FNAME" id="mce-FNAME" class="form-control" aria-describedby="nameHelp" placeholder="Digite seu nome aqui (OPCIONAL)"/>
                                             <br/>
                                             <input type="email" name="EMAIL" placeholder="Digite seu Email" id="mce-EMAIL" aria-describedby="emailHelp"  data-form-field="Email" required="required" class="form-control"/>
-                                            <small id="emailHelp" class="form-text text-muted text-right"><i class="fas fa-lock"> Não realizamos spans.</i></small>
+                                            <small id="emailHelp" class="form-text text-muted text-right"><i class="icon-lock"> Não realizamos spans.</i></small>
                                             <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
                                         </div>
                                         <div class="col-auto input-group-btn ">
