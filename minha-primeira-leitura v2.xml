@@ -6,16 +6,6 @@
 <!-- O QUE FALTA !!!!!
 
 - colocar navegação na lista dos posts
-- atribuir no rodapé as tags sociais
-- juntar CSS em um arquivo só
-- juntar JS em um arquivo só
-- Verificar velocidade de carregamento e fazer ajustes
-
-
-Correcoes a serem feitas:
-
-SOCIAL SHARE
-<script async src="//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&product="sticky-share-buttons"></script>
 
 -->
 
@@ -49,15 +39,14 @@ SOCIAL SHARE
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-reboot.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/-->
 
-
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/style.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/fonts/fontello/css/style.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/dropdown/css/style.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/socicon/css/styles.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/animatecss/animate.min.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/snow-plugins/style.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/theme/css/style.css"/>
+    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/style.css"/>
     <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/mobirise/css/mbr-additional.css" type="text/css"/>
 
     &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin>*/</b:skin>
@@ -105,7 +94,7 @@ SOCIAL SHARE
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-                <a class="nav-link link text-black display-4" href="#"><span class="fas fa-home mbr-iconfont mbr-iconfont-btn"></span></a>
+                <a class="nav-link link text-black display-4" href="#"><span class="icon-home mbr-iconfont mbr-iconfont-btn"></span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link link text-black display-4" href="#objetivos">
@@ -670,27 +659,11 @@ SOCIAL SHARE
                 </section>
 
                 <!-- botões sociais - horizontal -->
-                <section class="cid-rkkcNwTy5C" id="social-buttons3-1e">
+                <section class="mbr-section article content1 cid-rkkcNwTy5C" id="social-buttons1-1">
                   <div class="container">
                     <div class="media-container-row">
-                      <div class="col-md-8 align-center">
-                        <div class="mbr-social-likes">
-                          <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
-                              <i class="socicon socicon-facebook"></i>
-                          </span>
-                          <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
-                              <i class="socicon socicon-twitter"></i>
-                          </span>
-                          <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
-                              <i class="socicon socicon-pinterest"></i>
-                          </span>
-                          <span class="btn btn-social mailru socicon-bg-mail mx-2" title="Share link on Mailru">
-                              <i class="socicon socicon-mail"></i>
-                          </span>
-                          <span class="btn btn-social whatsapp socicon-bg-whatsapp mx-2" title="Share link on Whatsapp">
-                              <i class="socicon socicon-whatsapp"></i>
-                          </span>
-                        </div>
+                      <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8 mbr-figure postagens">
+                        <data:post.body/>
                       </div>
                     </div>
                   </div>
@@ -707,7 +680,7 @@ SOCIAL SHARE
                 </section>
 
                 <!-- botões sociais - horizontal -->
-                <section class="cid-rkkdmjFoKm" id="social-buttons3-1h">
+                <section class="cid-rkkdmjFoKm" id="social-buttons1-2">
                   <div class="container">
                     <div class="media-container-row">
                       <div class="col-md-8 align-center">
@@ -753,7 +726,7 @@ SOCIAL SHARE
                     <div class="addons-row">
                       <div class="addons-container-inner">
                         <div class="facebookPlaceholder" data-numposts="10">
-                          <h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src="assets/images/facebook-comments.jpg"/>
+                          <h2>FACEBOOK COMMENTS</h2> <img src="assets/images/facebook-comments.jpg"/>
                         </div>
                       </div>
                     </div>
@@ -844,30 +817,14 @@ SOCIAL SHARE
     </section>
 
     <section once="" class="cid-rjQwB9QGGR mbr-reveal" id="footer7-l">
-
-
-
-
-
     <div class="container">
     <div class="media-container-row align-center mbr-white">
         <div class="row row-links">
             <ul class="foot-menu">
-                
-                
-                
-                
-                
             <li class="foot-menu-item mbr-fonts-style display-7"><a href="http://www.minhaprimeiraleitura.com.br/#sobre" target="_blank" class="text-white">Sobre</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="http://www.minhaprimeiraleitura.com.br/#blog" target="_blank" class="text-white">Blog</a></li></ul>
         </div>
         <div class="row social-row">
             <div class="social-list align-right pb-2">
-                
-                
-                
-                
-                
-                
             <div class="soc-item">
                     <a href="https://twitter.com/leituraminha" target="_blank">
                         <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
@@ -1064,12 +1021,20 @@ SOCIAL SHARE
           </script>
     </section>
 
+    
     <script src="https://minhaprimeiraleitura.github.io/assets/web/assets/jquery/jquery.min.js"></script>
     <script src="https://minhaprimeiraleitura.github.io/assets/all/js/tether-popper.min.js"></script>
     <script src="https://minhaprimeiraleitura.github.io/assets/bootstrap/js/bootstrap.min.js"></script>
 
     <script async='async' src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/all/js/all.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/dropdown/js/script.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/facebook-script.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/viewportchecker/jquery.viewportchecker.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/snow-plugins/schnee.js"></script>
+    <script src="https://minhaprimeiraleitura.github.io/assets/theme/js/script.js"></script>
+      
 
 
 &lt;!--</body>--&gt; &lt;/body&gt;

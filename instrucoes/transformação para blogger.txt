@@ -85,17 +85,34 @@ Ex.:<div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid"> <== RETIRA
  data-form-title="MPL Form"
 <input type="hidden" name="email" data-form-email="true"/>
 
-) colocar <style .... dentro do HTML no início e colocar style="... dentro do bloco anterior. Se for necessário, transformar o bloco <style> em arquivo externo.
+
+==================
+= OTIMIZAÇÃO!!!! =
+==================
 
 ) juntar CSS e JS em poucos arquivos
 ver sites:
 https://jscompress.com/
 https://www.giftofspeed.com/css-compressor/
 
+OBS.: nem sempre é possível juntar, pois algumas funcionalidades se perdem. Deve-se testar o q se consegue e o que não se consegue.
+
+
 ) otimizar imagens
 https://tinyjpg.com/
 https://tinypng.com/
 https://www.giftofspeed.com/optimize-images/
+
+) otimizar chamadas de icones (por exemplo, a chamada font-awesome vem com todos os ícones). Pode-se baixar somente os ícones utilizados e substituir o código por estes.
+
+Ver http://fontello.com/
+Ver como usa em https://stackoverflow.com/questions/17288478/how-do-i-use-fontello-fonts
+
+=> basicamente é carregar o fontello.css e  colocar class="icone".
+
+
+) otimizar chamadas de imagens com lazy-load
+
 
 SITES PARA VISUALIZAR:
 https://bloggerbook.blakbin.com/
