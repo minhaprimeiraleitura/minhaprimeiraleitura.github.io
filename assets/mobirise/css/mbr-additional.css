@@ -685,7 +685,7 @@ blockquote {
   font-size: 1.09rem;
   position: relative;
   border-color: #149dcc;
-  border-width: 3px;
+  border-width: 5px;
 }
 ul,
 ol,
@@ -2163,6 +2163,7 @@ body {
 }
 .cid-rkkcIc3hnH H2 {
   color: #073b4c;
+  line-height: 1.2;
 }
 .cid-rkkcNwTy5C {
     padding-top: 0px;
@@ -2193,16 +2194,12 @@ body {
 .cid-rkkdeio7ds .postagens h5,
 .cid-rkkdeio7ds .postagens h6 {
   padding: 0;
-  margin: 60px 30px;
-  line-height: 40px;
-}
-.cid-rkkdeio7ds .postagens h2,
-.cid-rkkdeio7ds .postagens h4 {
-  margin: 60px 0px 30px;
+  margin: 60px 0 30px;
+  line-height: 1.4;
 }
 .cid-rkkdeio7ds .postagens ol,
 .cid-rkkdeio7ds .postagens ul {
-  padding: 0 5%;
+  padding-left: 7%;
   margin: 10px 0 30px;
 }
 .cid-rkkdeio7ds .postagens ol li,
@@ -2210,6 +2207,9 @@ body {
   font-size: 21px;
   line-height: 30px;
   margin-bottom: 12px;
+}
+.cid-rkkdeio7ds .postagens blockquote {
+  margin: 2.5rem auto 2.5rem;
 }
 .cid-rkkdmjFoKm {
     padding-top: 30px;
