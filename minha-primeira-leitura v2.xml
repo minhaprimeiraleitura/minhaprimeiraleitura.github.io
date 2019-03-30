@@ -42,13 +42,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"/>
     <!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/-->
 
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/fonts/fontello/css/fontello.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/dropdown/css/style.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/animatecss/animate.min.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/snow-plugins/style.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/theme/css/style.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/style.css"/>
-    <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/mobirise/css/mbr-additional.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/fonts/fontello/css/fontello.css"/>
+    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/dropdown/css/style.css"/>
+    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/animatecss/animate.min.css"/>
+    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/snow-plugins/style.css"/>
+    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/theme/css/style.css"/>
+    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/facebook-plugin/style.css"/>
+    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/mobirise/css/mbr-additional.min.css" type="text/css"/>
 
     &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin>*/</b:skin>
 
@@ -134,7 +134,7 @@
                         Descubra como esse livrinho infantil é <strong>super importante</strong> para o desenvolvimento da leitura e escrita de seu filho.<br/>
                     </p>
                 </div>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-success display-5" href="javascript:OpenModal('baixar-ebook')">BAIXE GRÁTIS AGORA</a></div>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-success display-5" href="javascript:OpenModal('baixar-ebook')">CLIQUE AQUI</a></div>
             </div>
         </div>
         </div>
@@ -809,7 +809,7 @@
                     </div>
                     <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_25b90da819589e8698f9ac048_4d7fd93fd4" tabindex="-1" value=""/></div>
                     <div class="input-group-btn mt-2 align-center">
-                        <button type="submit" class="btn btn-success display-5">Entrar na Lista e Receber o Ebook GRÁTIS</button>
+                        <button type="submit" class="btn btn-success display-5">Clique Aqui para Entrar na Lista e Receber o Ebook GRÁTIS</button>
                     </div>
                 </div>
             </form><!-- Formbuilder Form -->
@@ -1028,18 +1028,18 @@
     </section>
 
     
-    <script src="https://minhaprimeiraleitura.github.io/assets/web/assets/jquery/jquery.min.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/all/js/tether-popper.min.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/all/js/tether-popper.min.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/bootstrap/js/bootstrap.min.js"></script>
 
     <script async='async' src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/dropdown/js/script.min.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/facebook-plugin/facebook-script.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/smoothscroll/smooth-scroll.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/touchswipe/jquery.touch-swipe.min.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/viewportchecker/jquery.viewportchecker.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/snow-plugins/schnee.js"></script>
-    <script src="https://minhaprimeiraleitura.github.io/assets/theme/js/script.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/dropdown/js/script.min.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/facebook-plugin/facebook-script.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/viewportchecker/jquery.viewportchecker.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/snow-plugins/schnee.js"></script>
+    <script src="https://pages.minhaprimeiraleitura.com.br/assets/theme/js/script.js"></script>
       
 
 
