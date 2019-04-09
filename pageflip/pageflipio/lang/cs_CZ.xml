@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc>
+  <string id="tip_soc_reddit" value="Reddit" />
+  <string id="tip_fullscreen" value="Celá obrazovka" />
+  <string id="tip_thumbview" value="Přepne na miniaturní náhled" />
+  <string id="lb_hlp_print" value="Tisk" />
+  <string id="label_max" value="MAX" />
+  <string id="lb_hlp_bookmarks" value="Záložky" />
+  <string id="label_removeallbookmarks" value="Skutečně chcete vymazat všechny záložky?" />
+  <string id="buttonlabel_hide_results" value="Skrýt výsledky" />
+  <string id="label_toc_panel" value="Obsah" />
+  <string id="lb_hlp_magnifier" value="Lupa" />
+  <string id="tip_catalogview" value="Celostránkový pohled" />
+  <string id="label_bookmark_panel" value="Správa záložek" />
+  <string id="label_search_in_progress" value="Hledání …" />
+  <string id="label_recommend_mail" value="Doporučit stránku e-mailem" />
+  <string id="tip_button_tostart" value="Listovat na začátek katalogu" />
+  <string id="label_print_page" value="Tisk" />
+  <string id="tip_soc_digg" value="Digg" />
+  <string id="buttonlabel_show_results" value="Zobrazit výsledky" />
+  <string id="label_recommendation_receivername" value="Jméno příjemce:" />
+  <string id="label_recommendation_ok" value="Doporučení odesláno! Děkujeme!" />
+  <string id="tip_soc_delicious" value="Delicio.us" />
+  <string id="label_min" value="MIN" />
+  <string id="label_search_result" value="'[my_last_search]' nalezeno [nof_search_results] záznamů" />
+  <string id="label_available_bookmarks" value="Dostupné záložky:" />
+  <string id="lb_hlp_toc" value="Rejstříkový obsah" />
+  <string id="label_bookmark_list" value="Záložky" />
+  <string id="buttonlabel_create_bookmark" value="Nastavit záložku" />
+  <string id="label_sidebar_panel" value="Přehled" />
+  <string id="lb_hlp_save" value="Uložit" />
+  <string id="label_ok" value="OK" />
+  <string id="buttonlabel_yes" value="Ano" />
+  <string id="lb_hlp_mousezoom" value="Zoom myší" />
+  <string id="label_toc_menu" value="Obsah" />
+  <string id="tip_soc_stumbleupon" value="Stumbleupon" />
+  <string id="label_outpanel" value="Další akce" />
+  <string id="lb_hlp_mouseover" value="Vysvětlení symbolů najetím myší" />
+  <string id="tip_soc_vznet" value="VZ Netzwerke" />
+  <string id="label_search_nothing_found" value="Nebylo nic nalezeno" />
+  <string id="lb_hlp_thumbview" value="Náhled miniatury" />
+  <string id="lb_hlp_zoom" value="Zoom" />
+  <string id="tip_button_next" value="Listovat na následující stránku" />
+  <string id="label_sidebar_menu" value="Přehled" />
+  <string id="lb_hlp_recommendation" value="Doporučit e-mailem" />
+  <string id="tip_jumptopage" value="Skok na stránku" />
+  <string id="lb_hlp_normalview" value="Režim listování" />
+  <string id="lb_hlp_navigation" value="Navigace" />
+  <string id="tip_soc_facebook" value="Facebook" />
+  <string id="lb_hlp_pagedrag" value="Uchopit a přesouvat stránku (v zoom náhledu)" />
+  <string id="label_recommendation_header" value="Doporučení strany katalogu" />
+  <string id="label_social_panel" value="Sdílet stranu katalogu" />
+  <string id="label_recommendation_sender" value="Odesílatel e-mailu:*" />
+  <string id="tip_fullscreen_disabled_function" value="Tato funkce je v režimu celé obrazovky z bezpečnostních důvodu deaktivována." />
+  <string id="tip_soc_misterwong" value="Misterwong" />
+  <string id="label_recommend_bookmarks" value="Doporučit seznam záložek" />
+  <string id="lb_hlp_outpanel" value="Další akce" />
+  <string id="label_recommendation_textfield" value="Vaše zpráva:" />
+  <string id="label_save_menu" value="Uložit" />
+  <string id="lb_hlp_fullscreen" value="Režim celé obrazovky" />
+  <string id="label_page" value="Strana" />
+  <string id="lb_hlp_sidebar" value="Přehled" />
+  <string id="label_print_complete_pdf" value="Kompletní PDF" />
+  <string id="tip_soc_google" value="Google +" />
+  <string id="tip_button_previous" value="Listovat na předchozí stránku" />
+  <string id="tip_link" value="Jdi na [current_page_area.url]" />
+  <string id="label_save_complete_pdf" value="Kompletní PDF" />
+  <string id="lb_hlp_detailview" value="Náhled detailní/ke čtení" />
+  <string id="tip_soc_twitter" value="Twitter" />
+  <string id="label_bookmark_menu" value="Záložka" />
+  <string id="label_recommendation_button_cancel" value="Přerušit" />
+  <string id="label_recommend_social" value="Sdílet tuto stránku" />
+  <string id="label_save_page" value="Uložit" />
+  <string id="tip_print_page" value="Vytiskne tuto stránku" />
+  <string id="page_name" value="Stránka" />
+  <string id="label_recommendation_receiver" value="Příjemce e-mailu:*" />
+  <string id="lb_hlp_search" value="Hledání" />
+  <string id="tip_button_toend" value="Listovat na konec katalogu" />
+  <string id="label_recommendation_menu" value="Doporučení" />
+  <string id="lb_hlp_social" value="Doporučit na sociálních sítích" />
+  <string id="label_print_panel" value="Tisk stránky" />
+  <string id="tip_save_page" value="Uloží tuto stránku jako PDF" />
+  <string id="label_recommendation_sendername" value="Jméno odesílatele:" />
+  <string id="label_left_page" value="Levá strana" />
+  <string id="label_print_menu" value="Tisk" />
+  <string id="label_search" value="Hledání" />
+  <string id="tip_soc_linkedin" value="Linked In" />
+  <string id="tip_soc_tumblr" value="Tumblr" />
+  <string id="buttonlabel_removebookmarks" value="Smazat všechny záložky" />
+  <string id="label_recommend_bookmarks_header" value="Doporučit seznam záložek" />
+  <string id="label_edit_bookmark" value="Vaše poznámky" />
+  <string id="label_add_bookmark_left" value="Levá strana" />
+  <string id="tip_stdzoom" value="Nastavit zoom 100%" />
+  <string id="tip_flip" value="Listovat" />
+  <string id="label_recommendation_button_send" value="Odeslat" />
+  <string id="label_recommendation_fieldsrequired" value="Políčka s * jsou povinná." />
+  <string id="tip_magnifier" value="Vypnout/zapnout lupu" />
+  <string id="inputfield_default_search" value="Hledaný pojem" />
+  <string id="lb_hlp_helptoggle" value="www.pageflip.io" />
+  <string id="buttonlabel_no" value="Ne" />
+  <string id="tip_page" value="Jdi na stránku [current_page_area.page] " />
+  <string id="label_recommendation_nok" value="Doporučení nebylo úspěšné." />
+  <string id="label_add_bookmark_right" value="Pravá strana" />
+  <string id="tip_detailview" value="Detailní pohled" />
+  <string id="label_save_panel" value="Uložit stránku" />
+  <string id="tip_soc_xing" value="Xing" />
+  <string id="lb_hlp_sniptool" value="Vyříznout" />
+  <string id="tip_maxzoom" value="Nastavit zoom na maximum" />
+  <string id="label_right_page" value="Pravá strana" />
+  <string id="label_magnifier" value="Lupa" />
+  <string id="label_crop" value="Do you like to save this cutting?" />
+  <string id="label_crop_save_image" value="Save image" />
+  <string id="label_crop_save_pdf" value="Save PDF" />
+  <string id="lb_hlp_crop" value="Cut" />
+  <string id="tip_crop" value="Cut" />
+  <string id="label_video_not_supported" value="The video format is not supported by the browser" />
+  <string id="label_add_bookmark_current" value="Remember current page" />
+  <string id="label_range_error" value="Invalid page-range"/>
+  <string id="label_range_to" value="up to"/>
+  <string id="cart_link" value="Product Details"/>
+  <string id="label_cart_nr" value="Nr"/>
+  <string id="label_cart_amount" value="Amount"/>
+  <string id="label_cart_artno" value="Art.-Nr."/>
+  <string id="label_cart_artname" value="Articlename"/>
+  <string id="label_cart_price" value="Price"/>
+  <string id="label_cart_sum" value="Total"/>
+  <string id="label_cart_total" value="Sum:"/>
+  <string id="label_cart_cancel" value="Hide"/>
+  <string id="label_cart_article_notavail" value="Article not available"/>
+  <string id="cart_currency" value="€"/>
+  <string id="lb_hlp_cart" value="Cart"/>
+  <string id="label_cart_panel" value="Cart"/>
+  <string id="label_cart_send" value="Send order"/>
+  <string id="label_cart_menu" value="Cart"/>
+  <string id="lb_hlp_articleview" value="Articleview" />
+  <string id="tip_article" value="Open article" />
+  <string id="tip_articleview_close" value="Close" />
+  <string id="tip_articleview_back" value="Back" />
+  <string id="tip_articleview" value="Switch to articleview" />
+</inc>
