@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"/>
 
     <link rel="shortcut icon" href="https://4.bp.blogspot.com/-v8atMSK4DXw/WdWEmIJJk-I/AAAAAAAABNY/Fvp-myE3Kjkrcg0-NnbC1IBV8FL60Tp9ACLcBGAs/s1600/faviicon-MPL-32.png" type="image/x-icon"/>
-    <meta name="description" content="Livro Infantil de alfabetização para ajudar a criança a ler sozinha. Coleção Minha Primeira Leitura."/>
+    <meta name="description" content="Livro Infantil de alfabetização para ajudar a criança a ler. Coleção Minha Primeira Leitura."/>
     <meta name="author" content="Carlos Correia"/>
     <meta name='keywords' content='alfabetização e letramento, educação infantil, livro infantil, gosto pela leitura, gostar de ler'/>
 
@@ -36,40 +36,25 @@
     <meta property="og:site_name" content="Minha Primeira Leitura"/>
     <meta property="og:description" expr:content="data:blog.description" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-reboot.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"/>
-    <!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/-->
+ 
 
-    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/fonts/fontello/css/fontello.css"/>
-    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/dropdown/css/style.css"/>
-    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/animatecss/animate.min.css"/>
-    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/snow-plugins/style.css"/>
-    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/theme/css/style.css"/>
-    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/facebook-plugin/style.css"/>
-    <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/mobirise/css/mbr-additional.min.css" type="text/css"/>
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/fonts/fontello/css/fontello.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/tether/tether.min.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/facebook-plugin/style.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/snow-plugins/style.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/theme/css/style.css">
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/mobirise/css/mbr-additional.css" type="text/css">
+
 
     &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin>*/</b:skin>
 
  
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '285592308511323');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=285592308511323&amp;ev=PageView&amp;noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
+
 
 &lt;/head&gt;&lt;!--<head/>--&gt;
 
@@ -87,7 +72,7 @@
     <div class="menu-logo">
         <div class="navbar-brand">
             <span class="navbar-logo mbr-figure">
-                <a href="http://www.minhaprimeiraleitura.com.br">
+                <a href="https://www.minhaprimeiraleitura.com.br">
                     <img src="https://2.bp.blogspot.com/-fl2Ir2M1hjc/XIvuij2gS2I/AAAAAAAABWw/5HMPyuJeQYYVR8vruKDE0OoGxipHvnQIgCLcBGAs/s1600/logo-minha-primeira-leitura-v2-566x70.png" alt="Coleção MPL" title="Coleção Minha Primeira Leitura" style="height: 3.8rem;"/>
                 </a>
             </span>
@@ -401,7 +386,7 @@
                     </div>
                     <div class="card-box">
                         <h4 class="card-title pb-3 mbr-fonts-style display-7">É Simples Assim!!!</h4>
-                        <p class="mbr-text mbr-fonts-style display-7">A criança sendo alfabetizada, que já está começando a ler poucas palavras ou sílabas, precisa ter o estímulo correto para avançar na leitura. <a href="http://www.minhaprimeiraleitura.com.br/p/livro-infantil-para-comecar-ler.html">Saiba mais...</a>
+                        <p class="mbr-text mbr-fonts-style display-7">A criança sendo alfabetizada, que já está começando a ler poucas palavras ou sílabas, precisa ter o estímulo correto para avançar na leitura. <a href="https://www.minhaprimeiraleitura.com.br/p/livro-infantil-para-comecar-ler.html">Saiba mais...</a>
                         </p>
                     </div>
                 </div>
@@ -416,7 +401,7 @@
                         <h4 class="card-title pb-3 mbr-fonts-style display-7">
                             Nosso Diferencial</h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            A coleção Minha Primeira Leitura começa apresentando, no seu primeiro livro, frases simples e com sílabas bem fáceis de serem lidas e pronunciadas. <a href="http://www.minhaprimeiraleitura.com.br/p/livro-infantil-para-comecar-ler.html">Saiba mais...</a>
+                            A coleção Minha Primeira Leitura começa apresentando, no seu primeiro livro, frases simples e com sílabas bem fáceis de serem lidas e pronunciadas. <a href="https://www.minhaprimeiraleitura.com.br/p/livro-infantil-para-comecar-ler.html">Saiba mais...</a>
                         </p>
                     </div>
                 </div>
@@ -587,7 +572,7 @@
                                     <div class="mbr-section-btn">
                                         <!--b:if cond='data:newerPageUrl'-->
                                         <a class="btn btn-md btn-primary-outline display-4" expr:href="data:olderPageUrl"><span class="icon-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
-                                        <a class="btn btn-md btn-primary-outline display-4" href="http://minhaprimeiraleitura.com.br"><span class="icon-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
+                                        <a class="btn btn-md btn-primary-outline display-4" href="https://www.minhaprimeiraleitura.com.br"><span class="icon-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
                                         <a class="btn btn-md btn-primary-outline display-4" expr:href="data:newerPageUrl"><span class="icon-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
                                     </div>
                                 </div>
@@ -823,7 +808,7 @@
     <div class="media-container-row align-center mbr-white">
         <div class="row row-links">
             <ul class="foot-menu">
-            <li class="foot-menu-item mbr-fonts-style display-7"><a href="http://www.minhaprimeiraleitura.com.br/#sobre" target="_blank" class="text-white">Sobre</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="http://www.minhaprimeiraleitura.com.br/#blog" target="_blank" class="text-white">Blog</a></li></ul>
+            <li class="foot-menu-item mbr-fonts-style display-7"><a href="https://www.minhaprimeiraleitura.com.br/#sobre" target="_blank" class="text-white">Sobre</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://www.minhaprimeiraleitura.com.br/#blog" target="_blank" class="text-white">Blog</a></li></ul>
         </div>
         <div class="row social-row">
             <div class="social-list align-right pb-2">
@@ -1010,21 +995,7 @@
               </div>
             </div>
           </div>
-          <!-- funções após inicialização-->
-          <script> 
-              $(document).ready(function() {
-                  function showInscricaoModal() {
-                    if (!window.sessionStorage.getItem("popup-exibida"))
-                    {
-                         $('#abertura-modal').modal('show');
-                         window.sessionStorage.setItem("popup-exibida", "1");
-                    }
-                  }
-
-                  setTimeout(showInscricaoModal(),3000);
-
-              });
-          </script>
+          
     </section>
 
     
@@ -1071,7 +1042,27 @@
 
             setTimeout(showInscricaoModal(),3000);
 
+            !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '285592308511323');
+              fbq('track', 'PageView');
+
         });
     </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=285592308511323&amp;ev=PageView&amp;noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
 
 </html>
