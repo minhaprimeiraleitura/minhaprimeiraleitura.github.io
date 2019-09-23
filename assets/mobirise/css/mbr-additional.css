@@ -1923,6 +1923,27 @@ section.lazy-placeholder:after {
 .cid-rjTYFdkmov H2 {
   color: #3ad84d;
 }
+.cid-rCTI9TkMOt {
+  background: #efefef;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rCTI9TkMOt .image-block {
+  margin: auto;
+}
+.cid-rCTI9TkMOt figcaption {
+  position: relative;
+}
+.cid-rCTI9TkMOt figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rCTI9TkMOt .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rCgw9p62g3 {
   padding-top: 30px;
   padding-bottom: 90px;
