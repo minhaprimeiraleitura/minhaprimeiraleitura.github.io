@@ -56,28 +56,28 @@ Ex.:
 .5- <img => .../>
 .6- <input => .../>
 
-) Tirar e ou substituir &nbsp; por espaço
+13) Tirar e ou substituir &nbsp; por espaço
 
-13) Em javascript, substituir
+14) Em javascript, substituir
   & por &amp;
   < por &lt;
 
-14) Colocar nas imagens  alt="@@@@" title="@@@@" , onde @@@@ são palavras chaves para o site
+15) Colocar nas imagens  alt="@@@@" title="@@@@" , onde @@@@ são palavras chaves para o site
 Ex.:  alt="pato no lago" title="O Pato no Lago"
 
 
-15) incluir IF INDEX ELSE POSTS: 
+16) incluir IF INDEX ELSE POSTS: 
 
 <b:if cond='data:blog.pageType == "index"'>
 <b:else/>
 </b:if> 
 
-16) mesclar o arquivo original ao corpo mínimo do xml do blogger colocando os dados de posts (ver arquivo layout mínimo para ser usado no blogger => arquivo do tipo xml)
+17) mesclar o arquivo original ao corpo mínimo do xml do blogger colocando os dados de posts (ver arquivo layout mínimo para ser usado no blogger => arquivo do tipo xml)
 
 
-) Verificar todos os formulários colocando o código correto
+18) Verificar todos os formulários colocando o código correto
 
-) Retirar todo o campo " data-form-type="formoid" " onde há formulário interno.
+19) Retirar todo o campo " data-form-type="formoid" " onde há formulário interno.
 Ex.:<div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid"> <== RETIRAR!!!
         <!-- Formbuilder Form -->
         <form action="//minhaprimeiraleitura.us16.l
