@@ -5,7 +5,7 @@ Transformar html para xml do Blogger
 1) incluir no início (primeira linha): <?xml version="1.0" encoding="UTF-8" ?>
 
 2) para não carregar CSS desnecessário:
-<html b:css='false' 
+<html lang="pt" b:css='false'>
 
 3) substituir:
 <head> => &lt;head&gt;
@@ -20,7 +20,7 @@ Ex.: https://4.bp.blogspot.com/-v8atMSK4DXw/WdWEmIJJk-I/AAAAAAAABNY/Fvp-myE3Kjkr
 <b:if cond='data:blog.pageType == "index"'>
         <title><data:blog.pageTitle/> | O melhor livro infantil para seu filho começar a ler</title>
    <b:else/>
-        <title><data:blog.pageName/> – <data:blog.title/></title>
+        <title><data:blog.pageName/> &#8211; <data:blog.title/></title>
  </b:if>
 
 6) ter pelo menos 1 item de skin:
@@ -29,22 +29,22 @@ Ex.: https://4.bp.blogspot.com/-v8atMSK4DXw/WdWEmIJJk-I/AAAAAAAABNY/Fvp-myE3Kjkr
 7) colocar em meta viewport:
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"/>
 
-8) LINK CSS trocar <link bootstrap, font-awesome, etc.... pelos links de CDN
+F 8) LINK CSS trocar <link bootstrap, font-awesome, etc.... pelos links de CDN
   ver em cada site onde estão os links de carregamento
 ex.:
   https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
-9) LINK JS trocar <link bootstrap, jquery, etc.... pelos links de CDN
+F 9) LINK JS trocar <link bootstrap, jquery, etc.... pelos links de CDN
   ver em cada site onde estão os links de carregamento
 ex.:
   https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
 10) Substituir nos links de CSS e JS a chamada de arquivo local para arquivo na rede
 ex.:
-  <link rel="stylesheet" href="https://minhaprimeiraleitura.github.io/assets/
-  <script src="https://minhaprimeiraleitura.github.io/assets/
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/
+  <script src="https://pages.minhaprimeiraleitura.com.br/assets/
 
-11) Substituir nas imagens a chamada de arquivo local para arquivo de rede
+F 11) Substituir nas imagens a chamada de arquivo local para arquivo de rede
 Ex.:
 <img src="https://2.bp.blogspot.com/-eq6o3rc3dOI/XIP9zfFU6rI/AAAAAAAABVc/QZCxeFbq-RU5YblTG2eJjlZvmkFOZph1ACLcBGAs/s320/logo%2Bminha%2Bprimeira%2Bleitura.png"
 
@@ -56,7 +56,7 @@ Ex.:
 .5- <img => .../>
 .6- <input => .../>
 
-13) Tirar e ou substituir &nbsp; por espaço
+F 13) Tirar e ou substituir &nbsp; por espaço
 
 14) Em javascript, substituir
   & por &amp;
@@ -66,18 +66,18 @@ Ex.:
 Ex.:  alt="pato no lago" title="O Pato no Lago"
 
 
-16) incluir IF INDEX ELSE POSTS: 
+F 16) incluir IF INDEX ELSE POSTS: 
 
 <b:if cond='data:blog.pageType == "index"'>
 <b:else/>
 </b:if> 
 
-17) mesclar o arquivo original ao corpo mínimo do xml do blogger colocando os dados de posts (ver arquivo layout mínimo para ser usado no blogger => arquivo do tipo xml)
+F 17) mesclar o arquivo original ao corpo mínimo do xml do blogger colocando os dados de posts (ver arquivo layout mínimo para ser usado no blogger => arquivo do tipo xml)
 
 
-18) Verificar todos os formulários colocando o código correto
+F 18) Verificar todos os formulários colocando o código correto
 
-19) Retirar todo o campo " data-form-type="formoid" " onde há formulário interno.
+F 19) Retirar todo o campo " data-form-type="formoid" " onde há formulário interno.
 Ex.:<div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid"> <== RETIRAR!!!
         <!-- Formbuilder Form -->
         <form action="//minhaprimeiraleitura.us16.l
