@@ -136,9 +136,22 @@
               else{
                  return results[1] || 0;
               }
-          };
-          checkout = $.urlParam('checkout');
-          if (checkout ) { 
+         };
+         product = $.urlParam('product');
+         if (product) {
+             switch (product) {
+                  case 1:
+                       product= 286032;
+                       break;
+                  case 2:
+                       product= 286473 ;
+                       break;
+                  case 3:
+                       product= 286475;
+                       break;
+                  default:
+                       product= 286032;
+             };
               var s = "";
               s = "<iframe src='https://sun.eduzz.com/"+checkout+"'></iframe>";
               $("iframe").replaceWith(s);
