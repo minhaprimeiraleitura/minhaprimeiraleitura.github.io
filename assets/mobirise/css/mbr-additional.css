@@ -730,29 +730,6 @@ section.lazy-placeholder:after {
   text-align: center;
   color: #fff;
 }
-.cid-rNwaf7cY8G {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
-}
-.cid-rNwaf7cY8G .line {
-  background-color: #ffffff;
-  color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-rNwaf7cY8G .section-text {
-  padding: 2rem 0;
-}
-.cid-rNwaf7cY8G .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-rNwaf7cY8G .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-rCgczMKClG {
   padding-top: 75px;
   padding-bottom: 75px;
