@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc>
+  <string id="tip_soc_reddit" value="Reddit" />
+  <string id="tip_fullscreen" value="Fuld skærm" />
+  <string id="tip_thumbview" value="Skift til miniaturevisning" />
+  <string id="lb_hlp_print" value="Udskriv" />
+  <string id="label_max" value="maks." />
+  <string id="lb_hlp_bookmarks" value="Bogmærker" />
+  <string id="label_removeallbookmarks" value="Er du sikker på, at du vil SLETTE alle bogmærker?" />
+  <string id="buttonlabel_hide_results" value="Skjul resultater" />
+  <string id="label_toc_panel" value="Indhold" />
+  <string id="lb_hlp_magnifier" value="Forstørrelsesglas" />
+  <string id="tip_catalogview" value="Skift til katalogvisning" />
+  <string id="label_bookmark_panel" value="Bogmærkestyring" />
+  <string id="label_search_in_progress" value="Søger..." />
+  <string id="label_recommend_mail" value="Anbefal denne side pr. e-mail" />
+  <string id="tip_button_tostart" value="Gå til første side" />
+  <string id="label_print_page" value="Udskriv" />
+  <string id="tip_soc_digg" value="Digg" />
+  <string id="buttonlabel_show_results" value="Vis resultater" />
+  <string id="label_recommendation_receivername" value="Modtagers navn:" />
+  <string id="label_recommendation_ok" value="Anbefaling gennemført! Mange tak!" />
+  <string id="tip_soc_delicious" value="Delicio.us" />
+  <string id="label_min" value="min." />
+  <string id="label_search_result" value="'[nof_search_results]' søgeresultater for [my_last_search]" />
+  <string id="label_available_bookmarks" value="Tilgængelige bogmærker:" />
+  <string id="lb_hlp_toc" value="Indholdsoversigt" />
+  <string id="label_bookmark_list" value="Bogmærker" />
+  <string id="buttonlabel_create_bookmark" value="Opret bogmærke" />
+  <string id="label_sidebar_panel" value="Indholdsoversigt" />
+  <string id="lb_hlp_save" value="Gem" />
+  <string id="label_ok" value="OK" />
+  <string id="buttonlabel_yes" value="Ja" />
+  <string id="lb_hlp_mousezoom" value="Zoom pr. mus" />
+  <string id="label_toc_menu" value="Indhold" />
+  <string id="tip_soc_stumbleupon" value="Stumbleupon" />
+  <string id="label_outpanel" value="Yderligere aktioner" />
+  <string id="lb_hlp_mouseover" value="Forklaring symboler ved mouseover" />
+  <string id="tip_soc_vznet" value="VZ Netzwerke" />
+  <string id="label_search_nothing_found" value="Søgningen gav ingen resultater." />
+  <string id="lb_hlp_thumbview" value="Miniaturevisning" />
+  <string id="lb_hlp_zoom" value="Zoom " />
+  <string id="tip_button_next" value="Gå en side frem" />
+  <string id="label_sidebar_menu" value="Indholdsoversigt" />
+  <string id="lb_hlp_recommendation" value="Anbefal pr. e-mail" />
+  <string id="tip_jumptopage" value="Spring til side" />
+  <string id="lb_hlp_normalview" value="Bladremodus" />
+  <string id="lb_hlp_navigation" value="Navigering" />
+  <string id="tip_soc_facebook" value="Facebook" />
+  <string id="lb_hlp_pagedrag" value="Grib siden og flyt (ved zoom-visning)" />
+  <string id="label_recommendation_header" value="Anbefal katalogside" />
+  <string id="label_social_panel" value="Del katalogside" />
+  <string id="label_recommendation_sender" value="Afsenders e-mail:*" />
+  <string id="tip_fullscreen_disabled_function" value="Denne funktion er af sikkerhedsgrunde deaktiveret i fuldskærm-visning" />
+  <string id="tip_soc_misterwong" value="Misterwong" />
+  <string id="label_recommend_bookmarks" value="Anbefal bogmærker" />
+  <string id="lb_hlp_outpanel" value="Yderligere aktioner" />
+  <string id="label_recommendation_textfield" value="Din besked:" />
+  <string id="label_save_menu" value="Gem" />
+  <string id="lb_hlp_fullscreen" value="Fuldskærm" />
+  <string id="label_page" value="Side" />
+  <string id="lb_hlp_sidebar" value="Indholdsoversigt" />
+  <string id="label_print_complete_pdf" value="Komplet PDF" />
+  <string id="tip_soc_google" value="Google+" />
+  <string id="tip_button_previous" value="Gå en side tilbage" />
+  <string id="tip_link" value="Gå til [current_page_area.url]" />
+  <string id="label_save_complete_pdf" value="Komplet PDF" />
+  <string id="lb_hlp_detailview" value="Enkeltside/visning" />
+  <string id="tip_soc_twitter" value="Twitter" />
+  <string id="label_bookmark_menu" value="Bogmærker" />
+  <string id="label_recommendation_button_cancel" value="Afbryd" />
+  <string id="label_recommend_social" value="Del denne side" />
+  <string id="label_save_page" value="Gem" />
+  <string id="tip_print_page" value="Udskriv side" />
+  <string id="page_name" value="Side" />
+  <string id="label_recommendation_receiver" value="Modtagers e-mail:*" />
+  <string id="lb_hlp_search" value="Søg" />
+  <string id="tip_button_toend" value="Gå til sidste side" />
+  <string id="label_recommendation_menu" value="Anbefal" />
+  <string id="lb_hlp_social" value="Anbefal sociale netværk" />
+  <string id="label_print_panel" value="Udskriv side" />
+  <string id="tip_save_page" value="Gem denne side som PDF" />
+  <string id="label_recommendation_sendername" value="Afsenders navn:" />
+  <string id="label_left_page" value="Venstre side" />
+  <string id="label_print_menu" value="Udskriv" />
+  <string id="label_search" value="Søg" />
+  <string id="tip_soc_linkedin" value="Linked In" />
+  <string id="tip_soc_tumblr" value="Tumblr" />
+  <string id="buttonlabel_removebookmarks" value="Fjern alle bogmærker" />
+  <string id="label_recommend_bookmarks_header" value="Anbefal bogmærker" />
+  <string id="label_edit_bookmark" value="Dine noter.." />
+  <string id="label_add_bookmark_left" value="Venstre side" />
+  <string id="tip_stdzoom" value="Juster zoomniveauet til 100 %" />
+  <string id="tip_flip" value="Vend blad" />
+  <string id="label_recommendation_button_send" value="Send" />
+  <string id="label_recommendation_fieldsrequired" value="Felter markeret med * skal udfyldes" />
+  <string id="tip_magnifier" value="aktiver/deaktiver Forstørrelsesglas" />
+  <string id="inputfield_default_search" value="Søg" />
+  <string id="lb_hlp_helptoggle" value="www.pageflip.io" />
+  <string id="buttonlabel_no" value="Nej" />
+  <string id="tip_page" value="Gå til side [current_page_area.page]" />
+  <string id="label_recommendation_nok" value="Anbefaling kunne desværre ikke gennemføres" />
+  <string id="label_add_bookmark_right" value="Højre side" />
+  <string id="tip_detailview" value="Skift til detaljevisning" />
+  <string id="label_save_panel" value="Gem side" />
+  <string id="tip_soc_xing" value="Xing" />
+  <string id="lb_hlp_sniptool" value="Klip" />
+  <string id="tip_maxzoom" value="Juster zoomniveauet til maksimum" />
+  <string id="label_right_page" value="Højre side" />
+  <string id="label_magnifier" value="Forstørrelsesglas" />
+  <string id="label_crop" value="Do you like to save this cutting?" />
+  <string id="label_crop_save_image" value="Save image" />
+  <string id="label_crop_save_pdf" value="Save PDF" />
+  <string id="lb_hlp_crop" value="Cut" />
+  <string id="tip_crop" value="Cut" />
+  <string id="label_video_not_supported" value="The video format is not supported by the browser" />
+  <string id="cart_link" value="Product Details" />
+  <string id="label_add_bookmark_current" value="Remember current page" />
+  <string id="label_range_error" value="Invalid page-range"/>
+  <string id="label_range_to" value="up to"/>
+  <string id="label_cart_nr" value="Nr"/>
+  <string id="label_cart_amount" value="Amount"/>
+  <string id="label_cart_artno" value="Art.-Nr."/>
+  <string id="label_cart_artname" value="Articlename"/>
+  <string id="label_cart_price" value="Price"/>
+  <string id="label_cart_sum" value="Total"/>
+  <string id="label_cart_total" value="Sum:"/>
+  <string id="label_cart_cancel" value="Hide"/>
+  <string id="label_cart_article_notavail" value="Article not available"/>
+  <string id="cart_currency" value="€"/>
+  <string id="lb_hlp_cart" value="Cart"/>
+  <string id="label_cart_panel" value="Cart"/>
+  <string id="label_cart_send" value="Send order"/>
+  <string id="label_cart_menu" value="Cart"/>
+  <string id="lb_hlp_articleview" value="Articleview" />
+  <string id="tip_article" value="Open article" />
+  <string id="tip_articleview_close" value="Close" />
+  <string id="tip_articleview_back" value="Back" />
+  <string id="tip_articleview" value="Switch to articleview" />
+</inc>

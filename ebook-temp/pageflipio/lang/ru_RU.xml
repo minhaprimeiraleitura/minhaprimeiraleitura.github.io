@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc>
+  <string id="tip_soc_reddit" value="Reddit" />
+  <string id="tip_fullscreen" value="Режим полного экрана" />
+  <string id="tip_thumbview" value="Перейти к режиму сортировки страниц" />
+  <string id="lb_hlp_print" value="Печать" />
+  <string id="label_max" value="МАКС" />
+  <string id="lb_hlp_bookmarks" value="Закладки" />
+  <string id="label_removeallbookmarks" value="Вы действительно хотите удалить все закладки?" />
+  <string id="buttonlabel_hide_results" value="Скрыть результаты поиска" />
+  <string id="label_toc_panel" value="Содержание" />
+  <string id="lb_hlp_magnifier" value="Zoom" />
+  <string id="tip_catalogview" value="Перейти к просмотру по страницам" />
+  <string id="label_bookmark_panel" value="Мастер закладок" />
+  <string id="label_search_in_progress" value="Выполняется поиск…" />
+  <string id="label_recommend_mail" value="Рекомендовать страницу по Email" />
+  <string id="tip_button_tostart" value="Перейти к первой странице" />
+  <string id="label_print_page" value="Печать" />
+  <string id="tip_soc_digg" value="Digg" />
+  <string id="buttonlabel_show_results" value="Показать результаты поиска" />
+  <string id="label_recommendation_receivername" value="Кому (Имя):" />
+  <string id="label_recommendation_ok" value="Рекомендация прошла успешно! Спасибо!" />
+  <string id="tip_soc_delicious" value="Delicio.us" />
+  <string id="label_min" value="МИН" />
+  <string id="label_search_result" value="[nof_search_results] результат поиска для '[my_last_search]'" />
+  <string id="label_available_bookmarks" value="Установленные закладки:" />
+  <string id="lb_hlp_toc" value="Содержание" />
+  <string id="label_bookmark_list" value="Закладки" />
+  <string id="buttonlabel_create_bookmark" value="Установить закладку" />
+  <string id="label_sidebar_panel" value="Рубрикатор" />
+  <string id="lb_hlp_save" value="Сохранить" />
+  <string id="label_ok" value="ОК" />
+  <string id="buttonlabel_yes" value="Да" />
+  <string id="lb_hlp_mousezoom" value="Увеличивать мышью" />
+  <string id="label_toc_menu" value="Содержание" />
+  <string id="tip_soc_stumbleupon" value="Stumbleupon" />
+  <string id="label_outpanel" value="Другие действия" />
+  <string id="lb_hlp_mouseover" value="Показывать помощь при наведении мыши" />
+  <string id="tip_soc_vznet" value="VZ Netzwerke" />
+  <string id="label_search_nothing_found" value="По Вашему запросу ничего не найдено." />
+  <string id="lb_hlp_thumbview" value="Миниатюрный режим" />
+  <string id="lb_hlp_zoom" value="Увеличение" />
+  <string id="tip_button_next" value="Перейти к следующей странице" />
+  <string id="label_sidebar_menu" value="Рубрикатор" />
+  <string id="lb_hlp_recommendation" value="Рекомендовать по E-Mail" />
+  <string id="tip_jumptopage" value="Перейти к странице" />
+  <string id="lb_hlp_normalview" value="Режим журнала" />
+  <string id="lb_hlp_navigation" value="Навигация" />
+  <string id="tip_soc_facebook" value="Facebook" />
+  <string id="lb_hlp_pagedrag" value="Захватить и двигать страницу" />
+  <string id="label_recommendation_header" value="Рекомендовать страницу" />
+  <string id="label_social_panel" value="Посоветовать страницу" />
+  <string id="label_recommendation_sender" value="Отправитель (E-Mail):*" />
+  <string id="tip_fullscreen_disabled_function" value="Эта функция отключена в полноэкранном режиме из соображения безопасности" />
+  <string id="tip_soc_misterwong" value="Misterwong" />
+  <string id="label_recommend_bookmarks" value="Посоветовать ваши закладки" />
+  <string id="lb_hlp_outpanel" value="Другие действия" />
+  <string id="label_recommendation_textfield" value="Ваше сообщениеЮ" />
+  <string id="label_save_menu" value="Сохранить" />
+  <string id="lb_hlp_fullscreen" value="Полноэкранный режим" />
+  <string id="label_page" value="Стр." />
+  <string id="lb_hlp_sidebar" value="Рубрикатор" />
+  <string id="label_print_complete_pdf" value="В формат pdf" />
+  <string id="tip_soc_google" value="Google +" />
+  <string id="tip_button_previous" value="Перейти к предыдущей странице" />
+  <string id="tip_link" value="Перейти к [current_page_area.url]" />
+  <string id="label_save_complete_pdf" value="В формат pdf" />
+  <string id="lb_hlp_detailview" value="Режим чтения" />
+  <string id="tip_soc_twitter" value="Twitter" />
+  <string id="label_bookmark_menu" value="Закладки" />
+  <string id="label_recommendation_button_cancel" value="Отмена" />
+  <string id="label_recommend_social" value="Рекомендовать страницу" />
+  <string id="label_save_page" value="Сохранить" />
+  <string id="tip_print_page" value="Распечатать страницу" />
+  <string id="page_name" value="Стр." />
+  <string id="label_recommendation_receiver" value="Кому (E-Mail):*" />
+  <string id="lb_hlp_search" value="Поиск по каталогу" />
+  <string id="tip_button_toend" value="Перейти к последней странице" />
+  <string id="label_recommendation_menu" value="Рекомендовать" />
+  <string id="lb_hlp_social" value="Поделится в социальных сетях" />
+  <string id="label_print_panel" value="Распечатать страницу" />
+  <string id="tip_save_page" value="Сохранить страницу в формате pdf" />
+  <string id="label_recommendation_sendername" value="Отправитель (Имя):" />
+  <string id="label_left_page" value="Страница слева" />
+  <string id="label_print_menu" value="Печать" />
+  <string id="label_search" value="Поиск по каталогу" />
+  <string id="tip_soc_linkedin" value="Linked In" />
+  <string id="tip_soc_tumblr" value="Tumblr" />
+  <string id="buttonlabel_removebookmarks" value="Удалить все закладки" />
+  <string id="label_recommend_bookmarks_header" value="Посоветовать ваши закладки" />
+  <string id="label_edit_bookmark" value="Ваши закладки..." />
+  <string id="label_add_bookmark_left" value="Страница слева" />
+  <string id="tip_stdzoom" value="Настроить zoom на 100%" />
+  <string id="tip_flip" value="Листать страницу" />
+  <string id="label_recommendation_button_send" value="Отправить" />
+  <string id="label_recommendation_fieldsrequired" value="Поля помеченные * обязательны для заполнения" />
+  <string id="tip_magnifier" value="включить / выключить zoom" />
+  <string id="inputfield_default_search" value="Поиск" />
+  <string id="lb_hlp_helptoggle" value="www.pageflip.io" />
+  <string id="buttonlabel_no" value="Нет" />
+  <string id="tip_page" value="Перейти к странице [current_page_area.page]" />
+  <string id="label_recommendation_nok" value="Возникла ошибка. Попробуйте пожайлуста еще раз" />
+  <string id="label_add_bookmark_right" value="Страница справа" />
+  <string id="tip_detailview" value="Перейти к детальному просмотру" />
+  <string id="label_save_panel" value="Сохранить в pdf" />
+  <string id="tip_soc_xing" value="Xing" />
+  <string id="lb_hlp_sniptool" value="Вырезать" />
+  <string id="tip_maxzoom" value="Настроить zoom на максимум" />
+  <string id="label_right_page" value="Страница справа" />
+  <string id="label_magnifier" value="Увеличение" />
+  <string id="label_crop" value="Do you like to save this cutting?" />
+  <string id="label_crop_save_image" value="Save image" />
+  <string id="label_crop_save_pdf" value="Save PDF" />
+  <string id="lb_hlp_crop" value="Cut" />
+  <string id="tip_crop" value="Cut" />
+  <string id="label_video_not_supported" value="The video format is not supported by the browser" />
+  <string id="cart_link" value="Product Details" />
+  <string id="label_add_bookmark_current" value="Remember current page" />
+  <string id="label_range_error" value="Invalid page-range"/>
+  <string id="label_range_to" value="up to"/>
+  <string id="label_cart_nr" value="Nr"/>
+  <string id="label_cart_amount" value="Amount"/>
+  <string id="label_cart_artno" value="Art.-Nr."/>
+  <string id="label_cart_artname" value="Articlename"/>
+  <string id="label_cart_price" value="Price"/>
+  <string id="label_cart_sum" value="Total"/>
+  <string id="label_cart_total" value="Sum:"/>
+  <string id="label_cart_cancel" value="Hide"/>
+  <string id="label_cart_article_notavail" value="Article not available"/>
+  <string id="cart_currency" value="€"/>
+  <string id="lb_hlp_cart" value="Cart"/>
+  <string id="label_cart_panel" value="Cart"/>
+  <string id="label_cart_send" value="Send order"/>
+  <string id="label_cart_menu" value="Cart"/>
+  <string id="lb_hlp_articleview" value="Articleview" />
+  <string id="tip_article" value="Open article" />
+  <string id="tip_articleview_close" value="Close" />
+  <string id="tip_articleview_back" value="Back" />
+  <string id="tip_articleview" value="Switch to articleview" />
+</inc>
