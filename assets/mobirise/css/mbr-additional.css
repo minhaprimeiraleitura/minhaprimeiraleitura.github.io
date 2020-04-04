@@ -12292,60 +12292,10 @@ section.lazy-placeholder:after {
 .cid-rDqhXBmIuT .dropdown-item:hover {
   color: #3ad84d !important;
 }
-.cid-rU4LNi5nzz {
-  padding-top: 120px;
-  padding-bottom: 60px;
-  background: linear-gradient(45deg, #efefef, #efefef);
-}
-@media (min-width: 992px) {
-  .cid-rU4LNi5nzz .mbr-figure {
-    padding-left: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rU4LNi5nzz .mbr-figure {
-    padding-top: 3rem;
-  }
-}
-.cid-rU4LNi5nzz .media-container-row {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-}
-@media (min-width: 992px) {
-  .cid-rU4LNi5nzz .media-container-row .mbr-figure {
-    padding-left: 0;
-    padding-right: 4rem;
-  }
-}
-.cid-rU4LNi5nzz .mbr-text,
-.cid-rU4LNi5nzz .mbr-section-btn {
-  color: #073b4c;
-}
-.cid-rU4LNi5nzz .mbr-section-title {
-  color: #ec8015;
-}
-.cid-rUaaECQfgy {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
-}
-.cid-rUaaECQfgy .line {
-  background-color: #ffffff;
-  color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-rUaaECQfgy .section-text {
-  padding: 2rem 0;
-}
-.cid-rUaaECQfgy .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-rUaaECQfgy .inner-container {
-    width: 100% !important;
-  }
+.cid-rVcH7MGKkf {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/capa-passatempo-com-sombra.jpg");
 }
 .cid-rTV2M9am7P {
   padding-top: 120px;
