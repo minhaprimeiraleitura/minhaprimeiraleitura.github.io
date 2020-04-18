@@ -2722,31 +2722,10 @@ section.lazy-placeholder:after {
 .cid-rDqhXBmIuT .dropdown-item:hover {
   color: #3ad84d !important;
 }
-.cid-rTV8sZRX6U {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #0f7699;
-}
-.cid-rTV8sZRX6U .mbr-figure {
-  margin: 0 auto;
-  width: 100%;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-rTV8sZRX6U .mbr-figure img {
-  height: 100%;
-  margin: 0 auto;
-}
-@media (max-width: 991px) {
-  .cid-rTV8sZRX6U .mbr-figure img {
-    width: 100% !important;
-  }
-}
 .cid-rFOYHBxd06 {
   background: #ec8015;
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding-top: 105px;
+  padding-bottom: 45px;
 }
 .cid-rFOYHBxd06 .image-block {
   margin: auto;
@@ -12292,11 +12271,6 @@ section.lazy-placeholder:after {
 .cid-rDqhXBmIuT .dropdown-item:hover {
   color: #3ad84d !important;
 }
-.cid-rVcH7MGKkf {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/capa-passatempo-com-sombra.jpg");
-}
 .cid-rTV2M9am7P {
   padding-top: 120px;
   padding-bottom: 30px;
@@ -12316,27 +12290,6 @@ section.lazy-placeholder:after {
 .cid-rTV2NwT5gr .mbr-section {
   text-align: center;
   color: #fff;
-}
-.cid-rUaeO0A61v {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #0f7699;
-}
-.cid-rUaeO0A61v .mbr-figure {
-  margin: 0 auto;
-  width: 100%;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-rUaeO0A61v .mbr-figure img {
-  height: 100%;
-  margin: 0 auto;
-}
-@media (max-width: 991px) {
-  .cid-rUaeO0A61v .mbr-figure img {
-    width: 100% !important;
-  }
 }
 .cid-rTV2OqgPFy {
   padding-top: 75px;
@@ -12452,6 +12405,90 @@ section.lazy-placeholder:after {
   .cid-rTV4jcUnr5 .inner-container {
     width: 100% !important;
   }
+}
+.cid-rWxHN9F4wS {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #f9f9f9;
+}
+.cid-rWxHN9F4wS .mbr-section-btn > * {
+  margin: 0;
+}
+.cid-rWxHN9F4wS h4 {
+  font-weight: 500;
+}
+.cid-rWxHN9F4wS p {
+  color: #232323;
+}
+.cid-rWxHN9F4wS .aside-content {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cid-rWxHN9F4wS .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-rWxHN9F4wS .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rWxHN9F4wS .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-rWxHN9F4wS .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-rWxHN9F4wS .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-rWxHN9F4wS .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rWxHN9F4wS .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-rWxHN9F4wS .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-rWxHN9F4wS .cost {
+  text-decoration: line-through;
+  color: #767676;
+}
+.cid-rWxHN9F4wS H2 {
+  color: #073b4c;
+}
+.cid-rWxHN9F4wS .text1 {
+  color: #073b4c;
+}
+.cid-rWxHN9F4wS .text2,
+.cid-rWxHN9F4wS .mbr-section-btn {
+  color: #0f7699;
+}
+.cid-rWxHN9F4wS .valores {
+  line-height: 0.8;
+  margin-bottom: 1.9rem;
+}
+.cid-rWxHN9F4wS .frete {
+  font-size: 43%;
 }
 .cid-rTV2QDLRg8 {
   padding-top: 30px;
@@ -12989,27 +13026,6 @@ section.lazy-placeholder:after {
 }
 .cid-rTV3L2gqjH .panel-text {
   color: #073b4c;
-}
-.cid-rTV4BQrDXc {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #0f7699;
-}
-.cid-rTV4BQrDXc .mbr-figure {
-  margin: 0 auto;
-  width: 100%;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-rTV4BQrDXc .mbr-figure img {
-  height: 100%;
-  margin: 0 auto;
-}
-@media (max-width: 991px) {
-  .cid-rTV4BQrDXc .mbr-figure img {
-    width: 100% !important;
-  }
 }
 .cid-rDqCbaZAqY {
   padding-top: 60px;
