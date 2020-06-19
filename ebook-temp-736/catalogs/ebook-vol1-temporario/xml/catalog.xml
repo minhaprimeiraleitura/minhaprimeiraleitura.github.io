@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="ebook-vol1-temporario" nofpages="32">
+  <structure>
+    <detaillevel name="thumb" width="83" height="76" path="../thumbnails/" filename="bk_" extension="jpg" />
+    <detaillevel name="normal" width="625" height="571" path="../normal/" filename="bk_" extension="jpg" />
+    <detaillevel name="large" width="1086" height="992" path="../large/" filename="bk_" extension="jpg" />
+  </structure>
+  <mapping>
+    <range id_start="1" nr_start="1" pages="32" />
+  </mapping>
+  <dictionary>
+    <string id="magnifier_enabled" value="false" />
+    <string id="social_enabled" value="true" />
+    <string id="social_mail_enabled" value="false" />
+    <string id="social_facebook_enabled" value="true" />
+    <string id="social_twitter_enabled" value="true" />
+    <string id="social_googleplus_enabled" value="false" />
+    <string id="save_enabled" value="true" />
+    <string id="save_single_enabled" value="true" />
+    <string id="save_complete_enabled" value="false" />
+    <string id="print_enabled" value="false" />
+    <string id="print_single_enabled" value="false" />
+    <string id="print_complete_enabled" value="false" />
+    <string id="fullscreen_enabled" value="true" />
+    <string id="sidebar_enabled" value="true" />
+    <string id="outpanel_enabled" value="true" />
+  </dictionary>
+</catalog>
+
