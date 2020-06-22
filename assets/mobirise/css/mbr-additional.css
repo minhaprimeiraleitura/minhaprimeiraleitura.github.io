@@ -12384,6 +12384,30 @@ section.lazy-placeholder:after {
 .cid-rTV2M9am7P H2 {
   color: #ec8015;
 }
+.cid-s2FZnkwISd {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-s2FZnkwISd .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-s2FZnkwISd .section-text {
+  padding: 2rem 0;
+  color: #efefef;
+}
+.cid-s2FZnkwISd .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-s2FZnkwISd .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rTV2NwT5gr {
   padding-top: 30px;
   padding-bottom: 30px;

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Minha Primeira Leitura",
-    "currentPage": "obrigado-compra-cartao.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -45,7 +45,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 366,
+    "uniqCompNum": 367,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "snow": "",
@@ -69,7 +69,7 @@
       "settings": {
         "meta_descr": "Baixe uma amostra grátis do nosso livrinho infantil da coleção Minha Primeira Leitura, com palavras de até 2 sílabas fáceis de se ler!\n\nIdeal para se fazer a primeira leiturinha do livro.",
         "title": "Ebook Grátis Livro Infantil para Leiturinha.",
-        "order": 7
+        "order": 6
       },
       "components": [
         {
@@ -909,7 +909,7 @@
       "settings": {
         "meta_descr": "Baixe uma amostra grátis do nosso livrinho infantil da coleção Minha Primeira Leitura, com palavras de até 2 sílabas fáceis de se ler!\n\nIdeal para se fazer a primeira leiturinha do livro.",
         "title": "Apoiadores CrowdFunding Duas Sílabas",
-        "order": 8,
+        "order": 7,
         "footer_custom": " <!-- SocialShareThis -->\n <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>",
         "header_custom": ""
       },
@@ -2452,7 +2452,7 @@
       "settings": {
         "meta_descr": "Parabéns! Você acabou de comprar nossos produtos utilizando o cartão de crédito. Agora é só esperar receber no endereço que você forneceu durante a compra.",
         "title": "Obrigado Compra Cartão de Crédito | Minha Primeira Leitura",
-        "order": 9,
+        "order": 8,
         "header_custom": "",
         "footer_custom": "<script>\n    fbq('track', 'Purchase', {value: '23.00', currency: 'BRL'});\n</script>",
         "html_before": ""
@@ -2980,11 +2980,11 @@
           "_name": "content7",
           "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"120\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>SOBRE O RASTREIO DOS CORREIOS</b><br><br>Assim que o seu produto for despachado pelos correios, você receberá um número de rastreio dos Correios.<br>Para os preços fixos dos livros, os Correios me dão de 8 a 10 dias úteis em média para a entrega. Veja a imagem.</p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/rastreio-1-436x287.png\" alt=\"Rastreio Minha Primeira Leitura\" title=\"Rastreio Minha Primeira Leitura\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s2daqosz7D",
+          "_anchor": "content7-a4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content7-a4"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3138,7 +3138,7 @@
       "settings": {
         "meta_descr": "Parabéns! Você acabou de comprar nossos produtos utilizando o boleto. Assim que nosso sistema identificar o pagamento, iremos processar o seu pedido para você receber no endereço fornecido durante a compra.",
         "title": "Obrigado Compra Boleto | Minha Primeira Leitura",
-        "order": 10,
+        "order": 9,
         "footer_custom": "<script>\n    fbq('track', 'Purchase', {value: '15.00', currency: 'BRL'});\n</script>",
         "header_custom": ""
       },
@@ -3719,7 +3719,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Produto Esgotado ou Inativo",
-        "order": 12,
+        "order": 11,
         "header_custom": ""
       },
       "components": [
@@ -4259,7 +4259,7 @@
       "settings": {
         "meta_descr": "Parabéns! Você acabou de comprar nossos produtos utilizando o cartão de crédito. Agora é só esperar receber no endereço que você forneceu durante a compra.",
         "title": "Obrigado Download Amostra",
-        "order": 11,
+        "order": 10,
         "header_custom": "",
         "footer_custom": "<script>\n    fbq('track', 'Lead');\n</script>",
         "html_before": ""
@@ -4891,7 +4891,7 @@
         "header_custom": "",
         "footer_custom": "<script>\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n          };\n\n          if ($.urlParam('lead')) { fbq('track', 'Lead'); };\n     });\n</script>",
         "html_before": "",
-        "order": 15
+        "order": 14
       },
       "components": [
         {
@@ -6553,7 +6553,7 @@
       "settings": {
         "meta_descr": "Página de agradecimento por baixar a amostra do livro 2 sílabas.\n",
         "title": "Amostra Download - Obrigado",
-        "order": 16,
+        "order": 15,
         "header_custom": "",
         "footer_custom": ""
       },
@@ -7204,7 +7204,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "=======================================",
-        "order": 13
+        "order": 12
       },
       "components": [
         {
@@ -7727,7 +7727,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 14
+        "order": 13
       },
       "components": [
         {
@@ -9544,7 +9544,7 @@
       "settings": {
         "meta_descr": "Minha Primeira Leitura é uma coleção de livros infantis educacionais, produzida de forma independente, que ajuda a criança a desenvolver sua capacidade de leitura, ganhando confiança e então despertando o gosto pela leitura.",
         "title": "Sobre | Minha Primeira Leitura",
-        "order": 6,
+        "order": 5,
         "html_before": "",
         "footer_custom": "<!-- SocialShareThis -->\n <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>"
       },
@@ -11142,7 +11142,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 5
+        "order": 4
       },
       "components": [
         {
@@ -13379,7 +13379,7 @@
       "settings": {
         "meta_descr": "Checkout da Compra dos livros da Minha Primeira Leitura.",
         "title": "Checkout | Minha Primeira Leitura",
-        "order": 4,
+        "order": 3,
         "footer_custom": "<script>\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n         };\n         product = $.urlParam('product');\n         if (product) {\n             switch (product) {\n                  case \"1\":\n                       product= 286032;\n                       break;\n                  case \"2\":\n                       product= 286473 ;\n                       break;\n                  case \"3\":\n                       product= 286475;\n                       break;\n                  case \"combo1\":\n                       product= 362330;\n                       break;\n                  case \"passatempo1\":\n                       product= 362317;\n                       break;\n                  default:\n                       product= 286032;\n             };\n              var s = \"\";\n              s = \"<iframe src='https://sun.eduzz.com/\"+product+\"'></iframe>\";\n              $(\"iframe\").replaceWith(s);\n              fbq('track', 'checkout');\n           };\n     });\n</script>\n",
         "header_custom": ""
       },
@@ -15547,7 +15547,7 @@
       "settings": {
         "meta_descr": "Adquira agora mesmo os livros que farão seu filho conseguir e gostar de ler.\n\nTodas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, hiatos, ou ditongos. Ideal  para a criança começar a ler sozinho ou com pouca ajuda.",
         "title": "Comprar Livro | Minha Primeira Leitura",
-        "order": 3,
+        "order": 1,
         "footer_custom": "<script>\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n          };\n\n          if ($.urlParam('lead')) { fbq('track', 'Lead'); };\n     });\n</script>\n\n <!-- SocialShareThis -->\n <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>\n\n<!-- Contador -->\n<script>\n    var minutes = 17;\n    var seconds = 24;\n    var countdown = setInterval(function() {\n        seconds--;\n        if (seconds<0 && minutes>0) {\n            seconds = 59;\n            minutes--;\n           document.getElementById(\"min\").innerHTML = minutes;\n        };\n        if (seconds<10)\n           document.getElementById(\"seg\").innerHTML = \"0\" + seconds\n       else\n           document.getElementById(\"seg\").innerHTML = seconds;\n        if (seconds<1 && minutes<1) {\n           document.getElementById(\"min\").innerHTML = \"00\";\n           document.getElementById(\"seg\").innerHTML = \"00\";\n           this.clearinterval();\n        };\n    }, 1000);\n</script>",
         "header_custom": ""
       },
@@ -15993,6 +15993,41 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "color": "#efefef"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    Atenção<b>!</b> Em algumas regiões, os Correios estão com atrasos muito acima da média devido a crise do Covid-19. Por favor, verifique na sua região a situação de entrega.</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "s2FZnkwISd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-a6"
         },
         {
           "alias": "deltapi-code-editor",
