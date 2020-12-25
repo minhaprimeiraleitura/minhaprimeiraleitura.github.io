@@ -1,0 +1,3 @@
+o código foi pego do Bootstrap Studio:
+ - código HTML (inserir como HTML)
+ - JS e CSS (baixar os arquivos e copiar para suas respectivas pastas e colocar link de carregamento)
