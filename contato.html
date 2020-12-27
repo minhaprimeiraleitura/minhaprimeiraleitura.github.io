@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" >
 <head>
   
   <meta charset="UTF-8">
@@ -136,7 +136,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="contact-clean">
-        <form data-bss-recipient="a86483e0885532f59940c5f7b71ea779">
+        <form data-bss-recipient="a86483e0885532f59940c5f7b71ea779" id="contact-smart-form">
           <h2></h2>
             <div class="form-group"><input class="form-control" type="text" name="name" placeholder="digite seu nome" required=""></div>
             <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="digite seu email" required=""></div>
@@ -222,6 +222,10 @@
   <script src="assets/theme/js/script.js"></script>
   
   <script src="assets/all/js/smart-forms.min.js"></script>
+<script>document.getElementById(“contact-smart-form”).addEventListener(“reset”, myThankYou);
+function myThankYou() {
+window.location.replace(“obrigado-contato.html”);
+}</script>
   <input name="animation" type="hidden">
   </body>
 </html>
