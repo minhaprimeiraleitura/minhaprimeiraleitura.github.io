@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Minha Primeira Leitura",
-    "currentPage": "contato.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 464,
+    "uniqCompNum": 466,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "snow": "",
@@ -15063,6 +15063,42 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text=\"\">\n                    ATENÇÃO! Últimas unidades em estoque!</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_anchor": "content10-cw",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "slvPhvyzXq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
             ".mbr-section-subtitle": {
               "color": "#767676"
             }
@@ -15518,7 +15554,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>COMBO 2: livro de leitura VOLUME 2 &nbsp;+ &nbsp;livro de atividades Passatempo volume 1</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>COMBO 2: livro de leitura VOLUME 2 &nbsp;+ &nbsp;livro de atividades Passatempo VOLUME 1 (um)</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content4-bo",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -15639,7 +15675,7 @@
             }
           },
           "_name": "services2",
-          "_customHTML": "<section class=\"services2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle 2\" name=\"showSubtitle2\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Align Buttons:\" name=\"alignBtn\" condition=\"showButtons\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <!---->\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"35\">\n        <!---->\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=combo2\" onclick=\"fbq('track', 'AddToCart', {value: '28,00',currency: 'BRL'}); return true;\"><img src=\"@PROJECT_PATH@/assets/images/combo-2-volume-2-e-passatempo-1-500x500.png\" alt=\"1 Exemplar do Livro Minha Primeira Leitura volume 2 e 1 exemplar do Passatempo volume 1\" title=\"1 Exemplar do Livro Minha Primeira Leitura volume 2 e 1 exemplar do Passatempo volume 1\"></a>                </div>\n                <div class=\"align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><br></h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text text1 pt-2 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".text1\"><br>Leve estes 2 livros para completar sua coleção!<br><b><br> Ideal </b>para quem está<b> começando a ler!</b><br><br></p><small>\n                        <p class=\"mbr-text text2 pt-4 mbr-light mbr-fonts-style valores\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle2\" data-app-selector=\".text2, .mbr-section-btn\"><b>R$ 49,90</b>&nbsp;&nbsp;<span class=\"cost\">&nbsp;<b>R$ 55,70</b>&nbsp;</span><br><small class=\"frete\">+ Frete Fixo de R$ 11,96 para todo o Brasil (10-15 dias úteis)</small></p>\n                    </small></div><small>\n                    <!--Btn-->\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=combo2\" class=\"btn btn-secondary\" data-app-placeholder=\"Type Text\" onclick=\"fbq('track', 'AddToCart', {value: '28,00',currency: 'BRL'}); return true;\">\n                            COMPRAR AGORA</a></div>\n                </small></div><small>\n            </small></div><small>\n        </small></div><small>\n    </small></div><small>\n</small></section>",
+          "_customHTML": "<section class=\"services2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle 2\" name=\"showSubtitle2\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Align Buttons:\" name=\"alignBtn\" condition=\"showButtons\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <!---->\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"35\">\n        <!---->\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=combo2\" onclick=\"fbq('track', 'AddToCart', {value: '28,00',currency: 'BRL'}); return true;\"><img src=\"@PROJECT_PATH@/assets/images/combo-2-volume-2-e-passatempo-1-500x500.png\" alt=\"1 Exemplar do Livro Minha Primeira Leitura volume 2 e 1 exemplar do Passatempo volume 1\" title=\"1 Exemplar do Livro Minha Primeira Leitura volume 2 e 1 exemplar do Passatempo volume 1\"></a>                </div>\n                <div class=\"align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><br></h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text text1 pt-2 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".text1\"><br>Leve o primeiro passatempo junto com o volume 2 de leitura.<br><b>Obs</b>.: é o passatempo <b>volume 1</b>, e não passatempo volume 2!<br><b><br> Ideal </b>para quem está<b> começando a ler!</b><br><br></p><small>\n                        <p class=\"mbr-text text2 pt-4 mbr-light mbr-fonts-style valores\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle2\" data-app-selector=\".text2, .mbr-section-btn\"><b>R$ 49,90</b>&nbsp;&nbsp;<span class=\"cost\">&nbsp;<b>R$ 55,70</b>&nbsp;</span><br><small class=\"frete\">+ Frete Fixo de R$ 11,96 para todo o Brasil (10-15 dias úteis)</small></p>\n                    </small></div><small>\n                    <!--Btn-->\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=combo2\" class=\"btn btn-secondary\" data-app-placeholder=\"Type Text\" onclick=\"fbq('track', 'AddToCart', {value: '28,00',currency: 'BRL'}); return true;\">\n                            COMPRAR AGORA</a></div>\n                </small></div><small>\n            </small></div><small>\n        </small></div><small>\n    </small></div><small>\n</small></section>",
           "_anchor": "services2-bp",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -16496,6 +16532,42 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rTV3GAKAos",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text=\"\">\n                    ATENÇÃO! Últimas unidades em estoque!</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_anchor": "content10-cx",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "slvPljB2gn",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -18901,7 +18973,7 @@
         "title": "Contato",
         "order": 8,
         "footer_custom": "<script src=\"assets/all/js/smart-forms.min.js\"></script>\n<script>document.getElementById(“contact-smart-form”).addEventListener(“reset”, myThankYou);\nfunction myThankYou() {\nwindow.location.replace(“obrigado-contato.html”);\n}</script>",
-        "header_custom": "<link rel=\"stylesheet\" href=\"assets/css/contact-form-clean.css\"/>"
+        "header_custom": ""
       },
       "components": [
         {
@@ -18954,7 +19026,7 @@
             }
           },
           "_name": "content14",
-          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\"><a href=\"mailto:sac@minhaprimeiraleitura.com.br\"><span class=\"far fa-envelope mbr-iconfont\"></span>&nbsp; &nbsp;sac@minhaprimeiraleitura.com.br</a></p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\"><a href=\"https://api.whatsapp.com/send?phone=5521982774009\"><span class=\"fab fa-whatsapp mbr-iconfont\"></span>&nbsp; &nbsp;+55 (21) 98277-4009</a></p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"row\">\n                <div class=\"col-sm-7 offset-md-1 col-md-5 offset-lg-2 col-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     <p><a href=\"mailto:sac@minhaprimeiraleitura.com.br\"><span class=\"far fa-envelope mbr-iconfont\"></span>&nbsp; &nbsp;sac@minhaprimeiraleitura.com.br</a></p>\n                </div>\n                <div class=\"col-sm-5 offset-md-2 col-md-4 offset-lg-2 col-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     <p><a href=\"https://api.whatsapp.com/send?phone=5521982774009\"><span class=\"fab fa-whatsapp mbr-iconfont\"></span>&nbsp; &nbsp;+55 (21) 98277-4009</a></p>\n                </div>\n        </div>\n    </div>\n</section>",
           "_cid": "skjoqZ00Zk",
           "_anchor": "content14-cf",
           "_protectedParams": [],
@@ -18974,12 +19046,86 @@
               "color": "#fff"
             },
             "H2": {
-              "color": "#073b4c",
+              "color": "#5b686b",
               "text-align": "center"
+            },
+            "contact-clean": {
+              "background": "#f1f7fc",
+              "padding": "80px 0",
+              "width": "100%"
+            },
+            "@media (max-width:767px)contact-clean": {
+              "padding": "20px 0"
+            },
+            "contact-clean form": {
+              "max-width": "680px",
+              "width": "90%",
+              "margin": "0 auto",
+              "background-color": "#ffffff",
+              "padding": "40px",
+              "border-radius": "4px",
+              "color": "#505e6c",
+              "box-shadow": "1px 1px 5px rgba(0,0,0,0.1)"
+            },
+            "@media (max-width:767px) contact-clean form": {
+              "  padding": "30px"
+            },
+            "contact-clean h2": {
+              "margin-top": "5px",
+              "font-weight": "bold",
+              "font-size": "28px",
+              "margin-bottom": "36px",
+              "color": "inherit"
+            },
+            "contact-clean .form-group:last-child": {
+              "margin-bottom": "5px"
+            },
+            "contact-clean form .form-control": {
+              "background": "#fff",
+              "border-radius": "2px",
+              "box-shadow": "1px 1px 1px rgba(0,0,0,0.05)",
+              "outline": "none",
+              "color": "inherit",
+              "padding-left": "12px",
+              "height": "42px"
+            },
+            "contact-clean form .form-control:focus": {
+              "border": "1px solid #b2b2b2"
+            },
+            "contact-clean form textarea.form-control": {
+              "min-height": "100px",
+              "max-height": "260px",
+              "padding-top": "10px",
+              "resize": "vertical"
+            },
+            "contact-clean form .btn": {
+              "padding": "16px 32px",
+              "border": "none",
+              "background": "none",
+              "box-shadow": "none",
+              "text-shadow": "none",
+              "opacity": "0.9",
+              "text-transform": "uppercase",
+              "font-weight": "bold",
+              "font-size": "13px",
+              "letter-spacing": "0.4px",
+              "line-height": "1",
+              "outline": "none !important"
+            },
+            "contact-clean form .btn:hover": {
+              "opacity": "1"
+            },
+            "contact-clean form .btn:active": {
+              "transform": "translateY(1px)"
+            },
+            "contact-clean form .btn-primary": {
+              "background-color": "#055ada !important",
+              "margin-top": "15px",
+              "color": "#fff"
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"contact-clean\">\n        <form data-bss-recipient=\"a86483e0885532f59940c5f7b71ea779\" id=\"contact-smart-form\">\n          <h2>ou utilize o formulário abaixo</h2>\n            <div class=\"form-group\"><input class=\"form-control\" type=\"text\" name=\"name\" placeholder=\"digite seu nome\" required></div>\n            <div class=\"form-group\"><input class=\"form-control is-invalid\" type=\"email\" name=\"email\" placeholder=\"digite seu email\" required></div>\n            <div class=\"form-group\"><input class=\"form-control\" type=\"text\" name=\"pedido\" placeholder=\"digite sua fatura (opcional)\"></div>\n            <div class=\"form-group\"><textarea class=\"form-control\" name=\"message\" placeholder=\"escreva aqui sua mensagem\" rows=\"14\" required minlength=\"10\" maxlength=\"520\"></textarea></div>\n            <div class=\"form-group\"><button class=\"btn btn-primary\" type=\"submit\">ENVIAR</button></div>\n        </form>\n    </div>\n    </div>\n  </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"contact-clean\">\n        <form data-bss-recipient=\"a86483e0885532f59940c5f7b71ea779\" id=\"contact-smart-form\" >\n          <h2 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">ou utilize o formulário abaixo</h2>\n          <div class=\"col-12\">\n            <div class=\"form-group\"><input class=\"form-control\" type=\"text\" name=\"name\" placeholder=\"digite seu nome\" required></div>\n            <div class=\"form-group\"><input class=\"form-control is-invalid\" type=\"email\" name=\"email\" placeholder=\"digite seu email\" required></div>\n            <div class=\"form-group\"><input class=\"form-control\" type=\"text\" name=\"pedido\" placeholder=\"digite sua fatura (opcional)\"></div>\n            <div class=\"form-group\"><textarea class=\"form-control\" name=\"message\" placeholder=\"escreva aqui sua mensagem\" rows=\"14\" required minlength=\"10\" maxlength=\"520\"></textarea></div>\n            <div class=\"form-group\"><button class=\"btn btn-primary\" type=\"submit\">ENVIAR</button></div>\n          </div>\n        </form>\n    </div>\n    </div>\n  </div>\n</section>",
           "_cid": "skcL8mtDKd",
           "_anchor": "custom-html-by",
           "_protectedParams": [],
