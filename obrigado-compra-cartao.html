@@ -203,7 +203,52 @@
   <script src="assets/theme/js/script.js"></script>
   
   <script>
-    fbq('track', 'Purchase', {value: '23.00', currency: 'BRL'});
+     $( document ).ready(function() {
+         $.urlParam = function(name){
+              var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+              if (results==null){
+                 return null;
+              }
+              else{
+                 return results[1] || 0;
+              }
+         };
+         product = $.urlParam('product');
+         if (product) {
+             switch (product) {
+                  case "1":
+                       valor= "29,90";
+                       break;
+                  case "2":
+                       valor= "70";
+                       break;
+                  case "3":
+                       valor= "247,00";
+                       break;
+                  case "volume2":
+                       valor= "33,80";
+                       break;
+                  case "passatempo1":
+                       valor= "21,90";
+                       break;
+                  case "combo1":
+                       valor= "47,90";
+                       break;
+                  case "combo2":
+                       valor= "49,90";
+                       break;
+                  case "combo_duo":
+                       valor= "59,90";
+                       break;
+                  case "combo_trio":
+                       valor= "79,90";
+                       break;
+                  default:
+                       value:valor= 286032;
+             };
+              fbq('track', 'Purchase', {value:valor, currency: 'BRL'});
+           };
+     });
 </script>
   <input name="animation" type="hidden">
   </body>
