@@ -169,43 +169,66 @@
                  return results[1] || 0;
               }
          };
+     
          product = $.urlParam('product');
          if (product) {
              switch (product) {
                   case "1":
-                       valor= "29,90";
+                       product= 286032;
                        break;
                   case "2":
-                       valor= "70";
+                       product= 286473 ;
                        break;
                   case "3":
-                       valor= "247,00";
+                       product= 286475;
                        break;
                   case "volume2":
-                       valor= "33,80";
+                       product= 624704;
                        break;
                   case "passatempo1":
-                       valor= "21,90";
+                       product= 362318;
                        break;
                   case "combo1":
-                       valor= "47,90";
+                       product= 624744;
                        break;
                   case "combo2":
-                       valor= "49,90";
+                       product= 625838;
                        break;
                   case "combo_duo":
-                       valor= "59,90";
+                       product= 624753;
                        break;
                   case "combo_trio":
-                       valor= "79,90";
+                       product= 624805;
+                       break;
+                  case "volume3":
+                       product= 855592;
+                       break;
+                  case "passatempo2":
+                       product= 855612;
+                       break;
+                  case "combo5":
+                       product= 856062;
+                       break;
+                  case "combo3":
+                       product= 856825;
+                       break;
+                  case "comboL3p2":
+                       product= 857661;
+                       break;
+                  case "comboL3p1p2":
+                       product= 857666;
+                       break;
+                  case "comboL2p2":
+                       product= 857653;
                        break;
                   default:
-                       valor= "29,90";
-             }; alert(valor);
+                       product= 286032;
+             };
               fbq('track', 'Purchase', {value:valor, currency: 'BRL'});
            };
      });
 </script>
+<script>fbq('track', 'Purchase', {value:29.90, currency: 'BRL'});</script>
   <input name="animation" type="hidden">
   </body>
 </html>

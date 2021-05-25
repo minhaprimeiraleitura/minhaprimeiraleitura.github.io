@@ -149,59 +149,77 @@
                  return results[1] || 0;
               }
          };
+        valor = 29.90;
          product = $.urlParam('product');
          if (product) {
              switch (product) {
                   case "1":
                        product= 286032;
+                       valor = 29.90;
                        break;
                   case "2":
                        product= 286473 ;
+                       valor =55.80;
                        break;
                   case "3":
                        product= 286475;
+                       valor = 277.00;
                        break;
                   case "volume2":
                        product= 624704;
+                       valor = 33.80;
                        break;
                   case "passatempo1":
                        product= 362318;
+                       valor = 21.90;
                        break;
                   case "combo1":
                        product= 624744;
+                       valor = 47.90;
                        break;
                   case "combo2":
                        product= 625838;
+                       valor = 49.90;
                        break;
                   case "combo_duo":
                        product= 624753;
+                       valor = 59.90;
                        break;
                   case "combo_trio":
                        product= 624805;
+                       valor = 79.90;
                        break;
                   case "volume3":
                        product= 855592;
+                       valor = 33.80;
                        break;
                   case "passatempo2":
                        product= 855612;
+                       valor = 21.90;
                        break;
                   case "combo5":
                        product= 856062;
+                       valor = 137.90;
                        break;
                   case "combo3":
                        product= 856825;
+                       valor = 97.50;
                        break;
                   case "comboL3p2":
                        product= 857661;
+                       valor = 49.90;
                        break;
                   case "comboL3p1p2":
                        product= 857666;
+                       valor = 77.60;
                        break;
                   case "comboL2p2":
                        product= 857653;
+                       valor = 49.90;
                        break;
                   default:
                        product= 286032;
+                       valor = 29.90;
              };
               var s = "";
               s = "<iframe src='https://sun.eduzz.com/"+product+"'></iframe>";
