@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc>
+  <string id="tip_soc_reddit" value="Reddit" />
+  <string id="tip_fullscreen" value="Puni zaslon" />
+  <string id="tip_thumbview" value="Promjena na prikaz minijatura" />
+  <string id="lb_hlp_print" value="Ispis" />
+  <string id="label_max" value="MAKS." />
+  <string id="lb_hlp_bookmarks" value="Oznaka" />
+  <string id="label_removeallbookmarks" value="Želite li stvarno izbrisati sve oznake?" />
+  <string id="buttonlabel_hide_results" value="Sakrij rezultate" />
+  <string id="label_toc_panel" value="Sadržaj" />
+  <string id="lb_hlp_magnifier" value="Povećalo" />
+  <string id="tip_catalogview" value="Promjena na kataloški prikaz" />
+  <string id="label_bookmark_panel" value="Upravljanje oznakama" />
+  <string id="label_search_in_progress" value="Pretraga u tijeku..." />
+  <string id="label_recommend_mail" value="Preporučiti ovu stranicu putem e-pošte" />
+  <string id="tip_button_tostart" value="Na početak kataloga" />
+  <string id="label_print_page" value="Ispis" />
+  <string id="tip_soc_digg" value="Digg" />
+  <string id="buttonlabel_show_results" value="Prikaz rezultata" />
+  <string id="label_recommendation_receivername" value="Ime primatelja:" />
+  <string id="label_recommendation_ok" value="Preporuka je uspjela! Hvala!" />
+  <string id="tip_soc_delicious" value="Delicio.us" />
+  <string id="label_min" value="MIN." />
+  <string id="label_search_result" value="'[my_last_search]' pronađeno [nof_complete_hits] rezultata na [nof_search_results] stranice" />
+  <string id="label_available_bookmarks" value="Raspoložive oznake:" />
+  <string id="lb_hlp_toc" value="Sadržaj" />
+  <string id="label_bookmark_list" value="Oznaka" />
+  <string id="buttonlabel_create_bookmark" value="Postavi oznaku" />
+  <string id="label_sidebar_panel" value="Pregled" />
+  <string id="lb_hlp_save" value="Spremi" />
+  <string id="label_ok" value="OK" />
+  <string id="buttonlabel_yes" value="Da" />
+  <string id="lb_hlp_mousezoom" value="Zumiranje mišem" />
+  <string id="label_toc_menu" value="Sadržaj" />
+  <string id="tip_soc_stumbleupon" value="StumbleUpon" />
+  <string id="label_outpanel" value="Ostale radnje" />
+  <string id="lb_hlp_mouseover" value="Objašnjenje simbola prelaskom miša preko" />
+  <string id="tip_soc_vznet" value="VZ mreže" />
+  <string id="label_search_nothing_found" value="Nema rezultata" />
+  <string id="lb_hlp_thumbview" value="Minijaturni prikaz" />
+  <string id="lb_hlp_zoom" value="Zumiranje " />
+  <string id="tip_button_next" value="Sljedeća stranica" />
+  <string id="label_sidebar_menu" value="Pregled" />
+  <string id="lb_hlp_recommendation" value="Preporuka putem e-pošte" />
+  <string id="tip_jumptopage" value="Idi na stranicu" />
+  <string id="lb_hlp_normalview" value="Prelistavanje" />
+  <string id="lb_hlp_navigation" value="Navigacija" />
+  <string id="tip_soc_facebook" value="Facebook" />
+  <string id="lb_hlp_pagedrag" value="Dohvatiti i pomicati stranicu (u zumiranom prikazu)" />
+  <string id="label_recommendation_header" value="Preporučiti stranicu kataloga" />
+  <string id="label_social_panel" value="Podijeliti stranicu kataloga" />
+  <string id="label_recommendation_sender" value="Adresa e-pošte pošiljatelja:*" />
+  <string id="tip_fullscreen_disabled_function" value="Ova je funkcija u prikazu cijelog zaslona deaktivirana iz sigurnosnih razloga" />
+  <string id="tip_soc_misterwong" value="Misterwong" />
+  <string id="label_recommend_bookmarks" value="Preporučiti popis oznaka" />
+  <string id="lb_hlp_outpanel" value="Ostale radnje" />
+  <string id="label_recommendation_textfield" value="Vaša poruka:" />
+  <string id="label_save_menu" value="Spremi" />
+  <string id="lb_hlp_fullscreen" value="Prikaz cijele slike" />
+  <string id="label_page" value="Stranica " />
+  <string id="lb_hlp_sidebar" value="Pregled" />
+  <string id="label_print_complete_pdf" value="Cijeli PDF" />
+  <string id="tip_soc_google" value="Google +" />
+  <string id="tip_button_previous" value="Prethodna stranica" />
+  <string id="tip_link" value="Idi na [current_page_area.url]" />
+  <string id="label_save_complete_pdf" value="Cijeli PDF" />
+  <string id="lb_hlp_detailview" value="Pojedinačne stranice/Pregled teksta" />
+  <string id="tip_soc_twitter" value="Twitter" />
+  <string id="label_bookmark_menu" value="Oznaka" />
+  <string id="label_recommendation_button_cancel" value="Prekid" />
+  <string id="label_recommend_social" value="Podijeliti ovu stranicu" />
+  <string id="label_save_page" value="Spremi" />
+  <string id="tip_print_page" value="Ispis ove stranice" />
+  <string id="page_name" value="Stranica " />
+  <string id="label_recommendation_receiver" value="Adresa e-pošte primatelja:*" />
+  <string id="lb_hlp_search" value="Traži" />
+  <string id="tip_button_toend" value="Na kraj kataloga" />
+  <string id="label_recommendation_menu" value="Preporuka" />
+  <string id="lb_hlp_social" value="Preporuka putem društvenih mreža" />
+  <string id="label_print_panel" value="Ispis stranice" />
+  <string id="tip_save_page" value="Spremite ovu stranicu kao PDF" />
+  <string id="label_recommendation_sendername" value="Ime pošiljatelja:" />
+  <string id="label_left_page" value="Lijeva strana" />
+  <string id="label_print_menu" value="Ispis" />
+  <string id="label_search" value="Traži" />
+  <string id="tip_soc_linkedin" value="Linked In" />
+  <string id="tip_soc_tumblr" value="Tumblr" />
+  <string id="buttonlabel_removebookmarks" value="Brisanje svih oznaka" />
+  <string id="label_recommend_bookmarks_header" value="Preporučiti popis oznaka" />
+  <string id="label_edit_bookmark" value="Vaše bilješke.." />
+  <string id="label_add_bookmark_left" value="Lijeva strana" />
+  <string id="tip_stdzoom" value="Povećati na 100%" />
+  <string id="tip_flip" value="Ovdje prelistati" />
+  <string id="label_recommendation_button_send" value="Slanje" />
+  <string id="label_recommendation_fieldsrequired" value="Polja s oznakom * polja su obveznog unosa" />
+  <string id="tip_magnifier" value="Uključivanje/isključivanje povećala" />
+  <string id="inputfield_default_search" value="Traženi pojam" />
+  <string id="lb_hlp_helptoggle" value="www.pageflip.io" />
+  <string id="buttonlabel_no" value="Ne" />
+  <string id="tip_page" value="Idi na stranicu [current_page_area.page] " />
+  <string id="label_recommendation_nok" value="Preporuka nažalost nije uspjela." />
+  <string id="label_add_bookmark_right" value="Desna strana" />
+  <string id="tip_detailview" value="Promjena na detaljni prikaz" />
+  <string id="label_save_panel" value="Spremi stranicu" />
+  <string id="tip_soc_xing" value="Xing" />
+  <string id="lb_hlp_sniptool" value="Izreži" />
+  <string id="tip_maxzoom" value="Uvećaj maksimalno" />
+  <string id="label_right_page" value="Desna strana" />
+  <string id="label_magnifier" value="Povećalo" />
+  <string id="label_crop" value="Do you like to save this cutting?" />
+  <string id="label_crop_save_image" value="Save image" />
+  <string id="label_crop_save_pdf" value="Save PDF" />
+  <string id="lb_hlp_crop" value="Cut" />
+  <string id="tip_crop" value="Cut" />
+  <string id="label_video_not_supported" value="The video format is not supported by the browser" />
+  <string id="cart_link" value="Product Details" />
+  <string id="label_add_bookmark_current" value="Remember current page" />
+  <string id="label_range_error" value="Invalid page-range"/>
+  <string id="label_range_to" value="up to"/>
+  <string id="label_cart_nr" value="Nr"/>
+  <string id="label_cart_amount" value="Amount"/>
+  <string id="label_cart_artno" value="Art.-Nr."/>
+  <string id="label_cart_artname" value="Articlename"/>
+  <string id="label_cart_price" value="Price"/>
+  <string id="label_cart_sum" value="Total"/>
+  <string id="label_cart_total" value="Sum:"/>
+  <string id="label_cart_cancel" value="Hide"/>
+  <string id="label_cart_article_notavail" value="Article not available"/>
+  <string id="cart_currency" value="€"/>
+  <string id="lb_hlp_cart" value="Cart"/>
+  <string id="label_cart_panel" value="Cart"/>
+  <string id="label_cart_send" value="Send order"/>
+  <string id="label_cart_menu" value="Cart"/>
+  <string id="lb_hlp_articleview" value="Articleview" />
+  <string id="tip_article" value="Open article" />
+  <string id="tip_articleview_close" value="Close" />
+  <string id="tip_articleview_back" value="Back" />
+  <string id="tip_articleview" value="Switch to articleview" />
+</inc>

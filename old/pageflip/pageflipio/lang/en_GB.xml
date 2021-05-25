@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc>
+  <string id="tip_soc_reddit" value="Reddit" />
+  <string id="tip_fullscreen" value="Fullscreen" />
+  <string id="tip_thumbview" value="Switch to thumbnailview" />
+  <string id="lb_hlp_print" value="Print" />
+  <string id="label_max" value="MAX" />
+  <string id="lb_hlp_bookmarks" value="Bookmarks" />
+  <string id="label_removeallbookmarks" value="Do you really want to DELETE all bookmarks?" />
+  <string id="buttonlabel_hide_results" value="Hide results" />
+  <string id="label_toc_panel" value="TOC" />
+  <string id="lb_hlp_magnifier" value="Magnifier" />
+  <string id="tip_catalogview" value="Switch to catalogview" />
+  <string id="label_bookmark_panel" value="Bookmarkmanager" />
+  <string id="label_search_in_progress" value="Search in progress..." />
+  <string id="label_recommend_mail" value="Recommend via email" />
+  <string id="tip_button_tostart" value="Go to first page" />
+  <string id="label_print_page" value="Print" />
+  <string id="tip_soc_digg" value="Digg" />
+  <string id="buttonlabel_show_results" value="Show results" />
+  <string id="label_recommendation_receivername" value="Name of recipient" />
+  <string id="label_recommendation_ok" value="Recommendation succesful. Thank you!" />
+  <string id="tip_soc_delicious" value="Delicio.us" />
+  <string id="label_min" value="MIN" />
+  <string id="label_search_result" value="[nof_search_results] search results for '[my_last_search]'" />
+  <string id="label_available_bookmarks" value="Available bookmarks:" />
+  <string id="lb_hlp_toc" value="Table of Content" />
+  <string id="label_bookmark_list" value="Bookmarks" />
+  <string id="buttonlabel_create_bookmark" value="Set bookmark" />
+  <string id="label_sidebar_panel" value="Sidebar" />
+  <string id="lb_hlp_save" value="Save" />
+  <string id="label_ok" value="OK" />
+  <string id="buttonlabel_yes" value="Yes" />
+  <string id="lb_hlp_mousezoom" value="Zoom with mouse" />
+  <string id="label_toc_menu" value="TOC" />
+  <string id="tip_soc_stumbleupon" value="Stumbleupon" />
+  <string id="label_outpanel" value="More actions" />
+  <string id="lb_hlp_mouseover" value="Explain symbols with mouseover" />
+  <string id="tip_soc_vznet" value="VZ networks" />
+  <string id="label_search_nothing_found" value="No results could be found." />
+  <string id="lb_hlp_thumbview" value="Thumbnail View" />
+  <string id="lb_hlp_zoom" value="Zoom" />
+  <string id="tip_button_next" value="Skim one page forward" />
+  <string id="label_sidebar_menu" value="Sidebar" />
+  <string id="lb_hlp_recommendation" value="Share via email" />
+  <string id="tip_jumptopage" value="Jump to page" />
+  <string id="lb_hlp_normalview" value="Pageflip mode" />
+  <string id="lb_hlp_navigation" value="Navigation" />
+  <string id="tip_soc_facebook" value="Facebook" />
+  <string id="lb_hlp_pagedrag" value="Drag and move page" />
+  <string id="label_recommendation_header" value="Recommend page" />
+  <string id="label_social_panel" value="Share" />
+  <string id="label_recommendation_sender" value="Email sender*" />
+  <string id="tip_fullscreen_disabled_function" value="This function is not available in fullscreen mode because of security reasons" />
+  <string id="tip_soc_misterwong" value="Misterwong" />
+  <string id="label_recommend_bookmarks" value="Recommend bookmarks" />
+  <string id="lb_hlp_outpanel" value="More actions" />
+  <string id="label_recommendation_textfield" value="Your message" />
+  <string id="label_save_menu" value="Save" />
+  <string id="lb_hlp_fullscreen" value="Full screen mode" />
+  <string id="label_page" value="Page" />
+  <string id="lb_hlp_sidebar" value="Sidebar" />
+  <string id="label_print_complete_pdf" value="Complete PDF" />
+  <string id="tip_soc_google" value="Google +" />
+  <string id="tip_button_previous" value="Skim one page backward" />
+  <string id="tip_link" value="Go to [current_page_area.url]" />
+  <string id="label_save_complete_pdf" value="Complete PDF" />
+  <string id="lb_hlp_detailview" value="Single page/detailed view" />
+  <string id="tip_soc_twitter" value="Twitter" />
+  <string id="label_bookmark_menu" value="Bookmarks" />
+  <string id="label_recommendation_button_cancel" value="Cancel" />
+  <string id="label_recommend_social" value="Share" />
+  <string id="label_save_page" value="Save" />
+  <string id="tip_print_page" value="Print page" />
+  <string id="page_name" value="Page" />
+  <string id="label_recommendation_receiver" value="Email recipient*" />
+  <string id="lb_hlp_search" value="Search" />
+  <string id="tip_button_toend" value="Go to last page" />
+  <string id="label_recommendation_menu" value="Recommendation" />
+  <string id="lb_hlp_social" value="Share link" />
+  <string id="label_print_panel" value="Print" />
+  <string id="tip_save_page" value="Save page as PDF" />
+  <string id="label_recommendation_sendername" value="Name of sender" />
+  <string id="label_left_page" value="Left page" />
+  <string id="label_print_menu" value="Print" />
+  <string id="label_search" value="Search" />
+  <string id="tip_soc_linkedin" value="Linked In" />
+  <string id="tip_soc_tumblr" value="Tumblr" />
+  <string id="buttonlabel_removebookmarks" value="Delete all bookmarks" />
+  <string id="label_recommend_bookmarks_header" value="Recommend bookmarks" />
+  <string id="label_edit_bookmark" value="Your notes" />
+  <string id="label_add_bookmark_left" value="Bookmark left page" />
+  <string id="tip_stdzoom" value="Adjust zoom to 100%" />
+  <string id="tip_flip" value="Turn the page" />
+  <string id="label_recommendation_button_send" value="Send" />
+  <string id="label_recommendation_fieldsrequired" value="* mandatory" />
+  <string id="tip_magnifier" value="enable/disable Magnifier" />
+  <string id="inputfield_default_search" value="Search" />
+  <string id="lb_hlp_helptoggle" value="www.pageflip.io" />
+  <string id="buttonlabel_no" value="No" />
+  <string id="tip_page" value="Go to page [current_page_area.page]" />
+  <string id="label_recommendation_nok" value="Recommendation failed" />
+  <string id="label_add_bookmark_right" value="Bookmark right page" />
+  <string id="tip_detailview" value="Switch to detailview" />
+  <string id="label_save_panel" value="Save" />
+  <string id="tip_soc_xing" value="Xing" />
+  <string id="lb_hlp_sniptool" value="Cutting out" />
+  <string id="tip_maxzoom" value="Adjust zoom to maximum" />
+  <string id="label_right_page" value="Right page" />
+  <string id="label_magnifier" value="Magnifier" />
+  <string id="label_crop" value="Do you like to save this cutting?" />
+  <string id="label_crop_save_image" value="Save image" />
+  <string id="label_crop_save_pdf" value="Save PDF" />
+  <string id="lb_hlp_crop" value="Cut" />
+  <string id="tip_crop" value="Cut" />
+  <string id="label_video_not_supported" value="The video format is not supported by the browser" />
+  <string id="cart_link" value="Product Details" />
+  <string id="label_add_bookmark_current" value="Remember current page" />
+  <string id="label_range_error" value="Invalid page-range"/>
+  <string id="label_range_to" value="up to"/>
+  <string id="label_cart_nr" value="Nr"/>
+  <string id="label_cart_amount" value="Amount"/>
+  <string id="label_cart_artno" value="Art.-Nr."/>
+  <string id="label_cart_artname" value="Articlename"/>
+  <string id="label_cart_price" value="Price"/>
+  <string id="label_cart_sum" value="Total"/>
+  <string id="label_cart_total" value="Sum:"/>
+  <string id="label_cart_cancel" value="Hide"/>
+  <string id="label_cart_article_notavail" value="Article not available"/>
+  <string id="cart_currency" value="€"/>
+  <string id="lb_hlp_cart" value="Cart"/>
+  <string id="label_cart_panel" value="Cart"/>
+  <string id="label_cart_send" value="Send order"/>
+  <string id="label_cart_menu" value="Cart"/>
+  <string id="lb_hlp_articleview" value="Articleview" />
+  <string id="tip_article" value="Open article" />
+  <string id="tip_articleview_close" value="Close" />
+  <string id="tip_articleview_back" value="Back" />
+  <string id="tip_articleview" value="Switch to articleview" />
+</inc>

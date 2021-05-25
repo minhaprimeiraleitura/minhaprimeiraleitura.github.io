@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc>
+  <string id="tip_soc_reddit" value="Reddit" />
+  <string id="tip_fullscreen" value="Helskärm" />
+  <string id="tip_thumbview" value="Gå till miniatyrvisning" />
+  <string id="lb_hlp_print" value="Skriv ut" />
+  <string id="label_max" value="MAX" />
+  <string id="lb_hlp_bookmarks" value="Bokmärken" />
+  <string id="label_removeallbookmarks" value="Ta bort bokmärke" />
+  <string id="buttonlabel_hide_results" value="Dölj resultat" />
+  <string id="label_toc_panel" value="Innehållsförteckning" />
+  <string id="lb_hlp_magnifier" value="Förstoringsglas" />
+  <string id="tip_catalogview" value="Ändra till hela katalogsidor" />
+  <string id="label_bookmark_panel" value="Bokmärke" />
+  <string id="label_search_in_progress" value="Sökning pågår..." />
+  <string id="label_recommend_mail" value="Rekommendera den här sidan via e-post" />
+  <string id="tip_button_tostart" value="Bläddra till första sidan" />
+  <string id="label_print_page" value="Skriv ut" />
+  <string id="tip_soc_digg" value="Digg" />
+  <string id="buttonlabel_show_results" value="Visa resultat" />
+  <string id="label_recommendation_receivername" value="Mottagarens namn:" />
+  <string id="label_recommendation_ok" value="Rekommendation lyckades! Tack!" />
+  <string id="tip_soc_delicious" value="Delicio.us" />
+  <string id="label_min" value="MIN" />
+  <string id="label_search_result" value="'[my_last_search]' Sök [nof_search_results] resultat" />
+  <string id="label_available_bookmarks" value="Tillgängliga bokmärken" />
+  <string id="lb_hlp_toc" value="Innehållsförteckning" />
+  <string id="label_bookmark_list" value="Bokmärke" />
+  <string id="buttonlabel_create_bookmark" value="Spara bokmärke" />
+  <string id="label_sidebar_panel" value="Översikt" />
+  <string id="lb_hlp_save" value="Spara" />
+  <string id="label_ok" value="OK" />
+  <string id="buttonlabel_yes" value="Ja" />
+  <string id="lb_hlp_mousezoom" value="Zoom med mus" />
+  <string id="label_toc_menu" value="Innehåll" />
+  <string id="tip_soc_stumbleupon" value="Stumbleupon" />
+  <string id="label_outpanel" value="Fler aktiviteter" />
+  <string id="lb_hlp_mouseover" value="Förklaring av symboler med mouseover" />
+  <string id="tip_soc_vznet" value="VZ Netzwerke" />
+  <string id="label_search_nothing_found" value="Sökningen gav ingen träff" />
+  <string id="lb_hlp_thumbview" value="Miniatyrvisning" />
+  <string id="lb_hlp_zoom" value="Zoom" />
+  <string id="tip_button_next" value="Bläddra fram en sida" />
+  <string id="label_sidebar_menu" value="Översikt" />
+  <string id="lb_hlp_recommendation" value="Rekommendera via e-post" />
+  <string id="tip_jumptopage" value="Hoppa till sidan" />
+  <string id="lb_hlp_normalview" value="Normalläge" />
+  <string id="lb_hlp_navigation" value="Navigation" />
+  <string id="tip_soc_facebook" value="Facebook" />
+  <string id="lb_hlp_pagedrag" value="Ta tag i sidan och dra (i zoomläge)" />
+  <string id="label_recommendation_header" value="Rekommendation av katalogsida" />
+  <string id="label_social_panel" value="Dela katalogsida" />
+  <string id="label_recommendation_sender" value="E-postavsändare:*" />
+  <string id="tip_fullscreen_disabled_function" value="Den här funktionen är av säkerhetsskäl avstängd i helskärmsläge" />
+  <string id="tip_soc_misterwong" value="Misterwong" />
+  <string id="label_recommend_bookmarks" value="Rekommendera bokmärkeslista" />
+  <string id="lb_hlp_outpanel" value="Fler alternativ" />
+  <string id="label_recommendation_textfield" value="Ditt meddelande:" />
+  <string id="label_save_menu" value="Spara" />
+  <string id="lb_hlp_fullscreen" value="Helskärmsläge" />
+  <string id="label_page" value="Sida" />
+  <string id="lb_hlp_sidebar" value="Översikt" />
+  <string id="label_print_complete_pdf" value="Komplett PDF" />
+  <string id="tip_soc_google" value="Google +" />
+  <string id="tip_button_previous" value="Bläddra tillbaka en sida" />
+  <string id="tip_link" value="Gå till [current_page_area.url]" />
+  <string id="label_save_complete_pdf" value="Komplett PDF" />
+  <string id="lb_hlp_detailview" value="Enskilda sidor/läsvy" />
+  <string id="tip_soc_twitter" value="Twitter" />
+  <string id="label_bookmark_menu" value="Bokmärke" />
+  <string id="label_recommendation_button_cancel" value="Avbryt" />
+  <string id="label_recommend_social" value="Dela den här sidan" />
+  <string id="label_save_page" value="Spara" />
+  <string id="tip_print_page" value="Skriv ut sida" />
+  <string id="page_name" value="Sida" />
+  <string id="label_recommendation_receiver" value="E-postmottagare:*" />
+  <string id="lb_hlp_search" value="Sökning" />
+  <string id="tip_button_toend" value="Bläddra till sista sidan" />
+  <string id="label_recommendation_menu" value="Rekommendation" />
+  <string id="lb_hlp_social" value="Rekommendera sociala media" />
+  <string id="label_print_panel" value="Skriv ut sida" />
+  <string id="tip_save_page" value="Spara den här sidan som PDF" />
+  <string id="label_recommendation_sendername" value="Avsändarens namn:" />
+  <string id="label_left_page" value="Vänster sida" />
+  <string id="label_print_menu" value="Skriv ut" />
+  <string id="label_search" value="Sök" />
+  <string id="tip_soc_linkedin" value="LinkedIn" />
+  <string id="tip_soc_tumblr" value="Tumblr" />
+  <string id="buttonlabel_removebookmarks" value="Radera alla bokmärken" />
+  <string id="label_recommend_bookmarks_header" value="Rekommendera bokmärkeslista" />
+  <string id="label_edit_bookmark" value="Dina anteckningar ..." />
+  <string id="label_add_bookmark_left" value="Vänster sida" />
+  <string id="tip_stdzoom" value="Ändra zoom till 100 %" />
+  <string id="tip_flip" value="Bläddra" />
+  <string id="label_recommendation_button_send" value="Skicka" />
+  <string id="label_recommendation_fieldsrequired" value="Fält med * är obligatoriska." />
+  <string id="tip_magnifier" value="av / på förstoringsglas" />
+  <string id="inputfield_default_search" value="Sök" />
+  <string id="lb_hlp_helptoggle" value="www.pageflip.io" />
+  <string id="buttonlabel_no" value="Nej" />
+  <string id="tip_page" value="Gå [current_page_area.page] till sida" />
+  <string id="label_recommendation_nok" value="Rekommendation lyckades inte." />
+  <string id="label_add_bookmark_right" value="Höger sida" />
+  <string id="tip_detailview" value="Ändra till detaljer" />
+  <string id="label_save_panel" value="Spara sida (PDF)" />
+  <string id="tip_soc_xing" value="Xing" />
+  <string id="lb_hlp_sniptool" value="Klipp ut" />
+  <string id="tip_maxzoom" value="Ändra zoom till maximalt" />
+  <string id="label_right_page" value="Höger sida" />
+  <string id="label_magnifier" value="Förstoringsglas" />
+  <string id="label_crop" value="Do you like to save this cutting?" />
+  <string id="label_crop_save_image" value="Save image" />
+  <string id="label_crop_save_pdf" value="Save PDF" />
+  <string id="lb_hlp_crop" value="Cut" />
+  <string id="tip_crop" value="Cut" />
+  <string id="label_video_not_supported" value="The video format is not supported by the browser" />
+  <string id="label_add_bookmark_current" value="Remember current page" />
+  <string id="label_range_error" value="Invalid page-range"/>
+  <string id="label_range_to" value="up to"/>
+  <string id="cart_link" value="Product Details"/>
+  <string id="label_cart_nr" value="Nr"/>
+  <string id="label_cart_amount" value="Amount"/>
+  <string id="label_cart_artno" value="Art.-Nr."/>
+  <string id="label_cart_artname" value="Articlename"/>
+  <string id="label_cart_price" value="Price"/>
+  <string id="label_cart_sum" value="Total"/>
+  <string id="label_cart_total" value="Sum:"/>
+  <string id="label_cart_cancel" value="Hide"/>
+  <string id="label_cart_article_notavail" value="Article not available"/>
+  <string id="cart_currency" value="€"/>
+  <string id="lb_hlp_cart" value="Cart"/>
+  <string id="label_cart_panel" value="Cart"/>
+  <string id="label_cart_send" value="Send order"/>
+  <string id="label_cart_menu" value="Cart"/>
+  <string id="lb_hlp_articleview" value="Articleview" />
+  <string id="tip_article" value="Open article" />
+  <string id="tip_articleview_close" value="Close" />
+  <string id="tip_articleview_back" value="Back" />
+  <string id="tip_articleview" value="Switch to articleview" />
+</inc>
