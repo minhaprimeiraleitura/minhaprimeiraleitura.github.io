@@ -124,6 +124,9 @@
     $("#span1").on('DOMSubtreeModified',function(){
          // text change handler
      });
+      var url = (window.location != window.parent.location)
+            ? document.referrer
+            : document.location.href;
 
  });
      $( document ).ready(function() {
