@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Minha Primeira Leitura",
-    "currentPage": "obrigado-compra-cartao.html",
+    "currentPage": "obrigado-download-amostra.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 540,
+    "uniqCompNum": 542,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "snow": "",
@@ -19721,6 +19721,170 @@
           "_global": true,
           "_once": true,
           "_params": {}
+        }
+      ]
+    },
+    "page17.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "teste",
+        "order": 17,
+        "footer_custom": " \n  <script>\n    $(document).ready(function(){\n    $(\"#span1\").on('DOMSubtreeModified',function(){\n         // text change handler\n     });\n\n });\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n         };\n         product = $.urlParam('product');\n         if (product) {\n             switch (product) {\n                  case \"1\":\n                       product= 286032;\n                       break;\n                  case \"2\":\n                       product= 286473 ;\n                       break;\n                  case \"3\":\n                       product= 286475;\n                       break;\n                  case \"volume2\":\n                       product= 624704;\n                       break;\n                  case \"passatempo1\":\n                       product= 362318;\n                       break;\n                  case \"combo1\":\n                       product= 624744;\n                       break;\n                  case \"combo2\":\n                       product= 625838;\n                       break;\n                  case \"combo_duo\":\n                       product= 624753;\n                       break;\n                  case \"combo_trio\":\n                       product= 624805;\n                       break;\n                  case \"volume3\":\n                       product= 855592;\n                       break;\n                  case \"passatempo2\":\n                       product= 855612;\n                       break;\n                  case \"combo5\":\n                       product= 856062;\n                       break;\n                  case \"combo3\":\n                       product= 856825;\n                       break;\n                  case \"comboL3p2\":\n                       product= 857661;\n                       break;\n                  case \"comboL3p1p2\":\n                       product= 857666;\n                       break;\n                  case \"comboL2p2\":\n                       product= 857653;\n                       break;\n                  default:\n                       product= 286032;\n             };\n              var s = \"\";\n              s = \"<iframe src='https://sun.eduzz.com/\"+product+\"'></iframe>\";\n              $(\"iframe\").replaceWith(s);\n              fbq('track', 'InitiateCheckout');\n              $(\"span.chk-number-price.span\").on('DOMSubtreeModified',function(){\n                  alert(\"alterou\");// text change handler\n              });\n           };\n     });\n</script>\n  <script>\n     var url = (window.location != window.parent.location)\n            ? document.referrer\n            : document.location.href;\n      alert(\"ok\");\n      alert(url);\n  </script>"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".MultiCarousel": {
+              "float": "left",
+              "overflow": "hidden",
+              "padding": "15px",
+              "width": "100%",
+              "position": "relative"
+            },
+            ".MultiCarousel .MultiCarousel-inner": {
+              "transition": "1s ease all",
+              "float": "left"
+            },
+            ".MultiCarousel .MultiCarousel-inner .item": {
+              "float": "left"
+            },
+            ".MultiCarousel .MultiCarousel-inner .item > div": {
+              "text-align": "center",
+              "padding": "10px",
+              "margin": "10px",
+              "background": "#f1f1f1",
+              "color": "#666"
+            },
+            ".MultiCarousel .leftLst, .MultiCarousel .rightLst": {
+              "position": "absolute",
+              "border-radius": "50%",
+              "top": "calc(50% - 20px)"
+            },
+            ".MultiCarousel .leftLst": {
+              "left": "0"
+            },
+            ".MultiCarousel .rightLst": {
+              "right": "0"
+            },
+            ".MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over": {
+              "pointer-events": "none",
+              "background": "#ccc"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n\n<div class=\"container\">\n\t<div class=\"row\">\n\t\t<div class=\"MultiCarousel\" data-items=\"1,3,5,6\" data-slide=\"1\" id=\"MultiCarousel\" data-interval=\"1000\">\n            <div class=\"MultiCarousel-inner\">\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n                <div class=\"item\">\n                    <div class=\"pad15\">\n                        <p class=\"lead\">Multi Item Carousel</p>\n                        <p>₹ 1</p>\n                        <p>₹ 6000</p>\n                        <p>50% off</p>\n                    </div>\n                </div>\n            </div>\n            <button class=\"btn btn-primary leftLst\">&lt;</button>\n            <button class=\"btn btn-primary rightLst\">&gt;</button>\n        </div>\n\t</div>\n\t<div class=\"row\">\n\t    <div class=\"col-md-12 text-center\">\n\t        <br><br><br>\n\t        <hr>\n\t        <p>Settings</p>\n\t        <p>Change data items for xs,sm,md and lg display items respectively. Ex:data-items=\"1,3,5,6\"</p>\n\t        <p>Change data slide for slides per click Ex:data-slide=\"1\"</p>\n\t    </div>\n\t</div>\n</div>\n<!--script>\n$(document).ready(function () {\n    var itemsMainDiv = ('.MultiCarousel');\n    var itemsDiv = ('.MultiCarousel-inner');\n    var itemWidth = \"\";\n\n    $('.leftLst, .rightLst').click(function () {\n        var condition = $(this).hasClass(\"leftLst\");\n        if (condition)\n            click(0, this);\n        else\n            click(1, this)\n    });\n\n    ResCarouselSize();\n\n\n\n\n    $(window).resize(function () {\n        ResCarouselSize();\n    });\n\n    //this function define the size of the items\n    function ResCarouselSize() {\n        var incno = 0;\n        var dataItems = (\"data-items\");\n        var itemClass = ('.item');\n        var id = 0;\n        var btnParentSb = '';\n        var itemsSplit = '';\n        var sampwidth = $(itemsMainDiv).width();\n        var bodyWidth = $('body').width();\n        $(itemsDiv).each(function () {\n            id = id + 1;\n            var itemNumbers = $(this).find(itemClass).length;\n            btnParentSb = $(this).parent().attr(dataItems);\n            itemsSplit = btnParentSb.split(',');\n            $(this).parent().attr(\"id\", \"MultiCarousel\" + id);\n\n\n            if (bodyWidth >= 1200) {\n                incno = itemsSplit[3];\n                itemWidth = sampwidth / incno;\n            }\n            else if (bodyWidth >= 992) {\n                incno = itemsSplit[2];\n                itemWidth = sampwidth / incno;\n            }\n            else if (bodyWidth >= 768) {\n                incno = itemsSplit[1];\n                itemWidth = sampwidth / incno;\n            }\n            else {\n                incno = itemsSplit[0];\n                itemWidth = sampwidth / incno;\n            }\n            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });\n            $(this).find(itemClass).each(function () {\n                $(this).outerWidth(itemWidth);\n            });\n\n            $(\".leftLst\").addClass(\"over\");\n            $(\".rightLst\").removeClass(\"over\");\n\n        });\n    }\n\n\n    //this function used to move the items\n    function ResCarousel(e, el, s) {\n        var leftBtn = ('.leftLst');\n        var rightBtn = ('.rightLst');\n        var translateXval = '';\n        var divStyle = $(el + ' ' + itemsDiv).css('transform');\n        var values = divStyle.match(/-?[\\d\\.]+/g);\n        var xds = Math.abs(values[4]);\n        if (e == 0) {\n            translateXval = parseInt(xds) - parseInt(itemWidth * s);\n            $(el + ' ' + rightBtn).removeClass(\"over\");\n\n            if (translateXval <= itemWidth / 2) {\n                translateXval = 0;\n                $(el + ' ' + leftBtn).addClass(\"over\");\n            }\n        }\n        else if (e == 1) {\n            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();\n            translateXval = parseInt(xds) + parseInt(itemWidth * s);\n            $(el + ' ' + leftBtn).removeClass(\"over\");\n\n            if (translateXval >= itemsCondition - itemWidth / 2) {\n                translateXval = itemsCondition;\n                $(el + ' ' + rightBtn).addClass(\"over\");\n            }\n        }\n        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');\n    }\n\n    //It is used to get some elements from btn\n    function click(ell, ee) {\n        var Parent = \"#\" + $(ee).parent().attr(\"id\");\n        var slide = $(Parent).attr(\"data-slide\");\n        ResCarousel(ell, Parent, slide);\n    }\n\n});\n  </script-->\n</section>",
+          "_anchor": "content1-f1",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "syzfnRxaqV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "margin-bottom": "50px"
+            },
+            ".media-container-row": {
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "10px 1.5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            },
+            "foot-menu-item": {
+              "text-align": "right"
+            }
+          },
+          "_name": "footer7",
+          "_customHTML": "<section group=\"Footers\" global=\"\" once=\"\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#482e6a\" selected=\"\">\n        </fieldset>\n       \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list=\"\" mbr-list-grow=\"menuItems\">\n                  <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://pages.minhaprimeiraleitura.com.br/sobre\" target=\"_blank\" class=\"text-white\">Sobre</a></li>\n                  <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://www.minhaprimeiraleitura.com.br/#blog\" target=\"_blank\" class=\"text-white\">Blog</a></li>\n                  <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://pages.minhaprimeiraleitura.com.br/apoiadores-livro-duas-silabas.html\" target=\"_blank\" class=\"text-white\">Apoiadores</a></li>\n                  <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://pages.minhaprimeiraleitura.com.br/contato\" target=\"_blank\" class=\"text-white\">Entre em Contato</a></li>\n               </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list=\"\" mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <!--div class=\"soc-item\">\n                        <a href=\"https://twitter.com/leituraminha\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                        </a>\n                    </div-->\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/minhaprimeiraleitura\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/c/minhaprimeiraleitura\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://instagram.com/minhaprimeiraleitura\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                </div>\n            </div>\n          <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 mbr-text mbr-fonts-style col-md-6\" mbr-theme-style=\"display-7\">\n                     <p><span class=\"far fa-envelope mbr-iconfont\"></span>&nbsp;sac@minhaprimeiraleitura.com.br</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style col-md-6\" mbr-theme-style=\"display-7\">\n                     <p><span class=\"fab fa-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;+55 (21) 98277-4009 <br><i>(seg-sex: 9h às 17h)</i></p>\n                </div>\n            </div>\n\n            <div class=\"row row-copirayt\">              \n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2019-2020 &nbsp; Minha Primeira Leitura<br> Todos os direitos reservados - Proibida a Reprodução<br><label class=\"small\">CNPJ 36.103.669/0001-56 &nbsp;ME</label></p>\n            </div>\n        </div>\n      </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "skGpsdGZ3k",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {},
+          "_anchor": "footer7-f0"
         }
       ]
     }
