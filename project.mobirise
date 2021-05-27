@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 542,
+    "uniqCompNum": 544,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "snow": "",
@@ -6121,7 +6121,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/q2-829x7116.png",
+                "image": "@PROJECT_PATH@/assets/images/q2-829x7110.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -6140,7 +6140,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/q3-829x7117.png",
+                "image": "@PROJECT_PATH@/assets/images/q3-829x7111.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -19790,6 +19790,158 @@
           "_params": {}
         },
         {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".cta-100": {
+              "margin-top": "100px",
+              "padding-left": "8%",
+              "padding-top": "7%"
+            },
+            ".col-md-4": {
+              "padding-bottom": "20px"
+            },
+            ".white": {
+              "color": "#fff !important"
+            },
+            ".mt": {
+              "float": "left",
+              "margin-top": "-20px",
+              "padding-top": "20px"
+            },
+            ".bg-blue-ui": {
+              "background-color": "#708198 !important"
+            },
+            "figure img": {
+              "width": "300px"
+            },
+            "#blogCarousel": {
+              "padding-bottom": "100px"
+            },
+            ".blog .carousel-indicators": {
+              "left": "0",
+              "top": "-50px",
+              "height": "50%"
+            },
+            ".blog .carousel-indicators li": {
+              "background": "#708198",
+              "border-radius": "50%",
+              "width": "8px",
+              "height": "8px"
+            },
+            ".blog .carousel-indicators .active": {
+              "background": "#0fc9af"
+            },
+            ".item-carousel-blog-block": {
+              "outline": "medium none",
+              "padding": "15px"
+            },
+            ".item-box-blog": {
+              "border": "1px solid #dadada",
+              "text-align": "center",
+              "z-index": "4",
+              "padding": "20px"
+            },
+            ".item-box-blog-image": {
+              "position": "relative"
+            },
+            ".item-box-blog-image figure img": {
+              "width": "100%",
+              "height": "auto"
+            },
+            ".item-box-blog-date": {
+              "position": "absolute",
+              "z-index": "5",
+              "padding": "4px 20px",
+              "top": "-20px",
+              "right": "8px",
+              "background-color": "#41cb52"
+            },
+            ".item-box-blog-date span": {
+              "color": "#fff",
+              "display": "block",
+              "text-align": "center",
+              "line-height": "1.2"
+            },
+            ".item-box-blog-date span.mon": {
+              "font-size": "18px"
+            },
+            ".item-box-blog-date span.day": {
+              "font-size": "16px"
+            },
+            ".item-box-blog-body": {
+              "padding": "10px"
+            },
+            ".item-heading-blog a h5": {
+              "margin": "0",
+              "line-height": "1",
+              "text-decoration": "none",
+              "transition": "color 0.3s"
+            },
+            ".item-box-blog-heading a": {
+              "  text-decoration": "none"
+            },
+            ".item-box-blog-data p": {
+              "font-size": "13px"
+            },
+            ".item-box-blog-data p i": {
+              "font-size": "12px"
+            },
+            ".item-box-blog-text": {
+              "max-height": "100px",
+              "overflow": "hidden"
+            },
+            ".mt-10": {
+              "float": "left",
+              "margin-top": "-10px",
+              "padding-top": "10px"
+            },
+            ".btn.bg-blue-ui.white.read": {
+              "cursor": "pointer",
+              "padding": "4px 20px",
+              "float": "left",
+              "margin-top": "10px"
+            },
+            ".btn.bg-blue-ui.white.read:hover": {
+              "box-shadow": "0px 5px 15px inset #4d5f77"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n  \n\t  \n      <div class=\"container cta-100 \">\n        <div class=\"container\">\n          <div class=\"row blog\">\n            <div class=\"col-md-12\">\n              <div id=\"blogCarousel\" class=\"carousel slide container-blog\" data-ride=\"carousel\">\n                <ol class=\"carousel-indicators\">\n                  <li data-target=\"#blogCarousel\" data-slide-to=\"0\" class=\"active\"></li>\n                  <li data-target=\"#blogCarousel\" data-slide-to=\"1\"></li>\n                </ol>\n                <!-- Carousel items -->\n                <div class=\"carousel-inner\">\n                  <div class=\"carousel-item active\">\n                    <div class=\"row\">\n                      <div class=\"col-md-4\">\n                        <div class=\"item-box-blog\">\n                          <div class=\"item-box-blog-image\">\n                            <!--Date-->\n                            <div class=\"item-box-blog-date bg-blue-ui white\"> <span class=\"mon\">Augu 01</span> </div>\n                            <!--Image-->\n                            <figure> <img alt=\"\" src=\"false\"> </figure>\n                          </div>\n                          <div class=\"item-box-blog-body\">\n                            <!--Heading-->\n                            <div class=\"item-box-blog-heading\">\n                              <a href=\"#\" tabindex=\"0\">\n                                <h5>News Title</h5>\n                              </a>\n                            </div>\n                            <!--Data-->\n                            <div class=\"item-box-blog-data\" style=\"padding: px 15px;\">\n                              <p><i class=\"fa fa-user-o\"></i> Admin, <i class=\"fa fa-comments-o\"></i> Comments(3)</p>\n                            </div>\n                            <!--Text-->\n                            <div class=\"item-box-blog-text\">\n                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>\n                            </div>\n                            <div class=\"mt\"> <a href=\"#\" tabindex=\"0\" class=\"btn bg-blue-ui white read\">read more</a> </div>\n                            <!--Read More Button-->\n                          </div>\n                        </div>\n                      </div>\n                      <div class=\"col-md-4\">\n                        <div class=\"item-box-blog\">\n                          <div class=\"item-box-blog-image\">\n                            <!--Date-->\n                            <div class=\"item-box-blog-date bg-blue-ui white\"> <span class=\"mon\">Augu 01</span> </div>\n                            <!--Image-->\n                            <figure> <img alt=\"\" src=\"false\"> </figure>\n                          </div>\n                          <div class=\"item-box-blog-body\">\n                            <!--Heading-->\n                            <div class=\"item-box-blog-heading\">\n                              <a href=\"#\" tabindex=\"0\">\n                                <h5>News Title</h5>\n                              </a>\n                            </div>\n                            <!--Data-->\n                            <div class=\"item-box-blog-data\" style=\"padding: px 15px;\">\n                              <p><i class=\"fa fa-user-o\"></i> Admin, <i class=\"fa fa-comments-o\"></i> Comments(3)</p>\n                            </div>\n                            <!--Text-->\n                            <div class=\"item-box-blog-text\">\n                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>\n                            </div>\n                            <div class=\"mt\"> <a href=\"#\" tabindex=\"0\" class=\"btn bg-blue-ui white read\">read more</a> </div>\n                            <!--Read More Button-->\n                          </div>\n                        </div>\n                      </div>\n                      <div class=\"col-md-4\">\n                        <div class=\"item-box-blog\">\n                          <div class=\"item-box-blog-image\">\n                            <!--Date-->\n                            <div class=\"item-box-blog-date bg-blue-ui white\"> <span class=\"mon\">Augu 01</span> </div>\n                            <!--Image-->\n                            <figure> <img alt=\"\" src=\"false\"> </figure>\n                          </div>\n                          <div class=\"item-box-blog-body\">\n                            <!--Heading-->\n                            <div class=\"item-box-blog-heading\">\n                              <a href=\"#\" tabindex=\"0\">\n                                <h5>News Title</h5>\n                              </a>\n                            </div>\n                            <!--Data-->\n                            <div class=\"item-box-blog-data\" style=\"padding: px 15px;\">\n                              <p><i class=\"fa fa-user-o\"></i> Admin, <i class=\"fa fa-comments-o\"></i> Comments(3)</p>\n                            </div>\n                            <!--Text-->\n                            <div class=\"item-box-blog-text\">\n                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>\n                            </div>\n                            <div class=\"mt\"> <a href=\"#\" tabindex=\"0\" class=\"btn bg-blue-ui white read\">read more</a> </div>\n                            <!--Read More Button-->\n                          </div>\n                        </div>\n                      </div>\n                    </div>\n                    <!--.row-->\n                  </div>\n                  <!--.item-->\n                  <div class=\"carousel-item \">\n                    <div class=\"row\">\n                      <div class=\"col-md-4\">\n                        <div class=\"item-box-blog\">\n                          <div class=\"item-box-blog-image\">\n                            <!--Date-->\n                            <div class=\"item-box-blog-date bg-blue-ui white\"> <span class=\"mon\">Augu 01</span> </div>\n                            <!--Image-->\n                            <figure> <img alt=\"\" src=\"false\"> </figure>\n                          </div>\n                          <div class=\"item-box-blog-body\">\n                            <!--Heading-->\n                            <div class=\"item-box-blog-heading\">\n                              <a href=\"#\" tabindex=\"0\">\n                                <h5>News Title</h5>\n                              </a>\n                            </div>\n                            <!--Data-->\n                            <div class=\"item-box-blog-data\" style=\"padding: px 15px;\">\n                              <p><i class=\"fa fa-user-o\"></i> Admin, <i class=\"fa fa-comments-o\"></i> Comments(3)</p>\n                            </div>\n                            <!--Text-->\n                            <div class=\"item-box-blog-text\">\n                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>\n                            </div>\n                            <div class=\"mt\"> <a href=\"#\" tabindex=\"0\" class=\"btn bg-blue-ui white read\">read more</a> </div>\n                            <!--Read More Button-->\n                          </div>\n                        </div>\n                      </div>\n                      <div class=\"col-md-4\">\n                        <div class=\"item-box-blog\">\n                          <div class=\"item-box-blog-image\">\n                            <!--Date-->\n                            <div class=\"item-box-blog-date bg-blue-ui white\"> <span class=\"mon\">Augu 01</span> </div>\n                            <!--Image-->\n                            <figure> <img alt=\"\" src=\"false\"> </figure>\n                          </div>\n                          <div class=\"item-box-blog-body\">\n                            <!--Heading-->\n                            <div class=\"item-box-blog-heading\">\n                              <a href=\"#\" tabindex=\"0\">\n                                <h5>News Title</h5>\n                              </a>\n                            </div>\n                            <!--Data-->\n                            <div class=\"item-box-blog-data\" style=\"padding: px 15px;\">\n                              <p><i class=\"fa fa-user-o\"></i> Admin, <i class=\"fa fa-comments-o\"></i> Comments(3)</p>\n                            </div>\n                            <!--Text-->\n                            <div class=\"item-box-blog-text\">\n                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>\n                            </div>\n                            <div class=\"mt\"> <a href=\"#\" tabindex=\"0\" class=\"btn bg-blue-ui white read\">read more</a> </div>\n                            <!--Read More Button-->\n                          </div>\n                        </div>\n                      </div>\n                      <div class=\"col-md-4\">\n                        <div class=\"item-box-blog\">\n                          <div class=\"item-box-blog-image\">\n                            <!--Date-->\n                            <div class=\"item-box-blog-date bg-blue-ui white\"> <span class=\"mon\">Augu 01</span> </div>\n                            <!--Image-->\n                            <figure> <img alt=\"\" src=\"false\"> </figure>\n                          </div>\n                          <div class=\"item-box-blog-body\">\n                            <!--Heading-->\n                            <div class=\"item-box-blog-heading\">\n                              <a href=\"#\" tabindex=\"0\">\n                                <h5>News Title</h5>\n                              </a>\n                            </div>\n                            <!--Data-->\n                            <div class=\"item-box-blog-data\" style=\"padding: px 15px;\">\n                              <p><i class=\"fa fa-user-o\"></i> Admin, <i class=\"fa fa-comments-o\"></i> Comments(3)</p>\n                            </div>\n                            <!--Text-->\n                            <div class=\"item-box-blog-text\">\n                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>\n                            </div>\n                             <div class=\"mt\"> <a href=\"#\" tabindex=\"0\" class=\"btn bg-blue-ui white read\">read more</a> </div>\n                            <!--Read More Button-->\n                          </div>\n                        </div>\n                      </div>\n                    </div>\n                    <!--.row-->\n                  </div>\n                  <!--.item-->\n                </div>\n                <!--.carousel-inner-->\n              </div>\n              <!--.Carousel-->\n            </div>\n          </div>\n        </div>\n      </div>\n   \n\n</section>",
+          "_anchor": "content1-f3",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "syzBNHmVdo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>\n                <b> Make your own website in a few clicks!</b> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <i>mobile friendly websites</i> in a few clicks. Mobirise is one of the easiest website development tools <a href=\"https://mobiri.se/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "syzjdSLHhW",
+          "_anchor": "content1-f2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -19880,11 +20032,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "skGpsdGZ3k",
+          "_anchor": "footer7-f0",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
-          "_params": {},
-          "_anchor": "footer7-f0"
+          "_params": {}
         }
       ]
     }
