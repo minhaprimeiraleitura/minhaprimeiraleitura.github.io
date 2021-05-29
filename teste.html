@@ -32,65 +32,157 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
   
   
   <meta name="facebook-domain-verification" content="d3vdlouisygjqfcmlnel8gn2oaerxs">
-  
-  
+</head>
+<body>
+
+
 <style type="text/css">
 
   .card {
     background-color: #fff;
   }
-  .cartao-livros {
-    padding: 5px;
-  }
+
   .expandido {
     padding-right: 4px;
     padding-left: 4px;
   }
 
-  .resp-text h4 { 
+  .responsive-text h4 { 
     font-weight: 700;
      }
+  .responsive-text p, .responsive-text a {
+     font-size: 0.6rem;
+     line-height: 1.2;
+  }
+ .responsive-text h4 {
+     font-size: 0.8rem;
+     line-height: 1.2;
+  }
 
 
-  .resp-text p, .resp-text h4, .resp-text a { font-size: 0.8rem!important;
-  line-height: 1.2; }
-  .card-body {
-      padding: 0.5rem;
+  .responsive-card {
+    padding: 5px;
+  }
+  .responsive-card .card-body {
+      padding: 0.3rem;
+
     }
+  .responsive-card .card-footer {
+      padding: 0.3rem;
+
+    }
+  .responsive-card .btn {
+      padding: 0.2rem;
+      margin: 0.2rem;
+      font-size: 0.3rem;
+
+    }
+
+
+  .card-low-margin {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
 @media (min-width: 576px) {
-    .resp-text p, .resp-text h4, .resp-text a { font-size: 1.0rem;
-    line-height: 1.5; }
-    .card-body {
-      padding: 1.25rem;
-    }
-}
+  .responsive-text p, .responsive-text a {
+     font-size: 0.8rem;
+     line-height: 1.2;
+  }
+ .responsive-text h4 {
+     font-size: 1.0rem;
+     line-height: 1.2;
+  }
 
 
-
-@media (min-width: 768px) {
-    .resp-text h4 { font-size: 1.5rem; }
-
-  .cartao-livros {
+  .responsive-card {
     padding: 15px;
   }
+  .responsive-card .card-body {
+      padding: 0.5rem;
+
+    }
+  .responsive-card .card-footer {
+      padding: 0.5rem;
+
+    }
+  .responsive-card .btn {
+      padding: 0.4rem;
+      margin: 0.4rem;
+      font-size: 0.3rem;
+
+    }
+
 }
-/*@media (min-width: 992px) {
-    .resp-text p { font-size: 1.5rem; }
+
+@media (min-width: 768px) {
+  .responsive-text p, .responsive-text a {
+     font-size: 0.8rem;
+     line-height: 1.2;
+  }
+ .responsive-text h4 {
+     font-size: 1.0rem;
+     line-height: 1.2;
+  }
+
+
+  .responsive-card {
+    padding: 15px;
+  }
+  .responsive-card .card-body {
+      padding: 0.5rem;
+
+    }
+  .responsive-card .card-footer {
+      padding: 0.5rem;
+
+    }
+  .responsive-card .btn {
+      padding: 0.6rem;
+      margin: 0.6rem;
+      font-size: 0.8rem;
+
+    }
+
 }
+@media (min-width: 992px) {
+  .responsive-text p, .responsive-text a {
+     font-size: 1.0rem;
+     line-height: 1.5;
+  }
+ .responsive-text h4 {
+     font-size: 1.2rem;
+     line-height: 1.5;
+  }
+
+
+  .responsive-card {
+    padding: 15px;
+  }
+  .responsive-card .card-body {
+      padding: 0.8rem;
+
+    }
+  .responsive-card .card-footer {
+      padding: 0.75rem;
+
+    }
+  .responsive-card .btn {
+      padding: 0.5rem 1.5rem;
+      margin: 0.9rem;
+      font-size: 1.0rem;
+
+    }
+}
+/*
 @media (min-width: 1200px) {
-    .resp-text p { font-size: 2rem; }
+    .responsive-text p { font-size: 2rem; }
 } */
 
 </style>
 
 
-  
-</head>
-<body>
-
-  <p>VERSÃO 2.0</p>
-
+<p>VERSÃO 1.5</p>
 <section class="services2 cid-scHeSQ3wZM" id="services2-bb">
 
 <div class="container my-4 expandido">
@@ -98,19 +190,18 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
  <!--Carousel Wrapper-->
   <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
- 
- 
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-      <!--Third slide-->
+    <!--SLIDES-->
+    <div class="carousel-inner responsive-text responsive-card" role="listbox">
+
+      <!--slide X-->
       <div class="carousel-item active" >
 
-        <div class="row resp-text card-deck">
+        <div class="row  card-deck">
 
           <!-- card 1 -->
-          <div class="col-4 cartao-livros ">
+          <div class="col-4 card-low-margin ">
             <div class="card mb-2">
-              <img class="card-img-top" src="https://pages.minhaprimeiraleitura.com.br/assets/images/capa-vol-1-duas-slabas-minha-primeira-leitura-tiny-400x400-400x400.png"
+              <img class="card-img-top" src="file:///C:/Users/Note/AppData/Local/Temp/Mobirise2021429_182831/20210529_183702/assets/images/capa-minha-primeira-leitura-volume-1-duas-slabas-500x500-a-500x500.png"
                    alt="Card image cap">
               <div class="card-body">
                 <h4 class="card-title">Volume 1 (Duas Sílabas)</h4>
@@ -125,7 +216,7 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
           </div>
 
           <!-- card 2 -->
-          <div class="col-4 clearfix d-md-block cartao-livros">
+          <div class="col-4 clearfix d-md-block card-low-margin">
             <div class="card mb-2">
               <img class="card-img-top" src="https://pages.minhaprimeiraleitura.com.br/assets/images/capa-volume-2-400x400-400x400.png"
                    alt="Card image cap">
@@ -142,7 +233,7 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
           </div>
 
           <!-- card 3 -->
-          <div class="col-4 clearfix d-md-block cartao-livros">
+          <div class="col-4 clearfix d-md-block card-low-margin">
             <div class="card mb-2">
               <img class="card-img-top" src="https://pages.minhaprimeiraleitura.com.br/assets/images/capa-volume-3-400x400-400x400.png"
                    alt="Card image cap">
@@ -158,7 +249,64 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
             </div>
           </div>
 
-  
+        </div>
+      </div>
+
+      <!--slide X-->
+      <div class="carousel-item" >
+
+        <div class="row  card-deck">
+
+          <!-- card 1 -->
+          <div class="col-4 card-low-margin ">
+            <div class="card mb-2">
+              <img class="card-img-top" src="https://pages.minhaprimeiraleitura.com.br/assets/images/capa-vol-1-duas-slabas-minha-primeira-leitura-tiny-400x400-400x400.png"
+                   alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">PASSATEMPO 1 (Duas Sílabas)</h4>
+                <p class="card-text ">R$ 29,90  R$ 34,80</p>
+                <p class="card-text"><small class="text-muted">Frete fixo para todo o Brasil: R$9,90</small></p>
+                
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-primary">EU QUERO</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="col-4 clearfix d-md-block card-low-margin">
+            <div class="card mb-2">
+              <img class="card-img-top" src="https://pages.minhaprimeiraleitura.com.br/assets/images/capa-volume-2-400x400-400x400.png"
+                   alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Volume 1 (Duas Sílabas)</h4>
+                <p class="card-text ">R$ 29,90  R$ 34,80</p>
+                <p class="card-text"><small class="text-muted">Frete fixo para todo o Brasil: R$9,90</small></p>
+                
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-primary">EU QUERO</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="col-4 clearfix d-md-block card-low-margin">
+            <div class="card mb-2">
+              <img class="card-img-top" src="https://pages.minhaprimeiraleitura.com.br/assets/images/capa-volume-3-400x400-400x400.png"
+                   alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Volume 1 (Duas Sílabas)</h4>
+                <p class="card-text ">R$ 29,90  R$ 34,80</p>
+                <p class="card-text"><small class="text-muted">Frete fixo para todo o Brasil: R$9,90</small></p>
+                
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-primary">EU QUERO</a>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -168,33 +316,10 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
 
   </div>
   <!--/.Carousel Wrapper-->
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <p><strong>Detailed documentation and more examples of Bootstrap grid you can find in our <a href="https://mdbootstrap.com/docs/standard/components/carousel/" target="_blank">Bootstrap Carousel Docs</a>.</strong></p> 
 
-  <p>See also <a target="_blank" href="https://mdbootstrap.com/docs/standard/plugins/multi-item-carousel/"><strong>Advanced mutli item carousel plugin</strong></a> or <a target="_blank" href="https://mdbootstrap.com/snippets/standard/mdbootstrap/2904002"><strong>multi-item carousel example for the newest Bootstrap 5</strong></a>.</p>
-
+ 
+  
   <hr class="mt-5">
-
-  <p>Built with <a target="_blank" href="https://mdbootstrap.com/docs/standard/">Material Design for Bootstrap</a> - free and powerful Bootstrap UI KIT</p>
-
-  <a class="btn btn-primary me-2" href="https://mdbootstrap.com/docs/standard/getting-started/installation/" target="_blank" role="button">Download MDB UI KIT <i class="fa fa-download"></i></a>
-  <a class="btn btn-danger me-2" target="_blank" href="https://mdbootstrap.com/docs/standard/" role="button">Learn more</a>
-  <a class="btn btn-success me-2" target="_blank" href="https://mdbootstrap.com/docs/standard/getting-started/" role="button">Tutorials</a>
-  <a class="btn btn-dark me-2" target="_blank" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button">GitHub <i class="fa fa-github ms-2"></i></a>
 
   <hr class="mb-5"/>
 
@@ -308,7 +433,7 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
       <!--/.Second slide-->
 
       <!--Third slide-->
-      <div class="carousel-item">
+      <div class="carousel-item" data-pause>
 
         <div class="row">
           <div class="col-3">
@@ -404,48 +529,7 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
   <script src="assets/gallery/player.min.js"></script>
   <script src="assets/gallery/script.js"></script>
   
-  <script>
-     $( document ).ready(function() {
-         $.urlParam = function(name){
-              var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-              if (results==null){
-                 return null;
-              }
-              else{
-                 return results[1] || 0;
-              }
-          };
-
-          if ($.urlParam('lead')) { fbq('track', 'Lead'); };
-     });
-</script>
-
- <!-- SocialShareThis -->
- <script async="async" src="//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons" type="text/javascript"></script>
-
-<!-- Contador -->
-<script>
-    var minutes = 17;
-    var seconds = 24;
-    var countdown = setInterval(function() {
-        seconds--;
-        if (seconds<0 && minutes>0) {
-            seconds = 59;
-            minutes--;
-           document.getElementById("min").innerHTML = minutes;
-        };
-        if (seconds<10)
-           document.getElementById("seg").innerHTML = "0" + seconds
-       else
-           document.getElementById("seg").innerHTML = seconds;
-        if (seconds<1 && minutes<1) {
-           document.getElementById("min").innerHTML = "00";
-           document.getElementById("seg").innerHTML = "00";
-           this.clearinterval();
-        };
-    }, 1000);
-</script>
+ 
   <input name="animation" type="hidden">
   </body>
-</html>
 </html>
