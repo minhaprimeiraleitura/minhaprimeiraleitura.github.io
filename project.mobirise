@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 544,
+    "uniqCompNum": 572,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "snow": "",
@@ -70,7 +70,7 @@
       "settings": {
         "meta_descr": "Baixe uma amostra grátis do nosso livrinho infantil da coleção Minha Primeira Leitura, com palavras de até 2 sílabas fáceis de se ler!\n\nIdeal para se fazer a primeira leiturinha do livro.",
         "title": "Apoiadores CrowdFunding Duas Sílabas",
-        "order": 8,
+        "order": 9,
         "footer_custom": " <!-- SocialShareThis -->\n <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>",
         "header_custom": ""
       },
@@ -1674,7 +1674,7 @@
       "settings": {
         "meta_descr": "Parabéns! Você acabou de comprar nossos produtos utilizando o cartão de crédito. Agora é só esperar receber no endereço que você forneceu durante a compra.",
         "title": "Obrigado Compra Cartão de Crédito | Minha Primeira Leitura",
-        "order": 12,
+        "order": 13,
         "header_custom": "",
         "footer_custom": "<script>\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n         };\n         product = $.urlParam('product');\n         if (product) {\n             switch (product) {\n                  case \"1\":\n                       product= 286032;\n                       break;\n                  case \"2\":\n                       product= 286473 ;\n                       break;\n                  case \"3\":\n                       product= 286475;\n                       break;\n                  case \"volume2\":\n                       product= 624704;\n                       break;\n                  case \"passatempo1\":\n                       product= 362318;\n                       break;\n                  case \"combo1\":\n                       product= 624744;\n                       break;\n                  case \"combo2\":\n                       product= 625838;\n                       break;\n                  case \"combo_duo\":\n                       product= 624753;\n                       break;\n                  case \"combo_trio\":\n                       product= 624805;\n                       break;\n                  case \"volume3\":\n                       product= 855592;\n                       break;\n                  case \"passatempo2\":\n                       product= 855612;\n                       break;\n                  case \"combo5\":\n                       product= 856062;\n                       break;\n                  case \"combo3\":\n                       product= 856825;\n                       break;\n                  case \"comboL3p2\":\n                       product= 857661;\n                       break;\n                  case \"comboL3p1p2\":\n                       product= 857666;\n                       break;\n                  case \"comboL2p2\":\n                       product= 857653;\n                       break;\n                  default:\n                       product= 286032;\n             };\n              fbq('track', 'Purchase', {value:29.90, currency: 'BRL'});\n           };\n     });\n</script>\n<script>fbq('track', 'Purchase', {value:29.90, currency: 'BRL'});</script>",
         "html_before": ""
@@ -1946,7 +1946,7 @@
       "settings": {
         "meta_descr": "Parabéns! Você acabou de comprar nossos produtos utilizando o boleto. Assim que nosso sistema identificar o pagamento, iremos processar o seu pedido para você receber no endereço fornecido durante a compra.",
         "title": "Obrigado Compra Boleto | Minha Primeira Leitura",
-        "order": 13,
+        "order": 14,
         "footer_custom": "<script>\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n         };\n     \n         product = $.urlParam('product');\n         if (product) {\n             switch (product) {\n                  case \"1\":\n                       product= 286032;\n                       break;\n                  case \"2\":\n                       product= 286473 ;\n                       break;\n                  case \"3\":\n                       product= 286475;\n                       break;\n                  case \"volume2\":\n                       product= 624704;\n                       break;\n                  case \"passatempo1\":\n                       product= 362318;\n                       break;\n                  case \"combo1\":\n                       product= 624744;\n                       break;\n                  case \"combo2\":\n                       product= 625838;\n                       break;\n                  case \"combo_duo\":\n                       product= 624753;\n                       break;\n                  case \"combo_trio\":\n                       product= 624805;\n                       break;\n                  case \"volume3\":\n                       product= 855592;\n                       break;\n                  case \"passatempo2\":\n                       product= 855612;\n                       break;\n                  case \"combo5\":\n                       product= 856062;\n                       break;\n                  case \"combo3\":\n                       product= 856825;\n                       break;\n                  case \"comboL3p2\":\n                       product= 857661;\n                       break;\n                  case \"comboL3p1p2\":\n                       product= 857666;\n                       break;\n                  case \"comboL2p2\":\n                       product= 857653;\n                       break;\n                  default:\n                       product= 286032;\n             };\n              fbq('track', 'Purchase', {value:valor, currency: 'BRL'});\n           };\n     });\n</script>\n<script>fbq('track', 'Purchase', {value:29.90, currency: 'BRL'});</script>",
         "header_custom": "",
         "html_before": ""
@@ -2114,7 +2114,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Produto Esgotado ou Inativo",
-        "order": 14,
+        "order": 15,
         "header_custom": ""
       },
       "components": [
@@ -2240,7 +2240,7 @@
       "settings": {
         "meta_descr": "Parabéns! Você acabou de comprar nossos produtos utilizando o cartão de crédito. Agora é só esperar receber no endereço que você forneceu durante a compra.",
         "title": "Obrigado Download Amostra",
-        "order": 7,
+        "order": 8,
         "header_custom": "",
         "footer_custom": "<script>\n    fbq('track', 'Lead');\n</script>",
         "html_before": ""
@@ -3053,7 +3053,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "=======================================",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -3583,7 +3583,7 @@
       "settings": {
         "meta_descr": "Minha Primeira Leitura é uma coleção de livros infantis educacionais, produzida de forma independente, que ajuda a criança a desenvolver sua capacidade de leitura, ganhando confiança e então despertando o gosto pela leitura.",
         "title": "Sobre | Minha Primeira Leitura",
-        "order": 5,
+        "order": 6,
         "html_before": "",
         "footer_custom": "<!-- SocialShareThis -->\n <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>"
       },
@@ -5782,7 +5782,7 @@
         "header_custom": "",
         "footer_custom": "<script id='mcjs'>!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,&quot;script&quot;,&quot;https://chimpstatic.com/mcjs-connected/js/users/25b90da819589e8698f9ac048/ec5b20d2217e76dcef720a02f.js&quot;);</script>\n",
         "html_before": "",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -6121,7 +6121,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/q2-829x7114.png",
+                "image": "@PROJECT_PATH@/assets/images/q2-829x7112.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -6140,7 +6140,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/q3-829x7115.png",
+                "image": "@PROJECT_PATH@/assets/images/q3-829x7113.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -7964,7 +7964,7 @@
       "settings": {
         "meta_descr": "Checkout da Compra dos livros da Minha Primeira Leitura.",
         "title": "Checkout | Minha Primeira Leitura",
-        "order": 2,
+        "order": 3,
         "footer_custom": "<script>\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n         };\n        valor = 29.90;\n         product = $.urlParam('product');\n         if (product) {\n             switch (product) {\n                  case \"1\":\n                       product= 286032;\n                       valor = 29.90;\n                       break;\n                  case \"2\":\n                       product= 286473 ;\n                       valor =55.80;\n                       break;\n                  case \"3\":\n                       product= 286475;\n                       valor = 277.00;\n                       break;\n                  case \"volume2\":\n                       product= 624704;\n                       valor = 33.80;\n                       break;\n                  case \"passatempo1\":\n                       product= 362318;\n                       valor = 21.90;\n                       break;\n                  case \"combo1\":\n                       product= 624744;\n                       valor = 47.90;\n                       break;\n                  case \"combo2\":\n                       product= 625838;\n                       valor = 49.90;\n                       break;\n                  case \"combo_duo\":\n                       product= 624753;\n                       valor = 59.90;\n                       break;\n                  case \"combo_trio\":\n                       product= 624805;\n                       valor = 79.90;\n                       break;\n                  case \"volume3\":\n                       product= 855592;\n                       valor = 33.80;\n                       break;\n                  case \"passatempo2\":\n                       product= 855612;\n                       valor = 21.90;\n                       break;\n                  case \"combo5\":\n                       product= 856062;\n                       valor = 137.90;\n                       break;\n                  case \"combo3\":\n                       product= 856825;\n                       valor = 97.50;\n                       break;\n                  case \"comboL3p2\":\n                       product= 857661;\n                       valor = 49.90;\n                       break;\n                  case \"comboL3p1p2\":\n                       product= 857666;\n                       valor = 77.60;\n                       break;\n                  case \"comboL2p2\":\n                       product= 857653;\n                       valor = 49.90;\n                       break;\n                  default:\n                       product= 286032;\n                       valor = 29.90;\n             };\n              var s = \"\";\n              s = \"<iframe src='https://sun.eduzz.com/\"+product+\"'></iframe>\";\n              $(\"iframe\").replaceWith(s);\n           };\n     });\n</script>\n<script>fbq('track', 'InitiateCheckout');</script>\n",
         "header_custom": "",
         "html_before": ""
@@ -11596,7 +11596,7 @@
       "settings": {
         "meta_descr": "Encontre o livro de Atividades Ideal para o seu filho que está no período de alfabetização.\nTodos os nossos passatempos foram pensados minuciosamente para que seu filho tenha a melhor experiência e assimilação de conhecimentos.",
         "title": "Passatempo - Atividades de Alfabetização",
-        "order": 3,
+        "order": 4,
         "footer_custom": "<script>\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n          };\n\n          if ($.urlParam('lead')) { fbq('track', 'Lead'); };\n     });\n</script>\n\n <!-- SocialShareThis -->\n <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>\n\n<!-- Contador -->\n<script>\n    var minutes = 17;\n    var seconds = 24;\n    var countdown = setInterval(function() {\n        seconds--;\n        if (seconds<0 && minutes>0) {\n            seconds = 59;\n            minutes--;\n           document.getElementById(\"min\").innerHTML = minutes;\n        };\n        if (seconds<10)\n           document.getElementById(\"seg\").innerHTML = \"0\" + seconds\n       else\n           document.getElementById(\"seg\").innerHTML = seconds;\n        if (seconds<1 && minutes<1) {\n           document.getElementById(\"min\").innerHTML = \"00\";\n           document.getElementById(\"seg\").innerHTML = \"00\";\n           this.clearinterval();\n        };\n    }, 1000);\n</script>",
         "header_custom": ""
       },
@@ -12840,7 +12840,7 @@
       "settings": {
         "meta_descr": "Obrigado por entrar em contato conosco. Nós da equipe Minha Primeira Leitura teremos a maior satisfação em respondê-lo.",
         "title": "Obrigado por entrar em contato | Minha Primeira Leitura",
-        "order": 11,
+        "order": 12,
         "footer_custom": "",
         "header_custom": ""
       },
@@ -13503,7 +13503,7 @@
       "settings": {
         "meta_descr": "Entre em contato conosco. Teremos o maior prazer em responder suas dúvidas, ouvir seus elogios, críticas e sugestões, e solucionar os problemas que você possa vir a ter com nossas compras. Obrigado, equipe Minha Primeira Leitura",
         "title": "Contato",
-        "order": 9,
+        "order": 10,
         "footer_custom": "<script src=\"assets/all/js/smart-forms.min.js\"></script>\n<script>document.getElementById(“contact-smart-form”).addEventListener(“reset”, myThankYou);\nfunction myThankYou() {\nwindow.location.replace(“obrigado-contato.html”);\n}</script>",
         "header_custom": ""
       },
@@ -14192,7 +14192,7 @@
       "settings": {
         "meta_descr": "Entre em contato conosco. Teremos o maior prazer em responder suas dúvidas, ouvir seus elogios, críticas e sugestões, e solucionar os problemas que você possa vir a ter com nossas compras. Obrigado, equipe Minha Primeira Leitura",
         "title": "Dúvidas - FAQ",
-        "order": 10,
+        "order": 11,
         "footer_custom": "",
         "header_custom": ""
       },
@@ -15063,7 +15063,7 @@
       "settings": {
         "meta_descr": "Adquira agora mesmo os livros que farão seu filho conseguir e gostar de ler.\n\nTodas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, hiatos, ou ditongos. Ideal  para a criança começar a ler sozinho ou com pouca ajuda.",
         "title": "OLD Comprar Livro | Minha Primeira Leitura",
-        "order": 16,
+        "order": 17,
         "footer_custom": "<script>\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n          };\n\n          if ($.urlParam('lead')) { fbq('track', 'Lead'); };\n     });\n</script>\n\n <!-- SocialShareThis -->\n <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>\n\n<!-- Contador -->\n<script>\n    var minutes = 17;\n    var seconds = 24;\n    var countdown = setInterval(function() {\n        seconds--;\n        if (seconds<0 && minutes>0) {\n            seconds = 59;\n            minutes--;\n           document.getElementById(\"min\").innerHTML = minutes;\n        };\n        if (seconds<10)\n           document.getElementById(\"seg\").innerHTML = \"0\" + seconds\n       else\n           document.getElementById(\"seg\").innerHTML = seconds;\n        if (seconds<1 && minutes<1) {\n           document.getElementById(\"min\").innerHTML = \"00\";\n           document.getElementById(\"seg\").innerHTML = \"00\";\n           this.clearinterval();\n        };\n    }, 1000);\n</script>",
         "header_custom": "<meta name=\"facebook-domain-verification\" content=\"d3vdlouisygjqfcmlnel8gn2oaerxs\" />"
       },
@@ -17546,7 +17546,7 @@
       "settings": {
         "meta_descr": "Baixe uma amostra grátis do nosso livrinho infantil da coleção Minha Primeira Leitura, com palavras de até 2 Sílabas Fáceis de se ler! As crianças adoram! Palavras sem ditongos, hiatos ou acentos.\n\nIdeal para se fazer a primeira leiturinha do livro.",
         "title": "Livro Infantil para Leiturinha em Duas Sílabas | Baixe Agora Grátis",
-        "order": 6,
+        "order": 7,
         "html_before": "",
         "footer_custom": "<!-- SocialShareThis -->\n <script async='async' src='//platform-api.sharethis.com/js/sharethis.js#property=5c8591104c495400114feac2&amp;product=sticky-share-buttons' type='text/javascript'/>\n<script> fbq('trackCustom', 'PaginaAmostraGratis');</script>",
         "header_custom": ""
@@ -19728,10 +19728,82 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "teste",
-        "order": 17,
+        "order": 18,
         "footer_custom": " \n  <script>\n    $(document).ready(function(){\n    $(\"#span1\").on('DOMSubtreeModified',function(){\n         // text change handler\n     });\n\n });\n     $( document ).ready(function() {\n         $.urlParam = function(name){\n              var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);\n              if (results==null){\n                 return null;\n              }\n              else{\n                 return results[1] || 0;\n              }\n         };\n         product = $.urlParam('product');\n         if (product) {\n             switch (product) {\n                  case \"1\":\n                       product= 286032;\n                       break;\n                  case \"2\":\n                       product= 286473 ;\n                       break;\n                  case \"3\":\n                       product= 286475;\n                       break;\n                  case \"volume2\":\n                       product= 624704;\n                       break;\n                  case \"passatempo1\":\n                       product= 362318;\n                       break;\n                  case \"combo1\":\n                       product= 624744;\n                       break;\n                  case \"combo2\":\n                       product= 625838;\n                       break;\n                  case \"combo_duo\":\n                       product= 624753;\n                       break;\n                  case \"combo_trio\":\n                       product= 624805;\n                       break;\n                  case \"volume3\":\n                       product= 855592;\n                       break;\n                  case \"passatempo2\":\n                       product= 855612;\n                       break;\n                  case \"combo5\":\n                       product= 856062;\n                       break;\n                  case \"combo3\":\n                       product= 856825;\n                       break;\n                  case \"comboL3p2\":\n                       product= 857661;\n                       break;\n                  case \"comboL3p1p2\":\n                       product= 857666;\n                       break;\n                  case \"comboL2p2\":\n                       product= 857653;\n                       break;\n                  default:\n                       product= 286032;\n             };\n              var s = \"\";\n              s = \"<iframe src='https://sun.eduzz.com/\"+product+\"'></iframe>\";\n              $(\"iframe\").replaceWith(s);\n              fbq('track', 'InitiateCheckout');\n              $(\"span.chk-number-price.span\").on('DOMSubtreeModified',function(){\n                  alert(\"alterou\");// text change handler\n              });\n           };\n     });\n</script>\n  <script>\n     var url = (window.location != window.parent.location)\n            ? document.referrer\n            : document.location.href;\n      alert(\"ok\");\n      alert(url);\n  </script>\n<script>\n$(document).ready(function () {\n    var itemsMainDiv = ('.MultiCarousel');\n    var itemsDiv = ('.MultiCarousel-inner');\n    var itemWidth = \"\";\n\n    $('.leftLst, .rightLst').click(function () {\n        var condition = $(this).hasClass(\"leftLst\");\n        if (condition)\n            click(0, this);\n        else\n            click(1, this)\n    });\n\n    ResCarouselSize();\n\n\n\n\n    $(window).resize(function () {\n        ResCarouselSize();\n    });\n\n    //this function define the size of the items\n    function ResCarouselSize() {\n        var incno = 0;\n        var dataItems = (\"data-items\");\n        var itemClass = ('.item');\n        var id = 0;\n        var btnParentSb = '';\n        var itemsSplit = '';\n        var sampwidth = $(itemsMainDiv).width();\n        var bodyWidth = $('body').width();\n        $(itemsDiv).each(function () {\n            id = id + 1;\n            var itemNumbers = $(this).find(itemClass).length;\n            btnParentSb = $(this).parent().attr(dataItems);\n            itemsSplit = btnParentSb.split(',');\n            $(this).parent().attr(\"id\", \"MultiCarousel\" + id);\n\n\n            if (bodyWidth >= 1200) {\n                incno = itemsSplit[3];\n                itemWidth = sampwidth / incno;\n            }\n            else if (bodyWidth >= 992) {\n                incno = itemsSplit[2];\n                itemWidth = sampwidth / incno;\n            }\n            else if (bodyWidth >= 768) {\n                incno = itemsSplit[1];\n                itemWidth = sampwidth / incno;\n            }\n            else {\n                incno = itemsSplit[0];\n                itemWidth = sampwidth / incno;\n            }\n            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });\n            $(this).find(itemClass).each(function () {\n                $(this).outerWidth(itemWidth);\n            });\n\n            $(\".leftLst\").addClass(\"over\");\n            $(\".rightLst\").removeClass(\"over\");\n\n        });\n    }\n\n\n    //this function used to move the items\n    function ResCarousel(e, el, s) {\n        var leftBtn = ('.leftLst');\n        var rightBtn = ('.rightLst');\n        var translateXval = '';\n        var divStyle = $(el + ' ' + itemsDiv).css('transform');\n        var values = divStyle.match(/-?[\\d\\.]+/g);\n        var xds = Math.abs(values[4]);\n        if (e == 0) {\n            translateXval = parseInt(xds) - parseInt(itemWidth * s);\n            $(el + ' ' + rightBtn).removeClass(\"over\");\n\n            if (translateXval <= itemWidth / 2) {\n                translateXval = 0;\n                $(el + ' ' + leftBtn).addClass(\"over\");\n            }\n        }\n        else if (e == 1) {\n            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();\n            translateXval = parseInt(xds) + parseInt(itemWidth * s);\n            $(el + ' ' + leftBtn).removeClass(\"over\");\n\n            if (translateXval >= itemsCondition - itemWidth / 2) {\n                translateXval = itemsCondition;\n                $(el + ' ' + rightBtn).addClass(\"over\");\n            }\n        }\n        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');\n    }\n\n    //It is used to get some elements from btn\n    function click(ell, ee) {\n        var Parent = \"#\" + $(ee).parent().attr(\"id\");\n        var slide = $(Parent).attr(\"data-slide\");\n        ResCarousel(ell, Parent, slide);\n    }\n\n});\n  </script>"
       },
       "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-img": {
+              "background-color": "#fff"
+            },
+            ".card": {
+              "& when (@crdBg)": {
+                "background-color": "@crdColor"
+              }
+            },
+            ".card-box": {
+              "padding": "2rem",
+              "& when (@crdBg)": {
+                "background-color": "@crdColor"
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            },
+            ".card-wrapper": {
+              "height": "100%",
+              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+              "transition": "box-shadow 0.3s",
+              "&:hover": {
+                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
+                "transition": "box-shadow 0.3s"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".my-col": {
+                "flex": "0 0 20%",
+                "max-width": "20%",
+                "padding": "15px",
+                "-webkit-flex": "0 0 20%"
+              }
+            },
+            ".card-title": {
+              "text-align": "left",
+              "color": "#073b4c"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            "H2": {
+              "text-align": "left",
+              "color": "#073b4c"
+            },
+            ".btn-next-in-text": {
+              "font-size": "28px",
+              "color": "rgb(7, 59, 76)"
+            }
+          },
+          "_name": "features17",
+          "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Card Text\" name=\"showCardText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Footer\" name=\"showFooter\" checked=\"\">\n        <input type=\"checkbox\" title=\"Card Background\" name=\"crdBg\" checked=\"\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\" condition=\"crdBg\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected=\"\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n  \n \n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n          \n          \n          \n  <!--Carousel Wrapper-->\n  <div id=\"multi-item-carousel\" class=\"carousel slide carousel-multi-item\" data-ride=\"carousel\">\n\n    <!--Controls-->\n    <!--div class=\"controls-top\">\n      <a class=\"btn-floating\" href=\"#multi-item-carousel\" data-slide=\"prev\"><i class=\"fa fa-chevron-left\"></i></a>\n      <a class=\"btn-floating\" href=\"#multi-item-carousel\" data-slide=\"next\"><i class=\"fa fa-chevron-right\"></i></a>\n    </div>\n    <!--/.Controls-->\n\n    <!--Indicators-->\n    <!--ol class=\"carousel-indicators\">\n      <li data-target=\"#multi-item-carousel\" data-slide-to=\"0\" class=\"active\"></li>\n      <li data-target=\"#multi-item-carousel\" data-slide-to=\"1\"></li>\n      <li data-target=\"#multi-item-carousel\" data-slide-to=\"2\"></li>\n    </ol>\n    <!--/.Indicators-->\n    <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>LIVROS AVULSOS DA COLEÇÃO.... &nbsp; </b>&nbsp;<a class=\"btn-floating\" href=\"#multi-item-carousel\" data-slide=\"next\"><span class=\"fas fa-arrow-right mbr-iconfont btn-next-in-text\"></span></a></h2>\n    <!--Slides-->\n    <div class=\"carousel-inner\" role=\"listbox\">\n\n      <!--First slide-->\n      <div class=\"carousel-item active\">\n        <div class=\"row card-group\">\n\n          <div class=\"col-md-4\">\n            <div class=\"card mb-2\">\n              <a href=\"https://pages.minhaprimeiraleitura.com.br/checkout\" onclick=\"fbq('track', 'AddToCart', {value: '29,90',currency: 'BRL'}); return true;\">\n                <img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/capa-minha-primeira-leitura-volume-1-duas-slabas-c-400x320.png\" alt=\"Livro Minha Primeira Leitura Duas Sílabas\" title=\"Livro Minha Primeira Leitura Duas Sílabas\">\n              </a>\n              <div class=\"card-body\">\n                <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Leve 1 exemplar do Volume 1 (Duas Sílabas)</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Frete fixo para todo o Brasil: R$9,90</p>\n              </div>\n              <div class=\"card-footer\" mbr-if=\"showFooter\">\n                <!--Btn-->\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"https://pages.minhaprimeiraleitura.com.br/checkout\" class=\"btn btn-secondary\" data-app-placeholder=\"Type Text\" onclick=\"fbq('track', 'AddToCart', {value: '29,90',currency: 'BRL'}); return true;\">R$ 29,90 + FRETE</a></div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-md-4 clearfix d-none d-md-block\">\n            <div class=\"card mb-2\">\n              <a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=volume2\" onclick=\"fbq('track', 'AddToCart', {value: '33,80',currency: 'BRL'}); return true;\">\n              \t<img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/capa-minha-primeira-leitura-volume-2-c-400x320.png\" alt=\"Livro Minha Primeira Leitura volume 2\" title=\"Livro Minha Primeira Leitura volume 2\">\n                </a>\n              <div class=\"card-body\">\n                <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Leve 1 exemplar do Volume 2</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Frete fixo para todo o Brasil: R$9,90<br></p>\n              </div>\n              <div class=\"card-footer\" mbr-if=\"showFooter\">                \n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=volume2\" class=\"btn btn-secondary display-4\" onclick=\"fbq('track', 'AddToCart', {value: '33,80',currency: 'BRL'}); return true;\">R$ 33,80  + FRETE</a></div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-md-4 clearfix d-none d-md-block\">\n            <div class=\"card mb-2\">\n               <a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=volume3\" onclick=\"fbq('track', 'AddToCart', {value: '33,80',currency: 'BRL'}); return true;\"><img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/capa-minha-primeira-leitura-volume-3-c-400x320.png\" alt=\"Livro Minha Primeira Leitura volume 3\" title=\"Livro Minha Primeira Leitura volume 3\"></a>\n              <div class=\"card-body\">\n                <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Leve 1 exemplar do Volume 3</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Frete fixo para todo o Brasil: R$9,90</p>\n              </div>\n              <div class=\"card-footer\" mbr-if=\"showFooter\">                \n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=volume3\" class=\"btn btn-secondary display-4\" onclick=\"fbq('track', 'AddToCart', {value: '33,80',currency: 'BRL'}); return true;\">R$ 33,80 + FRETE</a></div>\n            </div>\n          </div>\n        </div>\n          \n        </div>\n      </div>\n      <!--/.First slide-->\n\n          \n        \n      <!--Second slide-->\n      <div class=\"carousel-item\">\n        <div class=\"row card-group\">\n\n          <div class=\"col-md-4\">\n            <div class=\"card mb-2\">\n              <a href=\"https://pages.minhaprimeiraleitura.com.br/checkout\" onclick=\"fbq('track', 'AddToCart', {value: '29,90',currency: 'BRL'}); return true;\">\n                <img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/capa-minha-primeira-leitura-passatempo-1-c-400x320.png\" alt=\"Livro Passatempo Duas Sílabas Volume 1\" title=\"Livro Passatempo Duas Sílabas Volume 1\">\n              </a>\n              <div class=\"card-body\">\n                <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">&nbsp;Passatempo vol. 1 (Duas Sílabas))</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Frete fixo para todo o Brasil: R$9,90</p>\n              </div>\n              <div class=\"card-footer\" mbr-if=\"showFooter\">\n                <!--Btn-->\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=passatempo1\" class=\"btn btn-secondary\" onclick=\"fbq('track', 'AddToCart', {value: '21,90',currency: 'BRL'}); return true;\" data-app-placeholder=\"Type Text\">R$ 21,90 + FRETE</a></div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-md-4 clearfix d-none d-md-block\">\n            <div class=\"card mb-2\">\n              <a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=volume2\" onclick=\"fbq('track', 'AddToCart', {value: '33,80',currency: 'BRL'}); return true;\">\n              \t<img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/capa-minha-primeira-leitura-passatempo-2-c-400x320.png\" alt=\"Livro Passatempo Volume 2\" title=\"Livro Passatempo Volume 2\">\n                </a>\n              <div class=\"card-body\">\n                <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Passatempo vol. 2</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Frete fixo para todo o Brasil: R$9,90</p>\n              </div>\n              <div class=\"card-footer\" mbr-if=\"showFooter\">                \n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=passatempo2\" class=\"btn btn-secondary display-4\" onclick=\"fbq('track', 'AddToCart', {value: '21,90',currency: 'BRL'}); return true;\">R$ 21,90 + FRETE</a></div>\n              </div>\n            </div>\n          </div>\n          \n          <div class=\"col-md-4 clearfix d-none d-md-block invisible\">\n            <div class=\"card mb-2\">\n              <a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=volume3\" onclick=\"fbq('track', 'AddToCart', {value: '33,80',currency: 'BRL'}); return true;\">\n              \t<img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/capa-minha-primeira-leitura-passatempo-2-c-400x320.png\" alt=\"Livro Passatempo Volume 2\" title=\"Livro Passatempo Volume 2\">\n                </a>\n              <div class=\"card-body\">\n                <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Passatempo vol. 3 (não lançado)</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Frete fixo para todo o Brasil: R$9,90</p>\n              </div>\n              <div class=\"card-footer\" mbr-if=\"showFooter\">                \n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"https://pages.minhaprimeiraleitura.com.br/checkout?product=passatempo3\" class=\"btn btn-secondary display-4\" onclick=\"fbq('track', 'AddToCart', {value: '21,90',currency: 'BRL'}); return true;\">R$ 21,90 + FRETE</a></div>\n              </div>\n            </div>\n          </div>\n          \n        </div>\n      </div>\n      <!--/.Second slide-->\n      </div>\n      \n      \n      <a class=\"carousel-control-prev\" href=\"#multi-item-carousel\" role=\"button\" data-slide=\"prev\">\n          <span class=\"fab fa-whatsapp mbr-iconfont mbr-iconfont-btn\" aria-hidden=\"true\"></span>\n          <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n          <span class=\"sr-only\">Previous</span>\n        </a>\n        <a class=\"carousel-control-next\" href=\"#multi-item-carousel\" role=\"button\" data-slide=\"next\">\n          <span class=\"carousel-control-next-icon btn-next-in-text\" aria-hidden=\"true\"></span>\n          <span class=\"sr-only\">Next</span>\n        </a>\n \n    </div>\n    <!--/.Slides-->\n\n  </div>\n  <!--/.Carousel Wrapper-->\n \n  </div>\n</section>",
+          "_anchor": "features17-fv",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "syXgSGppZH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {

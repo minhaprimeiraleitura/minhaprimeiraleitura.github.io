@@ -13944,6 +13944,57 @@ section.lazy-placeholder:after {
 .cid-sylFXZC5EJ foot-menu-item {
   text-align: right;
 }
+.cid-syXgSGppZH {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-syXgSGppZH .card-img {
+  background-color: #fff;
+}
+.cid-syXgSGppZH .card {
+  background-color: #ffffff;
+}
+.cid-syXgSGppZH .card-box {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.cid-syXgSGppZH .mbr-text {
+  color: #767676;
+}
+.cid-syXgSGppZH .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-syXgSGppZH .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-syXgSGppZH .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
+}
+.cid-syXgSGppZH .card-title {
+  text-align: left;
+  color: #073b4c;
+}
+.cid-syXgSGppZH .mbr-text,
+.cid-syXgSGppZH .mbr-section-btn {
+  text-align: left;
+}
+.cid-syXgSGppZH H2 {
+  text-align: left;
+  color: #073b4c;
+}
+.cid-syXgSGppZH .btn-next-in-text {
+  font-size: 28px;
+  color: #073b4c;
+}
 .cid-syzfnRxaqV {
   padding-top: 60px;
   padding-bottom: 60px;
