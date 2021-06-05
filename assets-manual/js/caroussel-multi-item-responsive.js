@@ -1,6 +1,3 @@
-  $('#recipeCarousel').carousel({
-    interval: 8000
-  })
 
   $('.carousel .carousel-item').each(function(){
     var minPerSlide = 3;
