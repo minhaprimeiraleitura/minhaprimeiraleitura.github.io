@@ -1,4 +1,12 @@
+$('#multi-item-carrossel2').carousel({
+    interval: 12000
+  });
 
+  $('#multi-item-carrossel').carousel({
+    interval: 10000
+  });
+
+  
   $('.carousel .carousel-item').each(function(){
     var minPerSlide = 3;
     var next = $(this).next();
