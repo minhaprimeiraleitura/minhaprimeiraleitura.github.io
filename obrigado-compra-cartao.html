@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" >
 <head>
   
   <meta charset="UTF-8">
@@ -11,10 +11,10 @@
   
   
   <title>Obrigado Compra Cartão de Crédito | Minha Primeira Leitura</title>
-  <link rel="stylesheet" href="assets/font-awesome-brands/../css/fontawesome.min.css">
-  <link rel="stylesheet" href="assets/font-awesome-brands/css/brands.min.css">
   <link rel="stylesheet" href="assets/font-awesome-regular/../css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/font-awesome-regular/css/regular.min.css">
+  <link rel="stylesheet" href="assets/font-awesome-brands/../css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/font-awesome-brands/css/brands.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -218,54 +218,87 @@
              switch (product) {
                   case "1":
                        product= 286032;
+                       valor = 29.90;
                        break;
                   case "2":
                        product= 286473 ;
+                       valor =55.80;
                        break;
                   case "3":
                        product= 286475;
+                       valor = 277.00;
                        break;
                   case "volume2":
                        product= 624704;
+                       valor = 33.80;
                        break;
                   case "passatempo1":
                        product= 362318;
+                       valor = 21.90;
                        break;
                   case "combo1":
                        product= 624744;
+                       valor = 47.90;
                        break;
                   case "combo2":
                        product= 625838;
+                       valor = 49.90;
                        break;
                   case "combo_duo":
                        product= 624753;
+                       valor = 59.90;
                        break;
                   case "combo_trio":
                        product= 624805;
+                       valor = 79.90;
                        break;
                   case "volume3":
                        product= 855592;
+                       valor = 33.80;
                        break;
                   case "passatempo2":
                        product= 855612;
-                       break;
-                  case "combo5":
-                       product= 856062;
+                       valor = 21.90;
                        break;
                   case "combo3":
                        product= 856825;
+                       valor = 97.50;
                        break;
-                  case "comboL3p2":
-                       product= 857661;
-                       break;
-                  case "comboL3p1p2":
-                       product= 857666;
+                  case "combo5":
+                       product= 856062;
+                       valor = 137.90;
                        break;
                   case "comboL2p2":
                        product= 857653;
+                       valor = 49.90;
+                       break;
+                  case "comboL3p2":
+                       product= 857661;
+                       valor = 49.90;
+                       break;
+                  case "comboL3p1p2":
+                       product= 857666;
+                       valor = 77.60;
+                       break;
+                  case "comboL2L3":
+                       product= 869804;
+                       valor = 61.30;
+                       break;
+                  case "comboL2L3p2":
+                       product= 873680;
+                       valor = 83.20;
+                       break;
+                  case "comboL2L3p1p2":
+                       product= 880366;
+                       valor = 111.40;
+                       break;
+                  case "combop1p2":
+                       product= 880376;
+                       valor = 39.97;
                        break;
                   default:
                        product= 286032;
+                       valor = 29.90;
              };
               fbq('track', 'Purchase', {value:29.90, currency: 'BRL'});
            };
