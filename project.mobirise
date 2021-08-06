@@ -6121,7 +6121,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/q2-829x7112.png",
+                "image": "@PROJECT_PATH@/assets/images/q2-829x7110.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -6140,7 +6140,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/q3-829x7113.png",
+                "image": "@PROJECT_PATH@/assets/images/q3-829x7111.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
