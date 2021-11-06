@@ -715,7 +715,7 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-gq" data-rv-view="1772">
+<section class="mbr-section" id="witsec-modal-window-block-gq" data-rv-view="5383">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -730,7 +730,22 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
 
 	
 	
-	<div><div class="modal fade" id="detalhes-livro-1" tabindex="-1" role="dialog" aria-labelledby="detalhes-livro-1Label" aria-hidden="true">  <div class="modal-dialog  " role="document">    <div class="modal-content"><div class="modal-body" id="detalhes-livro-1_body">Ao todo, o livro tem 28 páginas, contando com a folha de rosto e a dedicatória.<br><br>Contém 8 historinhas, curtas e vai aumentando gradualmente a dificuldade.<br><br>Todas as historinhas são feitas com Duas Sílabas simples apenas!<br><br>Tamanho 23x21cm<br><br>Frete fixo - responsabilidade: Os Correios<br>Prazo: 8-10 dias úteis.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">OK</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#detalhes-livro-1").on("hidden.bs.modal", function () {    var html = $( "#detalhes-livro-1_body" ).html();    $( "#detalhes-livro-1_body" ).empty();    $( "#detalhes-livro-1_body" ).append(html);  })});</script></div>
+	<div><div class="modal fade" id="detalhes-livro-1" tabindex="-1" role="dialog" aria-labelledby="detalhes-livro-1Label" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="detalhes-livro-1_body">Ao todo, o livro tem 28 páginas, contando com a folha de rosto e a dedicatória.<br><br>Contém 8 historinhas, curtas e vai aumentando gradualmente a dificuldade.<br><br>Todas as historinhas são feitas com Duas Sílabas simples apenas!<br><br>Tamanho 23x21cm<br><br>Frete fixo - responsabilidade: Os Correios<br>Prazo: 8-10 dias úteis.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">OK</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#detalhes-livro-1").on("hidden.bs.modal", function () { 
+      var html = $( "#detalhes-livro-1_body" ).html(); 
+      $( "#detalhes-livro-1_body" ).empty(); 
+      $( "#detalhes-livro-1_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#detalhes-livro-1") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -773,7 +788,7 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
 
 </section>
 
-<section once="" class="cid-szpdrwnWSs mbr-reveal" id="footer7-gr">
+<section once="" class="cid-skGpsdGZ3k mbr-reveal" id="footer7-hi">
 
     
 
@@ -787,7 +802,7 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
                   
                   
                   
-               <li class="foot-menu-item mbr-fonts-style display-7"><p><a href="https://pages.minhaprimeiraleitura.com.br/sobre" target="_blank" class="text-white">S</a>OBRE</p></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://www.minhaprimeiraleitura.com.br/#blog" target="_blank" class="text-white">B</a>LOG</li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://pages.minhaprimeiraleitura.com.br/apoiadores-livro-duas-silabas.html" target="_blank" class="text-white">A</a>POIADORES</li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://pages.minhaprimeiraleitura.com.br/contato" target="_blank" class="text-white">E</a>NTRE EM CONTATO</li></ul>
+               <li class="foot-menu-item mbr-fonts-style display-7"><p><a href="https://pages.minhaprimeiraleitura.com.br/sobre" target="_blank" class="text-white">SOBRE</a></p></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://www.minhaprimeiraleitura.com.br/#blog" target="_blank" class="text-white">BLOG</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://pages.minhaprimeiraleitura.com.br/apoiadores-livro-duas-silabas.html" target="_blank" class="text-white">APOIADORES</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://pages.minhaprimeiraleitura.com.br/contato" target="_blank" class="text-white">ENTRE EM CONTATO</a></li></ul>
             </div>
             <div class="row social-row">
                 <div class="social-list align-right pb-2">
@@ -803,7 +818,7 @@ Todas as historinhas são feitas com palavras de até 2 sílabas, sem acentos, h
                     
                 <div class="soc-item">
                         <a href="https://www.facebook.com/minhaprimeiraleitura" target="_blank">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon" style="color: rgb(15, 90, 116); fill: rgb(15, 90, 116);"></span>
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
                         </a>
                     </div><div class="soc-item">
                         <a href="https://www.youtube.com/c/minhaprimeiraleitura" target="_blank">
