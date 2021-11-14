@@ -16280,8 +16280,8 @@ section.lazy-placeholder:after {
 }
 .cid-szHLnVR4UL .controle-setas {
   background-color: #199137;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .cid-szHLnVR4UL .card {
   background-color: #ffffff;
@@ -16560,6 +16560,9 @@ section.lazy-placeholder:after {
 .cid-sNUMTgAmwW .toast-testimonial {
   min-width: 30% !important;
   margin: 15px;
+}
+.cid-sNUMTgAmwW .toast-testimonial .toast-body {
+  padding: 0!important;
 }
 .cid-rTV3FZDZXw {
   padding-top: 30px;
