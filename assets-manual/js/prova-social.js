@@ -2,15 +2,39 @@ $( document ).ready(function() {
 
         var myTime;
         var texto;
-        var tempo = 8000;
+        var tempo_default = 8000;
+        var tempo = tempo_default;
         var c = 0;
         var clique = 0;
         var path = 'assets-manual/files/';
-        var qtd_files = 321;
+        var qtd_files = 319;
+        var show = true;
+        var TOTAL = 13;
+        var total = 0;
+
+        $(window).on("blur focus", function(e) {
+            var prevType = $(this).data("prevType");
+
+            if (prevType != e.type) {   //  reduce double fire issues
+
+                switch (e.type) {
+                    case "blur":
+                        show = false;
+                        clearTimeout(myTime);
+                        break;
+                    case "focus":
+                        show = true;
+                        myTime = setTimeout(show_toast, tempo_default);
+                        break;
+                }
+            }
+
+            $(this).data("prevType", e.type);
+        })
+
 
         function get_novo_depoimento() {
           c=c+1;
-          texto="TOAST "+c;
           tempo=Math.round(Math.random() * 10 + 13)*1000;
           if (c>3) {
             c=0;
@@ -23,10 +47,12 @@ $( document ).ready(function() {
         }
 
         var show_toast = function() {
-            get_novo_depoimento();
-            //$("#tempo").text("ordem "+c+" tempo = "+tempo+" clic = "+clique);
-            $('#liveToast').toast('show');
-            myTime = setTimeout(show_toast, tempo);
+            if (total<=TOTAL) {
+                total=total+1;
+                get_novo_depoimento();
+                $('#liveToast').toast('show');
+                myTime = setTimeout(show_toast, tempo);
+            }
         }
         myTime = setTimeout(show_toast, tempo);
 
@@ -34,6 +60,8 @@ $( document ).ready(function() {
             clearTimeout(myTime);
             myTime = setTimeout(show_toast, clique*1000);
             clique+=0.25;
+            total = 0;
+            show = true;
         });
 
      });
