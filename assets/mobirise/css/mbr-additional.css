@@ -15535,6 +15535,9 @@ section.lazy-placeholder:after {
 .cid-sSDqKKQ4lr .mbr-section-subtitle {
   color: #073b4c;
 }
+.cid-sSDqKKQ4lr H2 {
+  color: #073b4c;
+}
 .cid-skcJbKs7sS .navbar {
   background: #199137;
   transition: none;
@@ -15951,6 +15954,7 @@ section.lazy-placeholder:after {
 }
 .cid-sxMXj0XoRS .mbr-text {
   color: #073b4c;
+  text-align: left;
 }
 .cid-rTV2NwT5gr {
   padding-top: 30px;
