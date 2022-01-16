@@ -17113,6 +17113,14 @@ section.lazy-placeholder:after {
 .cid-sUCBGg3rYZ .mbr-text,
 .cid-sUCBGg3rYZ .mbr-section-btn {
   color: #073b4c;
+  text-align: center;
+}
+.cid-sUCBGg3rYZ .form-group {
+  margin-bottom: 0.8rem;
+}
+.cid-sUCBGg3rYZ .form-control {
+  min-height: 3em;
+  padding: 1.0em .8em;
 }
 .cid-sUCDDit0B1 {
   padding-top: 0px;
