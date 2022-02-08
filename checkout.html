@@ -100,6 +100,7 @@
                 
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5"><strong><br></strong>Preencha com seus dados abaixo. Atenção com o endereço.<br><strong>O valor total que aparecerá abaixo é a soma com o valor do frete.</strong></p>
+                <div id="info"></div>
                 
             </div>
         </div>
@@ -233,6 +234,11 @@
                   case "comboL3p2p3":
                        skuEduzz= 1055304;
                        valor = 77.60
+                       break;
+                  case "assinatura-colecao":
+                       skuEduzz= 1271775;
+                       valor = 29.90;
+                       $("div#info").text("Fique atento ao seu email. Você receberá um arquivo para acompanhar.")
                        break;
                   default:
                        skuEduzz= 286032;
