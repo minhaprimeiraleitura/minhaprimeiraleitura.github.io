@@ -3,7 +3,7 @@ $( document ).ready(function() {
         var myTime;
         var texto;
         var tempo_default = 8000;
-        var tempo = tempo_default;
+        var tempo = 0; //tempo_default;
         var c = 0;
         var clique = 0;
         var path = 'assets-manual/files/';
