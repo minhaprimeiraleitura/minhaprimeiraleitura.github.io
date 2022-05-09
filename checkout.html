@@ -157,7 +157,7 @@
         };
         valor = 29.90;
         skuEduzz = 286032;
-        $("div#assinatura-info").css("display:none");
+        document.querySelector("#assinatura-info").style.display="none";
         product = $.urlParam('product');
         if (product) {
             switch (product) {
@@ -268,7 +268,7 @@
                   case "assinatura-colecao":
                        skuEduzz= 1271775;
                        valor = 29.90;
-                       $("div#assinatura-info").css("display:block");
+                       document.querySelector("#assinatura-info").style.display="block";
                        break;
                   default:
                        skuEduzz= 286032;
