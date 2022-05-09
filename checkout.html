@@ -99,8 +99,7 @@
             <div class="col-md-10 align-center">
                 
                 
-                <p class="mbr-text pb-3 mbr-fonts-style display-5"><strong><br></strong>Preencha com seus dados abaixo. Atenção com o endereço.<br><strong>O valor total que aparecerá abaixo é a soma com o valor do frete.</strong></p>
-                <div id="info"></div>
+                <p class="mbr-text pb-3 mbr-fonts-style display-5"><strong><br></strong>Preencha com seus dados abaixo. Verifique seu endereço.<br><strong>O valor total que aparecerá abaixo é a soma com o valor do frete.</strong></p>
                 
             </div>
         </div>
@@ -108,17 +107,34 @@
 
 </section>
 
-
-
-<section class="mbr-section article content1 cid-t0xSiaigWS" id="content1-ky">
+<section class="mbr-section article content9 cid-t30CmBNYpg" id="content9-lg">
     
      
 
     <div class="container">
-        <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8"><p><strong>Em até 24h, após a conclusão da compra, você receberá um arquivo PDF contendo informações da assinatura. O primeiro volume de leitura (Duas Sílabas) será enviado em seguida pelos Correios.</strong></p></div>
+        <div class="inner-container" style="width: 100%;">
+            <hr class="line" style="width: 25%;">
+            <div class="section-text align-center mbr-fonts-style display-5"><strong>
+                    ATENÇÃO</strong>: preços com valores de 2021. Aproveite <strong>agora</strong>.</div>
+            <hr class="line" style="width: 25%;">
+        </div>
+        </div>
+</section>
+
+<section class="mbr-section content4 cid-t5lgEauN8L" id="content4-lj">
+
+    
+
+    <div class="container">
+        <div class="media-container-row" id="assinatura-info" style="display:none">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-7">Fique atento ao seu email. Você receberá um arquivo para acompanhar.</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7"><strong>Em até 24h, após a conclusão da compra, você receberá um arquivo PDF contendo informações da assinatura. O primeiro volume de leitura (Duas Sílabas) será enviado em seguida pelos Correios.</strong></h3>
+                
+            </div>
         </div>
     </div>
+    
 </section>
 
 <section class="mbr-section article content1 cid-rJkjTboPML" id="content1-5u">
@@ -141,6 +157,7 @@
         };
         valor = 29.90;
         skuEduzz = 286032;
+        $("div#assinatura-info").css("display:none");
         product = $.urlParam('product');
         if (product) {
             switch (product) {
@@ -251,7 +268,7 @@
                   case "assinatura-colecao":
                        skuEduzz= 1271775;
                        valor = 29.90;
-                       $("div#info").text("Fique atento ao seu email. Você receberá um arquivo para acompanhar.")
+                       $("div#assinatura-info").css("display:block");
                        break;
                   default:
                        skuEduzz= 286032;
