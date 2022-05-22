@@ -6459,6 +6459,13 @@ section.lazy-placeholder:after {
 .cid-synx4itpL7 .mbr-section-btn {
   color: #073b4c;
 }
+.cid-synx4itpL7 .destaque {
+  background-color: #ffff00;
+  padding: 2px 5px;
+  border-radius: 50px;
+  color: #000;
+  display: inline-block;
+}
 .cid-t30CmBNYpg {
   padding-top: 5px;
   padding-bottom: 5px;
