@@ -15097,6 +15097,15 @@ section.lazy-placeholder:after {
 .cid-skcJbKs7sS .dropdown-item {
   color: #efefef !important;
 }
+.cid-rTV2NwT5gr {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rTV2NwT5gr .mbr-section {
+  text-align: center;
+  color: #fff;
+}
 .cid-sxNgsPVQyP {
   padding-top: 0px;
   padding-bottom: 15px;
@@ -15111,16 +15120,7 @@ section.lazy-placeholder:after {
   height: 0;
   border-left: 190px solid transparent;
   border-right: 190px solid transparent;
-  border-top: 50px solid #e9e9e9;
-}
-.cid-rTV2NwT5gr {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #fdeada;
-}
-.cid-rTV2NwT5gr .mbr-section {
-  text-align: center;
-  color: #fff;
+  border-top: 50px solid #ffffff;
 }
 .cid-sW2z09vr8B {
   padding-top: 60px;
