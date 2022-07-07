@@ -110,7 +110,7 @@
                         
                     </div>
                     <!--Btn-->
-                    <div class="mbr-section-btn pt-3 align-left"><a href="index.html" class="btn btn-info display-4">EU QUERO ADQUIRIR A COLEÇÃO PARA MIM</a></div>
+                    <!--div mbr-buttons mbr-theme-style="display-4"  class="mbr-section-btn pt-3" mbr-if="showButtons" data-toolbar="-mbrBtnMove" mbr-class="{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}"><a href=""  id="assinar" class="btn btn-info" data-app-placeholder="Type Text">EU QUERO ADQUIRIR A COLEÇÃO PARA MIM</a></div-->
                     <button id="assinar">Abrir modal de pagamento</button>
                 </div>
             </div>
@@ -262,7 +262,7 @@
       var button = document.querySelector('#assinar');
       
       // Abrir o modal ao clicar no botão
-      button.addEventListener('click', function() {   alert("ok")  ;
+      button.addEventListener('click', function() { 
             
         // inicia a instância do checkout
         var checkout = new PagarMeCheckout.Checkout({
