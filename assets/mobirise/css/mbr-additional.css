@@ -15209,8 +15209,8 @@ section.lazy-placeholder:after {
   position: fixed;
   width: 70px;
   height: 70px;
-  bottom: 50px;
-  right: 50px;
+  bottom: 55px;
+  right: 10px;
   background-color: #25d366;
   color: #fff;
   border-radius: 50px;
@@ -22152,8 +22152,8 @@ section.lazy-placeholder:after {
   position: fixed;
   width: 70px;
   height: 70px;
-  bottom: 50px;
-  right: 50px;
+  bottom: 55px;
+  right: 10px;
   background-color: #25d366;
   color: #fff;
   border-radius: 50px;
