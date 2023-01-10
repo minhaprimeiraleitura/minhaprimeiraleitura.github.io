@@ -2,8 +2,8 @@ $( document ).ready(function() {
 
         var myTime;
         var texto;
-        var tempo_default = 8000;
-        var tempo = 10000; //tempo_default;
+        var tempo_default = 18000;
+        var tempo = 30000; //tempo_default;
         var c = 0;
         var clique = 0;
         var path = 'assets-manual/files/';
@@ -35,10 +35,10 @@ $( document ).ready(function() {
 
         function get_novo_depoimento() {
           c=c+1;
-          tempo=Math.round(Math.random() * 10 + 13)*1000;
+          tempo=Math.round(Math.random() * 10 + 43)*1000;
           if (c>3) {
             c=0;
-            tempo=30000;
+            tempo=180000;
             clique=0;
           };
           i = Math.floor(Math.random()*qtd_files+1);
