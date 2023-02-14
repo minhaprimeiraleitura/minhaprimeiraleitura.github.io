@@ -41510,32 +41510,8 @@ section.lazy-placeholder:after {
 .cid-tt2HufA8gI .media-container-row .mbr-text {
   color: #232323;
 }
-.cid-tvyBg6AmZ7 {
-  padding-top: 120px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-tvyBg6AmZ7 .mbr-text {
-  color: #767676;
-}
-.cid-tvyBg6AmZ7 iframe {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  border: none;
-  overflow: hidden;
-}
-.cid-tvyBg6AmZ7 .pos-iframe {
-  width: 100%;
-  padding-bottom: 56.25%;
-  position: relative;
-}
 .cid-tvQZS8BUxf {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background: linear-gradient(45deg, #0f7699, #ff7f9f);
+  background: linear-gradient(45deg, #efefef, #efefef);
 }
 @media (min-width: 992px) {
   .cid-tvQZS8BUxf .mbr-figure {
@@ -41547,10 +41523,17 @@ section.lazy-placeholder:after {
     padding-top: 3rem;
   }
 }
+.cid-tvQZS8BUxf .mbr-section-title {
+  color: #073b4c;
+}
+.cid-tvQZS8BUxf .mbr-text,
+.cid-tvQZS8BUxf .mbr-section-btn {
+  color: #073b4c;
+}
 .cid-tvR0AXGQ9k {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-tvR0AXGQ9k .media-container-row {
   flex-direction: row-reverse;
@@ -41572,6 +41555,43 @@ section.lazy-placeholder:after {
   .cid-tvR0AXGQ9k .mbr-text {
     text-align: center;
   }
+}
+.cid-tvR0AXGQ9k .mbr-text,
+.cid-tvR0AXGQ9k .mbr-section-btn {
+  color: #073b4c;
+}
+.cid-tvR0AXGQ9k H1 {
+  color: #073b4c;
+}
+.cid-tvRaWaUZpj {
+  background: linear-gradient(45deg, #efefef, #efefef);
+}
+@media (min-width: 992px) {
+  .cid-tvRaWaUZpj .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-tvRaWaUZpj .mbr-figure {
+    padding-top: 3rem;
+  }
+}
+.cid-tvRaWaUZpj .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-tvRaWaUZpj .media-container-row .mbr-figure {
+    padding-left: 0;
+    padding-right: 4rem;
+  }
+}
+.cid-tvRaWaUZpj .mbr-section-title {
+  color: #073b4c;
+}
+.cid-tvRaWaUZpj .mbr-text,
+.cid-tvRaWaUZpj .mbr-section-btn {
+  color: #073b4c;
 }
 .cid-skGpsdGZ3k {
   padding-top: 75px;
