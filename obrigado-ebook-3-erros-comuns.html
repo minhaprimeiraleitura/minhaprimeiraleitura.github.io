@@ -11,14 +11,16 @@
   
   
   <title>Obrigado por adquirir o ebook Identificando os 3 erros comuns</title>
+  <link rel="stylesheet" href="assets/font-awesome-regular/../css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/font-awesome-regular/css/regular.min.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -60,10 +62,9 @@
 <!-- /Analytics -->
 
 
-  <section class="features9 cid-twD4JaPSIh" id="features9-15e">
-
+  <section class="features9 atencao cid-twD4JaPSIh" id="features9-15e">
+ 
     
-
     
     <div class="container">
         <div class="row justify-content-center">
@@ -83,7 +84,7 @@
     </div>
 </section>
 
-<section class="mbr-section article content11 cid-twD6uRAG41" id="content11-15f">
+<section class="mbr-section article content11 atencao cid-twD6uRAG41" id="content11-15f">
      
 
     <div class="container">
@@ -99,6 +100,58 @@
     </div>
 </section>
 
+<section class="countdown1 cid-txBbGsAGY7" id="countdown1-15l">
+    
+    
+    <div id="oferta"></div>
+    
+    <script>
+      window.onload = () => {
+        $.urlParam = function(name){
+              var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+              if (results==null){
+                 return null;
+              }
+              else{
+                 return results[1] || 0;
+              }
+        };
+        oferta_valida = $.urlParam('oferta_valida');
+        if (oferta_valida==1) {
+           location.href = location.href + '#oferta';
+          $( ".atencao" ).css("display", "none");
+        }
+      }
+    </script>
+    <div class="container countdown-cont align-center">
+        <div class="row numeros">
+          <div class="col-4">
+            <span class="number-wrap">
+              <span class="number display-2">00</span>
+              <span class="period display-7">Horas</span>
+              <span class="dot">:</span>
+            </span>
+          </div>
+          <div class="col-4">
+            <span class="number-wrap">
+              <span class="number display-2" id="min1">17</span>
+              <span class="period display-7">Minutos</span>
+              <span class="dot">:</span>
+            </span>
+          </div>
+          <div class="col-4">
+            <span class="number-wrap">
+              <span class="number display-2" id="seg1">23</span>
+              <span class="period display-7">Segundos</span>
+            </span>
+          </div>
+        </div>
+    </div>
+    <div class="container ">
+        <h3 class="mbr-section-subtitle align-center mbr-fonts-style texto display-5"><strong>Oferta Grátis Agora!!!</strong></h3>        
+    </div>
+</section>
+
 <section class="mbr-section content4 cid-twDju4xwha" id="content4-15g">
 
     
@@ -107,7 +160,7 @@
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">
-                    De R$ 59,90 por <strong>R$ 19,90</strong></h2>
+                    De&nbsp;<span class="cost">&nbsp;R$ 59,90 </span>&nbsp;por <strong>R$ 19,90&nbsp;</strong> <span class="far fa-fw fa-grin-stars mbr-iconfont" style="font-size: 50px;"></span></h2>
                 
                 
             </div>
@@ -342,12 +395,39 @@
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
   <script> fbq('trackCustom', 'ObrigadoEbook3Erros');</script>
+<!-- Contador -->
+<script>
+    var minutes = 17;
+    var seconds = 24;
+    var countdown = setInterval(function() {
+        seconds--;
+        if (seconds<0 && minutes>0) {
+            seconds = 59;
+            minutes--;
+           document.getElementById("min1").innerHTML =  ("0" + minutes).slice(-2);
+        };
+        document.getElementById("seg1").innerHTML = ("0" + seconds).slice(-2);
+
+       /* if (seconds<10) {
+           document.getElementById("seg1").innerHTML = "0" + seconds;
+    }
+       else {
+           document.getElementById("seg1").innerHTML = seconds;
+       }*/
+        if (seconds<1 && minutes<1) {
+           document.getElementById("min1").innerHTML = "00";
+           document.getElementById("seg1").innerHTML = "00";
+           this.clearinterval();
+        };
+    }, 1000);
+</script>
+
   <input name="animation" type="hidden">
   </body>
 </html>
