@@ -7,10 +7,10 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/faviicon-mpl-32.png" type="image/x-icon">
-  <meta name="description" content="Web Builder Description">
+  <meta name="description" content="teste">
   
   
-  <title>Isca1</title>
+  <title>teste</title>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -27,7 +27,14 @@
 <body>
 
 <!-- Analytics -->
-    <!-- Facebook Pixel Code -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVXB4QC');</script>
+<!-- End Google Tag Manager -->   
+ <!-- Facebook Pixel Code -->
     <script>
     	
       !function(f,b,e,v,n,t,s)
@@ -55,6 +62,10 @@
 
     gtag('config', 'UA-124180364-1');
   </script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVXB4QC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <!-- /Analytics -->
 
 
@@ -1467,210 +1478,7 @@ $(document).ready(function () {
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-   
-  <script>
-    $(document).ready(function(){
-    $("#span1").on('DOMSubtreeModified',function(){
-         // text change handler
-     });
-
- });
-     $( document ).ready(function() {
-         $.urlParam = function(name){
-              var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-              if (results==null){
-                 return null;
-              }
-              else{
-                 return results[1] || 0;
-              }
-         };
-         product = $.urlParam('product');
-         if (product) {
-             switch (product) {
-                  case "1":
-                       product= 286032;
-                       break;
-                  case "2":
-                       product= 286473 ;
-                       break;
-                  case "3":
-                       product= 286475;
-                       break;
-                  case "volume2":
-                       product= 624704;
-                       break;
-                  case "passatempo1":
-                       product= 362318;
-                       break;
-                  case "combo1":
-                       product= 624744;
-                       break;
-                  case "combo2":
-                       product= 625838;
-                       break;
-                  case "combo_duo":
-                       product= 624753;
-                       break;
-                  case "combo_trio":
-                       product= 624805;
-                       break;
-                  case "volume3":
-                       product= 855592;
-                       break;
-                  case "passatempo2":
-                       product= 855612;
-                       break;
-                  case "combo5":
-                       product= 856062;
-                       break;
-                  case "combo3":
-                       product= 856825;
-                       break;
-                  case "comboL3p2":
-                       product= 857661;
-                       break;
-                  case "comboL3p1p2":
-                       product= 857666;
-                       break;
-                  case "comboL2p2":
-                       product= 857653;
-                       break;
-                  default:
-                       product= 286032;
-             };
-              var s = "";
-              s = "<iframe src='https://sun.eduzz.com/"+product+"'></iframe>";
-              $("iframe").replaceWith(s);
-              fbq('track', 'InitiateCheckout');
-              $("span.chk-number-price.span").on('DOMSubtreeModified',function(){
-                  alert("alterou");// text change handler
-              });
-           };
-     });
-</script>
-  <script>
-     var url = (window.location != window.parent.location)
-            ? document.referrer
-            : document.location.href;
-      alert("ok");
-      alert(url);
-  </script>
-<script>
-$(document).ready(function () {
-    var itemsMainDiv = ('.MultiCarousel');
-    var itemsDiv = ('.MultiCarousel-inner');
-    var itemWidth = "";
-
-    $('.leftLst, .rightLst').click(function () {
-        var condition = $(this).hasClass("leftLst");
-        if (condition)
-            click(0, this);
-        else
-            click(1, this)
-    });
-
-    ResCarouselSize();
-
-
-
-
-    $(window).resize(function () {
-        ResCarouselSize();
-    });
-
-    //this function define the size of the items
-    function ResCarouselSize() {
-        var incno = 0;
-        var dataItems = ("data-items");
-        var itemClass = ('.item');
-        var id = 0;
-        var btnParentSb = '';
-        var itemsSplit = '';
-        var sampwidth = $(itemsMainDiv).width();
-        var bodyWidth = $('body').width();
-        $(itemsDiv).each(function () {
-            id = id + 1;
-            var itemNumbers = $(this).find(itemClass).length;
-            btnParentSb = $(this).parent().attr(dataItems);
-            itemsSplit = btnParentSb.split(',');
-            $(this).parent().attr("id", "MultiCarousel" + id);
-
-
-            if (bodyWidth >= 1200) {
-                incno = itemsSplit[3];
-                itemWidth = sampwidth / incno;
-            }
-            else if (bodyWidth >= 992) {
-                incno = itemsSplit[2];
-                itemWidth = sampwidth / incno;
-            }
-            else if (bodyWidth >= 768) {
-                incno = itemsSplit[1];
-                itemWidth = sampwidth / incno;
-            }
-            else {
-                incno = itemsSplit[0];
-                itemWidth = sampwidth / incno;
-            }
-            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
-            $(this).find(itemClass).each(function () {
-                $(this).outerWidth(itemWidth);
-            });
-
-            $(".leftLst").addClass("over");
-            $(".rightLst").removeClass("over");
-
-        });
-    }
-
-
-    //this function used to move the items
-    function ResCarousel(e, el, s) {
-        var leftBtn = ('.leftLst');
-        var rightBtn = ('.rightLst');
-        var translateXval = '';
-        var divStyle = $(el + ' ' + itemsDiv).css('transform');
-        var values = divStyle.match(/-?[\d\.]+/g);
-        var xds = Math.abs(values[4]);
-        if (e == 0) {
-            translateXval = parseInt(xds) - parseInt(itemWidth * s);
-            $(el + ' ' + rightBtn).removeClass("over");
-
-            if (translateXval <= itemWidth / 2) {
-                translateXval = 0;
-                $(el + ' ' + leftBtn).addClass("over");
-            }
-        }
-        else if (e == 1) {
-            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
-            translateXval = parseInt(xds) + parseInt(itemWidth * s);
-            $(el + ' ' + leftBtn).removeClass("over");
-
-            if (translateXval >= itemsCondition - itemWidth / 2) {
-                translateXval = itemsCondition;
-                $(el + ' ' + rightBtn).addClass("over");
-            }
-        }
-        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
-    }
-
-    //It is used to get some elements from btn
-    function click(ell, ee) {
-        var Parent = "#" + $(ee).parent().attr("id");
-        var slide = $(Parent).attr("data-slide");
-        ResCarousel(ell, Parent, slide);
-    }
-
-});
-  </script>
-<script src="assets/js/carousel-responsive/carousel-responsive.js"></script>
-<script>
-$('#myCarousel').carousel({
-    interval: 3000
-})
-
-</script>
+  <script> fbq('trackCustom', 'ObrigadoEbook3Erros');</script>
   <input name="animation" type="hidden">
   </body>
 </html>
