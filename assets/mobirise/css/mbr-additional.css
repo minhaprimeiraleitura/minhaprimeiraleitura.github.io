@@ -25898,6 +25898,9 @@ section.lazy-placeholder:after {
   text-align: left;
   margin-bottom: 0;
 }
+.cid-tMPXuxnjiG .card {
+  border-radius: 20px;
+}
 .cid-tMPXuxnjiG .card-img {
   text-align: left;
   background-color: #ffffff;
@@ -25910,7 +25913,7 @@ section.lazy-placeholder:after {
   color: #707070;
 }
 .cid-tMPXuxnjiG .card-box {
-  padding: 0rem 2.5rem 3rem 2.5rem;
+  padding: 0rem 1.5rem 2rem 1.5rem;
   background-color: #ffffff;
 }
 .cid-tMPXuxnjiG .counter-container {
@@ -25918,6 +25921,7 @@ section.lazy-placeholder:after {
 }
 .cid-tMPXuxnjiG .counter-container ul {
   margin-bottom: 0;
+  padding-left: 20px;
 }
 .cid-tMPXuxnjiG .counter-container ul li {
   margin-bottom: 1rem;
