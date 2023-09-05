@@ -5542,8 +5542,15 @@ section.lazy-placeholder:after {
   color: #149dcc !important;
 }
 .cid-rGQZbhGEyY {
-  padding-top: 120px;
+  padding-top: 105px;
   padding-bottom: 45px;
+}
+.cid-rGQZbhGEyY .title h2 {
+  line-height: 1.1;
+}
+.cid-rGQZbhGEyY .mbr-section-subtitle {
+  padding-bottom: 10px;
+  color: #073b4c;
 }
 .cid-rGQZbhGEyY .content-slider {
   display: -webkit-flex;
@@ -5572,7 +5579,31 @@ section.lazy-placeholder:after {
   color: #fff;
   opacity: 1;
 }
+@media (max-width: 1100px) {
+  .cid-rGQZbhGEyY .title h2 {
+    line-height: 1.3;
+    font-size: 2.2rem;
+  }
+  .cid-rGQZbhGEyY .mbr-section-subtitle {
+    font-size: 1.3rem;
+  }
+  .cid-rGQZbhGEyY .subtitle2 {
+    line-height: 1.3;
+    font-size: 1.2rem;
+  }
+}
 @media (max-width: 767px) {
+  .cid-rGQZbhGEyY .title h2 {
+    line-height: 1.2;
+    font-size: 1.7rem;
+  }
+  .cid-rGQZbhGEyY .mbr-section-subtitle {
+    font-size: 1rem;
+  }
+  .cid-rGQZbhGEyY .subtitle2 {
+    line-height: 1.3;
+    font-size: 1.2rem;
+  }
   .cid-rGQZbhGEyY .container .carousel-control {
     margin-bottom: 0;
   }
@@ -5819,10 +5850,7 @@ section.lazy-placeholder:after {
   width: 100%;
 }
 .cid-rGQZbhGEyY H2 {
-  color: #d47c25;
-}
-.cid-rGQZbhGEyY .mbr-section-subtitle {
-  color: #073b4c;
+  color: #138510;
 }
 .cid-rGQZbhGEyY H1 {
   color: #3ad84d;
@@ -5832,6 +5860,9 @@ section.lazy-placeholder:after {
 }
 .cid-rGQZbhGEyY .mbr-text,
 .cid-rGQZbhGEyY .mbr-section-btn {
+  color: #073b4c;
+}
+.cid-rGQZbhGEyY H3 {
   color: #073b4c;
 }
 .cid-t30KL7T57W {
@@ -25907,6 +25938,7 @@ section.lazy-placeholder:after {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   padding: 3rem 2.5rem 0 2.5rem;
+  border-radius: 10px 10px 0 0;
 }
 .cid-tMPXuxnjiG .card-img span {
   font-size: 72px;
@@ -25915,6 +25947,8 @@ section.lazy-placeholder:after {
 .cid-tMPXuxnjiG .card-box {
   padding: 0rem 1.5rem 2rem 1.5rem;
   background-color: #ffffff;
+  border-radius: 0 0 10px 10px;
+  min-height: 436px;
 }
 .cid-tMPXuxnjiG .counter-container {
   color: #767676;
