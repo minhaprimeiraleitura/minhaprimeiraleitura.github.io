@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc>
+  <string id="tip_soc_reddit" value="Reddit" />
+  <string id="tip_fullscreen" value="Цял екран" />
+  <string id="tip_thumbview" value="Преминаване към умален изглед" />
+  <string id="lb_hlp_print" value="Разпечатване " />
+  <string id="label_max" value="MAX" />
+  <string id="lb_hlp_bookmarks" value="Отметки" />
+  <string id="label_removeallbookmarks" value="Изтриване на отметките?" />
+  <string id="buttonlabel_hide_results" value="Скриване на резултати" />
+  <string id="label_toc_panel" value="Съдържание" />
+  <string id="lb_hlp_magnifier" value="Лупа" />
+  <string id="tip_catalogview" value="Преминаване към преглед на каталога" />
+  <string id="label_bookmark_panel" value="Управление на отметките" />
+  <string id="label_search_in_progress" value="Търсенето продължава" />
+  <string id="label_recommend_mail" value="Препоръчване на тази страница по имейл" />
+  <string id="tip_button_tostart" value="Към началото на каталога" />
+  <string id="label_print_page" value="Разпечатване" />
+  <string id="tip_soc_digg" value="Digg" />
+  <string id="buttonlabel_show_results" value="Показване на резултати" />
+  <string id="label_recommendation_receivername" value="Име на получателя:" />
+  <string id="label_recommendation_ok" value="Препоръчването е успешно! Благодарим!" />
+  <string id="tip_soc_delicious" value="Delicio.us" />
+  <string id="label_min" value="MIN" />
+  <string id="label_search_result" value="'[my_last_search]' Търсенето даде [nof_search_results] резултат" />
+  <string id="label_available_bookmarks" value="Съществуващи отметки:" />
+  <string id="lb_hlp_toc" value="Съдържание" />
+  <string id="label_bookmark_list" value="Отметки" />
+  <string id="buttonlabel_create_bookmark" value="Поставяне на отметки" />
+  <string id="label_sidebar_panel" value="Преглед" />
+  <string id="lb_hlp_save" value="Запаметяване" />
+  <string id="label_ok" value="OK" />
+  <string id="buttonlabel_yes" value="Да" />
+  <string id="lb_hlp_mousezoom" value="Увеличение с мишката" />
+  <string id="label_toc_menu" value="Съдържание" />
+  <string id="tip_soc_stumbleupon" value="Stumbleupon" />
+  <string id="label_outpanel" value="Други действия" />
+  <string id="lb_hlp_mouseover" value="Обяснение на символите чрез поставяне на мишката върху хипервръзка" />
+  <string id="tip_soc_vznet" value="VZ Netzwerke" />
+  <string id="label_search_nothing_found" value="Не са намерени никакви резултати" />
+  <string id="lb_hlp_thumbview" value="Умален изглед " />
+  <string id="lb_hlp_zoom" value="Увеличение" />
+  <string id="tip_button_next" value="Прелистване на една страница напред" />
+  <string id="label_sidebar_menu" value="Преглед" />
+  <string id="lb_hlp_recommendation" value="Препоръчване по имейл" />
+  <string id="tip_jumptopage" value="Препратка към страница" />
+  <string id="lb_hlp_normalview" value="Режим на прелистване" />
+  <string id="lb_hlp_navigation" value="Навигация" />
+  <string id="tip_soc_facebook" value="Facebook" />
+  <string id="lb_hlp_pagedrag" value="Хващане и преместване на страницата (в увеличен изглед)" />
+  <string id="label_recommendation_header" value="Препоръчване на страницата от каталога" />
+  <string id="label_social_panel" value="Споделяне на страницата от каталога" />
+  <string id="label_recommendation_sender" value="Имейл на подателя: *" />
+  <string id="tip_fullscreen_disabled_function" value="Тази функция е деактивирана в режим на цял екран от съображения за сигурност" />
+  <string id="tip_soc_misterwong" value="Misterwong" />
+  <string id="label_recommend_bookmarks" value="Препоръчване на списъка с отметки" />
+  <string id="lb_hlp_outpanel" value="Други действия" />
+  <string id="label_recommendation_textfield" value="Вашето съобщение:" />
+  <string id="label_save_menu" value="Запаметяване" />
+  <string id="lb_hlp_fullscreen" value="Режим на цял екран" />
+  <string id="label_page" value="Страница" />
+  <string id="lb_hlp_sidebar" value="Преглед" />
+  <string id="label_print_complete_pdf" value="Завършен PDF" />
+  <string id="tip_soc_google" value="Google +" />
+  <string id="tip_button_previous" value="Прелистване на една страница назад" />
+  <string id="tip_link" value="Към [current_page_area.url]" />
+  <string id="label_save_complete_pdf" value="Завършен PDF" />
+  <string id="lb_hlp_detailview" value="Отделни страници/Изглед за четене" />
+  <string id="tip_soc_twitter" value="Twitter" />
+  <string id="label_bookmark_menu" value="Отметки" />
+  <string id="label_recommendation_button_cancel" value="Прекъсване" />
+  <string id="label_recommend_social" value="Споделяне на тази страница" />
+  <string id="label_save_page" value="Запаметяване" />
+  <string id="tip_print_page" value="Разпечатване на страницата" />
+  <string id="page_name" value="Страница" />
+  <string id="label_recommendation_receiver" value="Имейл на получателя: *" />
+  <string id="lb_hlp_search" value="Търсене" />
+  <string id="tip_button_toend" value="Към края на каталога" />
+  <string id="label_recommendation_menu" value="Препоръчване" />
+  <string id="lb_hlp_social" value="Препоръчване към социални мрежи" />
+  <string id="label_print_panel" value="Разпечатване на страницата" />
+  <string id="tip_save_page" value="Запаметяване на тази страница като PDF" />
+  <string id="label_recommendation_sendername" value="Име на подателя:" />
+  <string id="label_left_page" value="лявата страна" />
+  <string id="label_print_menu" value="Разпечатване " />
+  <string id="label_search" value="Търсене" />
+  <string id="tip_soc_linkedin" value="Linked In" />
+  <string id="tip_soc_tumblr" value="Tumblr" />
+  <string id="buttonlabel_removebookmarks" value="Изтриване на всички отметки" />
+  <string id="label_recommend_bookmarks_header" value="Препоръчване на списъка с отметки" />
+  <string id="label_edit_bookmark" value="Вашите бележки.." />
+  <string id="label_add_bookmark_left" value="лява страница" />
+  <string id="tip_stdzoom" value="Настройване на 100% увеличение" />
+  <string id="tip_flip" value="Прелистване тук" />
+  <string id="label_recommendation_button_send" value="Изпращане" />
+  <string id="label_recommendation_fieldsrequired" value="Полетата със * са задължителни." />
+  <string id="tip_magnifier" value="Лупа включване/изключване" />
+  <string id="inputfield_default_search" value="Търсено понятие" />
+  <string id="lb_hlp_helptoggle" value="www.pageflip.io" />
+  <string id="buttonlabel_no" value="Не" />
+  <string id="tip_page" value="Към [current_page_area.page] страница" />
+  <string id="label_recommendation_nok" value="За съжаление препоръчването не е успешно." />
+  <string id="label_add_bookmark_right" value="дясна страна" />
+  <string id="tip_detailview" value="Преминаване към детайлен изглед" />
+  <string id="label_save_panel" value="Запаметяване на страницата " />
+  <string id="tip_soc_xing" value="Xing" />
+  <string id="lb_hlp_sniptool" value="Изрязване" />
+  <string id="tip_maxzoom" value="Настройване на максимално увеличение" />
+  <string id="label_right_page" value="дясна страна" />
+  <string id="label_magnifier" value="Лупа" />
+  <string id="label_crop" value="Do you like to save this cutting?" />
+  <string id="label_crop_save_image" value="Save image" />
+  <string id="label_crop_save_pdf" value="Save PDF" />
+  <string id="lb_hlp_crop" value="Cut" />
+  <string id="tip_crop" value="Cut" />
+  <string id="label_video_not_supported" value="The video format is not supported by the browser" />
+  <string id="cart_link" value="Product Details" />
+  <string id="label_add_bookmark_current" value="Remember current page" />
+  <string id="label_range_error" value="Invalid page-range"/>
+  <string id="label_range_to" value="up to"/>
+  <string id="label_cart_nr" value="Nr"/>
+  <string id="label_cart_amount" value="Amount"/>
+  <string id="label_cart_artno" value="Art.-Nr."/>
+  <string id="label_cart_artname" value="Articlename"/>
+  <string id="label_cart_price" value="Price"/>
+  <string id="label_cart_sum" value="Total"/>
+  <string id="label_cart_total" value="Sum:"/>
+  <string id="label_cart_cancel" value="Hide"/>
+  <string id="label_cart_article_notavail" value="Article not available"/>
+  <string id="cart_currency" value="€"/>
+  <string id="lb_hlp_cart" value="Cart"/>
+  <string id="label_cart_panel" value="Cart"/>
+  <string id="label_cart_send" value="Send order"/>
+  <string id="label_cart_menu" value="Cart"/>
+  <string id="lb_hlp_articleview" value="Articleview" />
+  <string id="tip_article" value="Open article" />
+  <string id="tip_articleview_close" value="Close" />
+  <string id="tip_articleview_back" value="Back" />
+
+  <string id="label_additional_content" value="Videowall" />
+  <string id="lb_hlp_additional_content" value="Videowall" />
+</inc>

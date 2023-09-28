@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc>
+  <string id="tip_soc_reddit" value="Reddit" />
+  <string id="tip_fullscreen" value="全屏" />
+  <string id="tip_thumbview" value="切换到缩略图视图" />
+  <string id="lb_hlp_print" value="打印" />
+  <string id="label_max" value="最大" />
+  <string id="lb_hlp_bookmarks" value="书签" />
+  <string id="label_removeallbookmarks" value="删除所有书签？" />
+  <string id="buttonlabel_hide_results" value="隐藏结果" />
+  <string id="label_toc_panel" value="内容" />
+  <string id="lb_hlp_magnifier" value="放大镜" />
+  <string id="tip_catalogview" value="切换到目录视图" />
+  <string id="label_bookmark_panel" value="书签管理器" />
+  <string id="label_search_in_progress" value="正在搜索…" />
+  <string id="label_recommend_mail" value="通过电子邮件推荐本页" />
+  <string id="tip_button_tostart" value="翻至目录首页" />
+  <string id="label_print_page" value="打印" />
+  <string id="tip_soc_digg" value="Digg" />
+  <string id="buttonlabel_show_results" value="显示结果" />
+  <string id="label_recommendation_receivername" value="收件人姓名:" />
+  <string id="label_recommendation_ok" value="推荐成功! 谢谢!" />
+  <string id="tip_soc_delicious" value="Delicio.us" />
+  <string id="label_min" value="最小" />
+  <string id="label_search_result" value="'[my_last_search]' 共找到[nof_search_results]个结果" />
+  <string id="label_available_bookmarks" value="现有书签:" />
+  <string id="lb_hlp_toc" value="内容目录" />
+  <string id="label_bookmark_list" value="书签" />
+  <string id="buttonlabel_create_bookmark" value="设成书签" />
+  <string id="label_sidebar_panel" value="概览" />
+  <string id="lb_hlp_save" value="保存" />
+  <string id="label_ok" value="可以" />
+  <string id="buttonlabel_yes" value="是" />
+  <string id="lb_hlp_mousezoom" value="用鼠标调整焦距" />
+  <string id="label_toc_menu" value="内容" />
+  <string id="tip_soc_stumbleupon" value="Stumbleupon" />
+  <string id="label_outpanel" value="其它操作" />
+  <string id="lb_hlp_mouseover" value="用鼠标悬停查看图标的解释" />
+  <string id="tip_soc_vznet" value="VZ Netzwerke" />
+  <string id="label_search_nothing_found" value="没有找到搜索结果" />
+  <string id="lb_hlp_thumbview" value="缩略图视图" />
+  <string id="lb_hlp_zoom" value="焦距" />
+  <string id="tip_button_next" value="向后翻一页" />
+  <string id="label_sidebar_menu" value="概览" />
+  <string id="lb_hlp_recommendation" value="通过电子邮件推荐" />
+  <string id="tip_jumptopage" value="跳转页面" />
+  <string id="lb_hlp_normalview" value="翻阅模式" />
+  <string id="lb_hlp_navigation" value="导航栏" />
+  <string id="tip_soc_facebook" value="Facebook" />
+  <string id="lb_hlp_pagedrag" value="点触并移动页面(在调焦距视图下)" />
+  <string id="label_recommendation_header" value="推荐目录页" />
+  <string id="label_social_panel" value="分享目录页" />
+  <string id="label_recommendation_sender" value="电子邮件发件人:*" />
+  <string id="tip_fullscreen_disabled_function" value="出于安全原因，在全屏模式下禁用该功能。" />
+  <string id="tip_soc_misterwong" value="Misterwong" />
+  <string id="label_recommend_bookmarks" value="推荐书签列表" />
+  <string id="lb_hlp_outpanel" value="其它操作" />
+  <string id="label_recommendation_textfield" value="您的消息:" />
+  <string id="label_save_menu" value="保存" />
+  <string id="lb_hlp_fullscreen" value="全屏模式" />
+  <string id="label_page" value="页" />
+  <string id="lb_hlp_sidebar" value="概览" />
+  <string id="label_print_complete_pdf" value="PDF全页" />
+  <string id="tip_soc_google" value="Google +" />
+  <string id="tip_button_previous" value="向前翻一页" />
+  <string id="tip_link" value="前至[current_page_area.url]" />
+  <string id="label_save_complete_pdf" value="PDF全页" />
+  <string id="lb_hlp_detailview" value="单页/阅读视图" />
+  <string id="tip_soc_twitter" value="Twitter" />
+  <string id="label_bookmark_menu" value="书签" />
+  <string id="label_recommendation_button_cancel" value="中断" />
+  <string id="label_recommend_social" value="分享本页" />
+  <string id="label_save_page" value="保存" />
+  <string id="tip_print_page" value="打印本页" />
+  <string id="page_name" value="页" />
+  <string id="label_recommendation_receiver" value="电子邮件收件人:*" />
+  <string id="lb_hlp_search" value="搜索" />
+  <string id="tip_button_toend" value="翻至目录尾页" />
+  <string id="label_recommendation_menu" value="推荐" />
+  <string id="lb_hlp_social" value="推荐社会化网络" />
+  <string id="label_print_panel" value="打印页面" />
+  <string id="tip_save_page" value="保存本页为PDF" />
+  <string id="label_recommendation_sendername" value="发件人姓名:" />
+  <string id="label_left_page" value="左页" />
+  <string id="label_print_menu" value="打印" />
+  <string id="label_search" value="搜索" />
+  <string id="tip_soc_linkedin" value="Linked In" />
+  <string id="tip_soc_tumblr" value="Tumblr" />
+  <string id="buttonlabel_removebookmarks" value="删除所有书签" />
+  <string id="label_recommend_bookmarks_header" value="推荐书签列表" />
+  <string id="label_edit_bookmark" value="您的记录.." />
+  <string id="label_add_bookmark_left" value="标记左页" />
+  <string id="tip_stdzoom" value="调整页面大小至100%" />
+  <string id="tip_flip" value="此处翻页" />
+  <string id="label_recommendation_button_send" value="发送" />
+  <string id="label_recommendation_fieldsrequired" value="带 * 的为必填字段。" />
+  <string id="tip_magnifier" value="打开/关闭放大镜" />
+  <string id="inputfield_default_search" value="搜索词" />
+  <string id="lb_hlp_helptoggle" value="www.pageflip.io" />
+  <string id="buttonlabel_no" value="否" />
+  <string id="tip_page" value="跳转至[current_page_area.page]页" />
+  <string id="label_recommendation_nok" value="推荐未成功。" />
+  <string id="label_add_bookmark_right" value="标记右页" />
+  <string id="tip_detailview" value="切换到细节视图" />
+  <string id="label_save_panel" value="保存页面" />
+  <string id="tip_soc_xing" value="Xing" />
+  <string id="lb_hlp_sniptool" value="剪切" />
+  <string id="tip_maxzoom" value="调整页面焦距至最大" />
+  <string id="label_right_page" value="右页" />
+  <string id="label_magnifier" value="放大镜" />
+  <string id="label_crop" value="Do you like to save this cutting?" />
+  <string id="label_crop_save_image" value="Save image" />
+  <string id="label_crop_save_pdf" value="Save PDF" />
+  <string id="lb_hlp_crop" value="Cut" />
+  <string id="tip_crop" value="Cut" />
+  <string id="label_video_not_supported" value="The video format is not supported by the browser" />
+  <string id="label_add_bookmark_current" value="Remember current page" />
+  <string id="label_range_error" value="Invalid page-range"/>
+  <string id="label_range_to" value="up to"/>
+  <string id="cart_link" value="Product Details"/>
+  <string id="label_cart_nr" value="Nr"/>
+  <string id="label_cart_amount" value="Amount"/>
+  <string id="label_cart_artno" value="Art.-Nr."/>
+  <string id="label_cart_artname" value="Articlename"/>
+  <string id="label_cart_price" value="Price"/>
+  <string id="label_cart_sum" value="Total"/>
+  <string id="label_cart_total" value="Sum:"/>
+  <string id="label_cart_cancel" value="Hide"/>
+  <string id="label_cart_article_notavail" value="Article not available"/>
+  <string id="cart_currency" value="€"/>
+  <string id="lb_hlp_cart" value="Cart"/>
+  <string id="label_cart_panel" value="Cart"/>
+  <string id="label_cart_send" value="Send order"/>
+  <string id="label_cart_menu" value="Cart"/>
+  <string id="lb_hlp_articleview" value="Articleview" />
+  <string id="tip_article" value="Open article" />
+  <string id="tip_articleview_close" value="Close" />
+  <string id="tip_articleview_back" value="Back" />
+  <string id="tip_articleview" value="Switch to articleview" />
+</inc>
