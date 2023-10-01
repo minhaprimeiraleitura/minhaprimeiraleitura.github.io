@@ -7,5 +7,4 @@ $(document).ready(function(){
             prevNextButtons: false,
             groupCells: '80%'
       });
-
 });
