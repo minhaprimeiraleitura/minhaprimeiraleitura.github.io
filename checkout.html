@@ -20,9 +20,7 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  <script>
-document.querySelector("#assinatura-info").style.display="none";
-</script>
+  
 </head>
 <body>
 
@@ -102,80 +100,406 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h2 class="align-left mbr-fonts-style m-0 display-5"><strong>Pedido Inicial:</strong></h2>
                 
             </div>
-              <!--Card-1-->
-              <div class="card px-3 col-12">
-                  <div class="card-wrapper media-container-row media-container-row">
-                      <div class="card-box">
-                          <div class="top-line pb-3">
-                              <h4 class="card-title mbr-fonts-style display-5"><span id="item_produto">Minha Primeira Leitura - Kit Completo</span>:</h4>
-                              <p class="mbr-text cost mbr-fonts-style m-0 display-5"><span id="preco_produto">R$ 240,00</span></p>
-                          </div>
-                          <div class="second-line pb-3">
-                              <h4 class="card-title mbr-fonts-style display-7"><span id="item_frete">Frete Fixo para todo o Brasil</span>:</h4>
-                              <p class="mbr-text cost mbr-fonts-style m-0 display-5"><span id="preco_frete">R$ 240,00</span></p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <!--Card-2-->
-              <div class="card px-3 col-12 subtotal">
-                  <div class="card-wrapper media-container-row media-container-row">
-                      <div class="card-box">
-                          <div class="top-line pb-3">
-                              <h4 class="card-title mbr-fonts-style display-5">
-                                  Subtotal:</h4>
-                              <p class="mbr-text cost mbr-fonts-style m-0 display-5"><strong><span id="preco_total">R$ 500,00</span></strong></p>
-                          </div>
-                          <div class="second-line pb-3 align-center" id="atencao-cupom">
-                              <h4 class="card-title mbr-fonts-style display-7">Cupom sugerido neste momento: <span id="oferta-hoje">OFERTA</span></h4>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <!--Card-3-->
-              
-              <!--Card-4-->
-              
-              <!--Card-5-->
-              
-              <!--Card-6-->
-              
-              <!--Card-7-->
-              
-              <!--Card-8-->
-              
-              <!--Card-9-->
-              
-              <!--Card-10-->
-              
-              <!--Card-11-->
-              
-              <!--Card-12-->
-              
+            <!--Card-1-->
+            <div class="card px-3 col-12">
+                <div class="card-wrapper media-container-row media-container-row">
+                    <div class="card-box">
+                        <div class="top-line pb-3">
+                            <h4 class="card-title mbr-fonts-style display-5"><span id="item_produto">Minha Primeira Leitura - Kit Completo</span>:</h4>
+                            <p class="mbr-text cost mbr-fonts-style m-0 display-5"><span id="preco_produto">R$ - - -, - -</span></p>
+                        </div>
+                        <div class="second-line pb-3" id="linha-frete">
+                            <h4 class="card-title mbr-fonts-style display-7"><span id="item_frete">Frete Fixo para todo o Brasil</span>:</h4>
+                            <p class="mbr-text cost mbr-fonts-style m-0 display-5"><span id="preco_frete">R$ - - -, - -</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-    </div>
-</section>
-
-<section class="mbr-section article content1 cid-tAbzWfsKWv" id="content1-160">
-    
-     
-
-    <div class="container" id="assinatura-info">
-        <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8"><p><strong>VOCÊ RECEBERÁ MENSALMENTE OS NOSSOS LIVROS FÍSICOS!!!
-</strong></p><p>Após a conclusão, você também receberá um arquivo PDF em seu e-mail contendo informações sobre sua assinatura.</p></div>
+        </div>
+        <div class="row">
+            <div class="assinatura-info" id="assinatura-info">
+                <div class="mbr-text col-12 mbr-fonts-style display-7">
+                  <p><strong>VOCÊ RECEBERÁ MENSALMENTE OS NOSSOS LIVROS FÍSICOS!!!</strong></p><p>Após a conclusão, você também receberá um arquivo PDF em seu e-mail contendo informações sobre sua assinatura.</p>
+                </div>
+            </div>
         </div>
     </div>
+
 </section>
+
+
 
 <section class="mbr-section article content1 cid-tAbzWfOjMj" id="content1-162">
     
      
 
-
     <div id="elements"></div>
     <script src="https://cdn.eduzzcdn.com/sun/bridge/bridge.js"></script>
     <script>
+      window.onload = () => {
+        document.getElementsByClassName("AffiliateBadgeUi-wzepun-0")[0].parentElement.remove();
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const product = urlParams.get('product');
+        const cupom = urlParams.get('cupom');
+
+        const id_item_produto="item_produto";
+        const id_preco_produto="preco_produto";
+        const id_item_frete="item_frete";
+        const id_preco_frete="preco_frete";
+        const id_subtotal="preco_total";
+        const id_cupom="oferta-hoje";
+
+        const id_linha_frete = "linha-frete";
+        const id_linha_cupom = "atencao-cupom";
+        const id_secao_assinatura = "assinatura-info";
+
+        var text_item_produto=document.getElementById(id_item_produto);
+        var text_preco_produto=document.getElementById(id_preco_produto);
+        var text_item_frete=document.getElementById(id_item_frete);
+        var text_preco_frete=document.getElementById(id_preco_frete);
+        var text_subtotal=document.getElementById(id_subtotal);
+        var text_cupom=document.getElementById(id_cupom);
+        
+        var linha_frete = document.getElementById(id_linha_frete);
+        var linha_cupom = document.getElementById(id_linha_cupom);
+        var secao_assinatura = document.getElementById(id_secao_assinatura);
+
+
+        var skuEduzz = 286032;
+        var item_produto = "Minha Primeira Leitura - Volume 1 - Duas Sílabas";
+        var valor = "39,90";
+        var item_frete = "Frete Fixo para todo o Brasil";
+        var valor_frete = "9,90";
+        //var cupom = null;
+        
+
+        function formatCurrency(value) {
+          const formattedValue = value.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+            minimumFractionDigits: 2
+          });
+          
+          return formattedValue;
+        }
+
+        valorFloat = function(texto="") {
+            return parseFloat(texto.replace(",","."));
+        };
+
+        
+        secao_assinatura.style.display="none";
+        
+        var produtos = {
+            "1": {
+                       skuEduzz: 286032,
+                       item_produto: "Minha Primeira Leitura - Volume 1 - Duas Sílabas",
+                       valor: "39,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "2": {
+                       skuEduzz: 286473,
+                       item_produto: "Minha Primeira Leitura - Volume 1 - Duas Sílabas",
+                       valor: "77,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "3": {
+                       skuEduzz: 286475,
+                       item_produto: "Minha Primeira Leitura - Volume 1 - Duas Sílabas",
+                       valor: "377,00",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "volume2": {
+                       skuEduzz: 624704,
+                       item_produto: "Minha Primeira Leitura - Volume 2 - Duas Sílabas",
+                       valor: "39,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "volume3": {
+                       skuEduzz: 855592,
+                       item_produto: "Minha Primeira Leitura - Volume 3",
+                       valor: "39,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "passatempo1": {
+                       skuEduzz: 362318,
+                       item_produto: "Passatempo Minha Primeira Leitura - Volume 1 - Duas Sílabas",
+                       valor: "29,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "passatempo2": {
+                       skuEduzz: 855612,
+                       item_produto: "Passatempo Minha Primeira Leitura - Volume 2",
+                       valor: "29,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "passatempo3": {
+                       skuEduzz: 1046729,
+                       item_produto: "Passatempo Minha Primeira Leitura - Volume 3",
+                       valor: "29,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "assinatura-colecao": {
+                       skuEduzz: 1271775,
+                       item_produto: "Kit Minha Primeira Leitura - Assinatura Mensal",
+                       valor: "29,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "9,90"
+            },
+            "combo3": {
+                       skuEduzz: 856825,
+                       item_produto: "Kit Minha Primeira Leitura - Só leitura",
+                       valor: "119,70",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "combo3_frete_gratis": {
+                       skuEduzz: 1640517,
+                       item_produto: "Kit Minha Primeira Leitura - Só leitura",
+                       valor: "133,50",
+                       item_frete: "Frete Grátis para todo o Brasil",
+                       valor_frete: "0,00"
+            },
+            "combo3FG": {
+                       skuEduzz: 1781786,
+                       item_produto: "Kit Minha Primeira Leitura - Só leitura",
+                       valor: "147,90",
+                       item_frete: "Frete GRÁTIS para todo o Brasil",
+                       valor_frete: "0,00"
+            },
+            "combo6": {
+                       skuEduzz: 1046763,
+                       item_produto: "Kit Minha Primeira Leitura - Completo",
+                       valor: "203,40",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "combo6_frete_gratis": {
+                       skuEduzz: 1640517,
+                       item_produto: "Kit Minha Primeira Leitura - Completo",
+                       valor: "217,20",
+                       item_frete: "Frete Grátis para todo o Brasil",
+                       valor_frete: "0,00"
+            },
+            "combo6_desc_frete": {
+                       skuEduzz: 1640536,
+                       item_produto: "Kit Minha Primeira Leitura - Combo dos 6",
+                       valor: "217,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "3,80"
+            },
+            "combo6FF": {
+                       skuEduzz: 1640547,
+                       item_produto: "Kit Minha Primeira Leitura - Combo dos 6",
+                       valor: "203,40",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "combo6FG": {
+                       skuEduzz: 1942330,
+                       item_produto: "Kit Minha Primeira Leitura - Combo dos 6",
+                       valor: "197,90",
+                       item_frete: "Frete GRÁTIS para todo o Brasil",
+                       valor_frete: "0,00"
+            },
+            "combo5": {
+                       skuEduzz: 856062,
+                       item_produto: "Kit Minha Primeira Leitura - Combo dos 5",
+                       valor: "175,50",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "combo1": {
+                       skuEduzz: 624744,
+                       item_produto: "Minha Primeira Leitura - Combo 1",
+                       valor: "67,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "11,96"
+            },
+            "combo2": {
+                       skuEduzz: 625838,
+                       item_produto: "Minha Primeira Leitura - Combo 2",
+                       valor: "49,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "11,96"
+            },
+            "combo_duo": {
+                       skuEduzz: 624753,
+                       item_produto: "Minha Primeira Leitura - Combo Duo",
+                       valor: "77,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "11,96"
+            },
+            "combo_trio": {
+                       skuEduzz: 624805,
+                       item_produto: "Minha Primeira Leitura - Combo Trio",
+                       valor: "109,70",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "comboL2p2": {
+                       skuEduzz: 857653,
+                       item_produto: "Complete o kit - L2 p2",
+                       valor: "57,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "11,96"
+            },
+            "comboL3p3": {
+                       skuEduzz: 857653,
+                       item_produto: "Complete o kit - L3 p3",
+                       valor: "57,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "11,96"
+            },
+            "comboL3p2": {
+                       skuEduzz: 857661,
+                       item_produto: "Complete o kit - L3 p2",
+                       valor: "49,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "comboL3p1p2": {
+                       skuEduzz: 857666,
+                       item_produto: "Complete o kit - L3 p1 p2",
+                       valor: "77,60",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "comboL2L3": {
+                       skuEduzz: 869804,
+                       item_produto: "Complete o kit - L2 L3",
+                       valor: "79,80",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "11,96"
+            },
+            "comboL2L3p2": {
+                       skuEduzz: 873680,
+                       item_produto: "Complete o kit - L2 L3 p2",
+                       valor: "83,20",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "comboL2L3p1p2": {
+                       skuEduzz: 880366,
+                       item_produto: "Complete o kit - L2 L3 p1 p2",
+                       valor: "111,40",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "combop1p2": {
+                       skuEduzz: 880376,
+                       item_produto: "Complete o kit - p1 p2",
+                       valor: "39,97",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "combo3passatempos": {
+                       skuEduzz: 1046765,
+                       item_produto: "Complete o kit com os 3 Passatempos",
+                       valor: "89,90",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "comboL2L3p1p2p3": {
+                       skuEduzz: 1051613,
+                       item_produto: "Complete o kit - L2 L3 p1 p2 p3",
+                       valor: "169,50",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "15,90"
+            },
+            "comboL2L3p2p3": {
+                       skuEduzz: 1051606,
+                       item_produto: "Complete o kit - L2 L3 p2 p3",
+                       valor: "139,60",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "15,90"
+            },
+            "comboL3p2p3": {
+                       skuEduzz: 1055304,
+                       item_produto: "Complete o kit - L3 p2 p3",
+                       valor: "99,70",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "13,80"
+            },
+            "comboL3p1p2p3": {
+                       skuEduzz: 1587018,
+                       item_produto: "Complete o kit - L3 p1 p2 p3",
+                       valor: "129,60",
+                       item_frete: "Frete Fixo para todo o Brasil",
+                       valor_frete: "15,90"
+            },
+
+            "ebook-treineleituras": {
+                       skuEduzz: 1830431,
+                       item_produto: "E-book Treine a Leitura de Palavras",
+                       valor: "49,90",
+                       item_frete: "infoproduto",
+                       valor_frete: "0"
+            },
+            "supercombo": {
+                       skuEduzz: 1587018,
+                       item_produto: "Super Combo - Kit + Clubinho - 14 livros",
+                       valor: "418,60",
+                       item_frete: "Frete Grátis para todo o Brasil",
+                       valor_frete: "0,00"
+            }
+        };
+        
+        if (cupom) {
+          linha_cupom.style.display="block";
+          linha_cupom.classList.add('transicao', 'mostrar');
+          text_cupom.innerText = "Cupom sugerido neste momento: " + cupom;
+  
+        } else {
+          linha_cupom.style.display="none";
+        }
+
+        if (product) {
+          if (product == "assinatura-colecao") {
+            secao_assinatura.style.display="block";
+          };
+          skuEduzz = produtos[product].skuEduzz || skuEduzz;
+          item_produto = produtos[product].item_produto || item_produto;
+          valor = produtos[product].valor || valor;
+          item_frete = produtos[product].item_frete || item_frete;
+          valor_frete = produtos[product].valor_frete || valor_frete;
+
+  
+        };
+        
+        text_item_produto.textContent = item_produto;
+        text_preco_produto.innerText = "R$ "+ valor;
+
+        if (item_frete != "infoproduto") {
+          text_item_frete.textContent = item_frete;
+          text_preco_frete.innerText = "R$ "+ valor_frete;
+        } else {
+          linha_frete.style.display="none";
+        }
+        
+        
+        total_inicial = valorFloat(valor)+valorFloat(valor_frete);
+        text_subtotal.innerText = formatCurrency(total_inicial);
+
+
+        window.Eduzz.Checkout.init({
+            contentId: skuEduzz,
+            target: "elements",
+            errorCover: false
+        });
+      };
+    </script>
+<script>
+/*
       window.onload = () => {
         $.urlParam = function(name){
               var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
@@ -457,7 +781,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                        valor: "129,60",
                        item_frete: "Frete Fixo para todo o Brasil",
                        valor_frete: "15,90"
-            }
+            },
+            "supercombo": {
+                       skuEduzz: 1587018,
+                       item_produto: "Super Combo - Kit + Clubinho - 14 livros",
+                       valor: "418,60",
+                       item_frete: "Frete Grátis para todo o Brasil",
+                       valor_frete: "0,00"
         };
         
         if (cupom) {
@@ -619,8 +949,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                        item_produto = "Minha Primeira Leitura - Volume 1 - Duas Sílabas";
                        valor = "29,90";
             };*/
-        };
-        
+ /*        };
+       
         document.getElementById("item_produto").innerText = item_produto;
         document.getElementById("preco_produto").innerText = valor;
         
@@ -636,7 +966,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             target: "elements",
             errorCover: false
         });
-      };
+      };*/
     </script>
 
 </section>
