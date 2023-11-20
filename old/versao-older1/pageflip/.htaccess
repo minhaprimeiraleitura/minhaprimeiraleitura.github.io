@@ -1,0 +1,12 @@
+AddType video/mp4 .mp4 
+AddType video/x-m4v .m4v
+AddType video/webm .webm 
+AddType audio/webm .weba
+AddType video/ogg .ogm 
+AddType video/ogg .ogv 
+AddType video/ogg .ogg
+<IfModule mod_headers.c>
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+</IfModule>
