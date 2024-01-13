@@ -54,11 +54,11 @@
 
 <!-- Analytics -->
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MVXB4QC');</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
+new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
+&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-MVXB4QC&#39;);</script>
 <!--GTAG versao 4-->
 <!-- End Google Tag Manager -->   
  <!-- Facebook Pixel Code -->
@@ -67,18 +67,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       !function(f,b,e,v,n,t,s)
               {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
               n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=&#39;2.0&#39;;
               n.queue=[];t=b.createElement(e);t.async=!0;
               t.src=v;s=b.getElementsByTagName(e)[0];
-              s.parentNode.insertBefore(t,s)}(window, document,'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '285592308511323');
-              fbq('track', 'PageView');
+              s.parentNode.insertBefore(t,s)}(window, document,&#39;script&#39;,
+              &#39;https://connect.facebook.net/en_US/fbevents.js&#39;);
+              fbq(&#39;init&#39;, &#39;285592308511323&#39;);
+              fbq(&#39;track&#39;, &#39;PageView&#39;);
       
     </script>
  <!-- End Facebook Pixel Code  -->
 
-  &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin>*/</b:skin>
+  &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin><![CDATA[*/]]></b:skin>
   
 &lt;/head&gt;&lt;!--<head/>--&gt;
 
@@ -86,15 +86,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
   <!-- Analytics -->
 <!-- Facebook Pixel Code  (noscript) -->
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=285592308511323&amp;ev=PageView&amp;noscript=1"
-    /></noscript>
+  <noscript><img height='1' src='https://www.facebook.com/tr?id=285592308511323&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'/></noscript>
     <!-- End Facebook Pixel Code  (noscript) -->
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVXB4QC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-MVXB4QC' style='display:none;visibility:hidden' width='0'/></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- /Analytics -->
+
 
   <section class="menu cid-tjlRYQPeOw" once="menu" id="menu2-r1">
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
@@ -110,7 +108,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="navbar-brand">
             <span class="navbar-logo mbr-figure">
               <a href="http://minhaprimeiraleitura.com.br">
-                  <img src="https://1.bp.blogspot.com/-YhYnNQLxlro/X-e91mCbzjI/AAAAAAAABpY/Se3gdcmmmukKICkz9jR-mn1RSIfcnwNaACNcBGAsYHQ/s320/logo-banner-mpl-mobile-455x85.png" alt="Coleção Minha Primeira Leitura" title="Coleção Minha Primeira Leitura" style="height: 4.1rem;"/>
+                  <img src="https://pages.minhaprimeiraleitura.com.br/assets/images/ambos-713x121.png" alt="Coleção Minha Primeira Leitura" title="Coleção Minha Primeira Leitura" style="height: 4.1rem;"/>
               </a>
             </span>
         </div>
@@ -122,23 +120,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         ARTIGOS</a></li>
               <li class="nav-item"><a class="nav-link link display-4" href="contato.html" target="_blank"><span class="fab fa-whatsapp mbr-iconfont mbr-iconfont-btn" style="font-size: 18px;"></span>CONTATO</a></li>
             </ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-info display-4" href="https://pages.minhaprimeiraleitura.com.br/clubinho-minha-primeira-leitura.html">CLUBINHO</a></div>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="https://pages.minhaprimeiraleitura.com.br">COMPRAR!</a></div>
+            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-info display-4" href="https://pages.minhaprimeiraleitura.com.br/clubinho-minha-primeira-leitura.html">CLUBINHO DO SABER!</a></div>
+            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="https://pages.minhaprimeiraleitura.com.br">COMPRAR KIT!</a></div>
         </div>
     </nav>
   </section>
 
   <b:if cond='data:blog.pageType == "index"'>
 
-    <section class="carousel slide cid-rGQZbhGEyY" data-interval="false" id="slider2-49">
-      <div class="container">
+<section class="carousel slide cid-rGQZbhGEyY" data-interval="false" id="slider2-49">
+
+    
+    <div class="container"> 
         <div class="media-container-row">
-          <div class="title col-12 col-md-10">
-            <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>A Primeira Leitura do seu filho</strong><div><strong>começa por aqui</strong></div></h2>
-            <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Quer melhorar a leitura do seu filho?<br/> Você sempre achou um desafio a criança começar a ler e tomar gosto pela leitura?<br/><br/></h3>
-          </div>
+            <div class="title col-12 col-md-10">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>Já imaginou seu filho se sentindo mais CONFIANTE e com DESENVOLTURA na leitura?</strong></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><strong>Historinhas infantis de FÁCIL LEITURA para quem está começando a ler</strong></h3>
+                
+            </div>
         </div>
         <div class="media-container-row">
+            
           <div class="content-slider col-12 col-md-6 col-lg-6">
             <div class="content-slider-wrap">
               <div>
@@ -178,21 +180,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider2-49"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Próximo</span></a>
                   <a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider2-49"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Anterior</span></a>
                 </div>
-              </div> 
+              </div>
+               </div>
             </div>
-          </div>
-          <div class="media-content col-12 col-md-6 col-lg-6 no-padding-right">
-            <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2"><strong>FÁCIL LEITURA!</strong></h1>
-            <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text mbr-fonts-style display-5">Se você está procurando um livro de fácil leitura para seu filho, <strong>este é o livro que você procura. <em>TODAS </em></strong>as historinhas deste volume são feitas com palavras de até <strong>2 SÍLABAS, SEM DITONGOS, HIATOS </strong>ou <strong>ACENTOS!</strong> Ideal para quem está começando a ler!<br/></p>
+            <div class="media-content col-12 col-md-6 col-lg-6 no-padding-right">
+                
+                <h3 class="mbr-section-subtitle subtitle2 align-left mbr-white mbr-light pb-3 mbr-fonts-style display-5">Se você está procurando um método simples e divertido para ele começar a ler sozinho hoje mesmo,  então conheça o nosso <strong>kit da Minha Primeira Leitura</strong>, onde o nível de dificuldade aumenta gradualmente a cada volume, começando com o volume 1 usando apenas palavras de <strong>2 SÍLABAS, SEM DITONGOS, SEM HIATOS E SEM ACENTOS</strong>.</h3>
+                
+                <div class="mbr-section-btn"><a class="btn btn-md btn-warning display-5" href="index.html">SAIBA MAIS</a></div>
             </div>
-            <div class="mbr-section-btn">
-              <a class="btn btn-md btn-success display-5" href="https://pages.minhaprimeiraleitura.com.br/">EU QUERO</a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
+
 
     <section class="testimonials1 cid-rjQpZii0vD" id="testimonials1-2">
       <div class="container">
@@ -815,50 +815,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <section once="" class="cid-sjVzT8AFMY mbr-reveal" id="footer7-bu">
-     <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="row row-links">
-                <ul class="foot-menu">
-               <li class="foot-menu-item mbr-fonts-style display-7"><a href="https://pages.minhaprimeiraleitura.com.br/sobre" target="_blank" class="text-white">Sobre</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://www.minhaprimeiraleitura.com.br/#blog" target="_blank" class="text-white">Blog</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://pages.minhaprimeiraleitura.com.br/apoiadores-livro-duas-silabas.html" target="_blank" class="text-white">Apoiadores</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://pages.minhaprimeiraleitura.com.br/contato" target="_blank" class="text-white">Entre em Contato</a></li></ul>
+
+<section class='cid-skGpsdGZ3k mbr-reveal' id='footer7-hi' once=''>
+    <div class='container'>
+        <div class='media-container-row align-center mbr-white'>
+            <div class='row row-links'>
+                <ul class='foot-menu'>
+               <li class='foot-menu-item mbr-fonts-style display-7'><p><a class='text-black' href='https://pages.minhaprimeiraleitura.com.br/sobre' target='_blank'>SOBRE</a></p></li><li class='foot-menu-item mbr-fonts-style display-7'><a class='text-black' href='https://www.minhaprimeiraleitura.com.br/#blog' target='_blank'>BLOG</a></li><li class='foot-menu-item mbr-fonts-style display-7'><a class='text-black' href='https://pages.minhaprimeiraleitura.com.br/apoiadores-livro-duas-silabas.html' target='_blank'>APOIADORES</a></li><li class='foot-menu-item mbr-fonts-style display-7'><a class='text-black' href='https://pages.minhaprimeiraleitura.com.br/contato' target='_blank'>ENTRE EM CONTATO</a></li></ul>
             </div>
-            <div class="row social-row">
-                <div class="social-list align-right pb-2">
+            <div class='row social-row'>
+                <div class='social-list align-right pb-2'>
                     <!--div class="soc-item">
                         <a href="https://twitter.com/leituraminha" target="_blank">
                             <span mbr-icon class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
                         </a>
                     </div-->
-                <div class="soc-item">
-                        <a href="https://www.facebook.com/minhaprimeiraleitura" target="_blank">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
+                <div class='soc-item'>
+                        <a href='https://www.facebook.com/minhaprimeiraleitura' target='_blank'>
+                            <span class='mbr-iconfont mbr-iconfont-social socicon-facebook socicon' style='color: rgb(35, 35, 35); fill: rgb(35, 35, 35);'/>
                         </a>
-                    </div><div class="soc-item">
-                        <a href="https://www.youtube.com/c/minhaprimeiraleitura" target="_blank">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
+                    </div><div class='soc-item'>
+                        <a href='https://www.youtube.com/c/minhaprimeiraleitura' target='_blank'>
+                            <span class='mbr-iconfont mbr-iconfont-social socicon-youtube socicon' style='color: rgb(35, 35, 35); fill: rgb(35, 35, 35);'/>
                         </a>
-                    </div><div class="soc-item">
-                        <a href="https://instagram.com/minhaprimeiraleitura" target="_blank">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                    </div><div class='soc-item'>
+                        <a href='https://instagram.com/minhaprimeiraleitura' target='_blank'>
+                            <span class='mbr-iconfont mbr-iconfont-social socicon-instagram socicon' style='color: rgb(35, 35, 35); fill: rgb(35, 35, 35);'/>
                         </a>
                     </div></div>
             </div>
-          <div class="row col-12 col-md-8">
-                <div class="col-12 mbr-text mbr-fonts-style col-md-6 display-7">
-                     <p><span class="far fa-envelope mbr-iconfont"></span> sac@minhaprimeiraleitura.com.br</p>
+          <div class='row col-12 col-md-8'>
+                <div class='col-12 mbr-text mbr-fonts-style col-md-6 display-7'>
+                     <p><span class='far fa-envelope mbr-iconfont'/> sac@minhaprimeiraleitura.com.br</p>
                 </div>
-                <div class="col-12 mbr-text mbr-fonts-style col-md-6 display-7">
-                     <p><span class="fab fa-whatsapp mbr-iconfont mbr-iconfont-btn"></span> +55 (21) 98277-4009 <br/><em>(seg-sex: 9h às 17h)</em></p>
+                <div class='col-12 mbr-text mbr-fonts-style col-md-6 display-7'>
+                  <p>
+                     <span class='fab fa-whatsapp mbr-iconfont mbr-iconfont-btn'/>
+                     <a href='https://api.whatsapp.com/send?phone=5521981327000' target='_blank'> +55 (21) 98132-7000</a>
+                     <br/><em>(seg-sex: 9h às 17h)</em>
+                  </p>
                 </div>
             </div>
 
-            <div class="row row-copirayt">              
-                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
-                    &#169; Copyright 2019-2020 Minha Primeira Leitura<br/> Todos os direitos reservados - Proibida a Reprodução<br/><label class="small">CNPJ 36.103.669/0001-56 ME</label></p>
+            <div class='row row-copirayt'>              
+                <p class='mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7'>
+                  &#169; Copyright 2016-2023  Editora Minha Primeira Leitura<br/>
+                  Todos os direitos reservados - Proibida a Reprodução<br/><label class='small'>CNPJ 36.103.669/0001-56  ME</label></p>
             </div>
         </div>
       </div>
-  </section>
+</section>
 
 
 
