@@ -25714,6 +25714,15 @@ section.lazy-placeholder:after {
 .cid-tXdppxJJuD .content-slider-wrap {
   width: 60%;
 }
+.cid-u1QDU27gli {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fdeada;
+}
+.cid-u1QDU27gli .mbr-section {
+  text-align: center;
+  color: #fff;
+}
 .cid-tKpO6Ol3l6 {
   padding-top: 0px;
   padding-bottom: 60px;
@@ -26426,7 +26435,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-tkbPdFMwlo {
-  padding-top: 60px;
+  padding-top: 90px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -40642,6 +40651,9 @@ section.lazy-placeholder:after {
   font-size: clamp(11px, 2vw, 18px);
   line-height: 1.2;
   color: #3c72b4;
+}
+.cid-tAbE9mDEFr .cost-riscado {
+  text-decoration: line-through;
 }
 .cid-tAbE9mDEFr .card h4 {
   font-size: clamp(11px, 2vw, 18px);
