@@ -6,7 +6,7 @@ $( document ).ready(function() {
         var tempo = 30000; //tempo_default;
         var c = 0;
         var clique = 0;
-        var path = 'assets-manual/files/';
+        var path = 'assets-manual/imagens/depoimentos/';
         var qtd_files = 319;
         var show = true;
         var TOTAL = 13;
