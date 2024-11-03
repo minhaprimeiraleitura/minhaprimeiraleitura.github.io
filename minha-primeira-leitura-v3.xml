@@ -50,6 +50,20 @@
   <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/theme/css/style.css"/>
   <link rel="preload" as="style" href="https://pages.minhaprimeiraleitura.com.br/assets/mobirise/css/mbr-additional.css"/>
   <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets/mobirise/css/mbr-additional.css" type="text/css"/>
+  <link rel="stylesheet" href="https://pages.minhaprimeiraleitura.com.br/assets-manual/css/artigo-blog.css" type="text/css"/>
+
+
+  <style type="text/css">
+    
+    .nav-link {
+      color: #fff!important;
+    }
+    .blog .mbr-figure img, .blog .card-img img {
+      width: 100%!important;
+      height: auto!important;
+      display: block!important;
+    }
+  </style>
   
 
 <!-- Analytics -->
@@ -851,7 +865,7 @@ j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.
                 <div class='col-12 mbr-text mbr-fonts-style col-md-6 display-7'>
                   <p>
                      <span class='fab fa-whatsapp mbr-iconfont mbr-iconfont-btn'/>
-                     <a href='https://api.whatsapp.com/send?phone=5521981327000' target='_blank'> +55 (21) 98132-7000</a>
+                     <a href="https://api.whatsapp.com/send?phone=18053563726" target="_blank"> Clique aqui para falar conosco</a>
                      <br/><em>(seg-sex: 9h às 17h)</em>
                   </p>
                 </div>
