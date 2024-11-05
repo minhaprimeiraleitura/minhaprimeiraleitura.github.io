@@ -438,7 +438,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                        item_produto: "Combo do Clubinho: 8 livros educativos com lindos temas",
                        valor: "239,20",
                        valor_frete: "15,90"
+            },
+
+
+            "VOL4SUPER": {
+                       skuEduzz: "39VJPVA79R",
+                       item_produto: "Super Oferta do Volume 4 (quantidade limitada)",
+                       valor: "24,90",
+                       valor_frete: "9,90"
+            },
+            "VOL4PRE": {
+                       skuEduzz: "39VJPVA79R",
+                       item_produto: "Oferta do Volume 4 no Pré-Lançamento",
+                       valor: "33,90",
+                       valor_frete: "9,90"
+            },
+            "VOL4AUTO": {
+                       skuEduzz: "D0RV2PB69Y",
+                       item_produto: "Oferta do Volume 4 no Pré-Lançamento Autografado pelo Autor",
+                       valor: "49,90",
+                       item_frete: "Frete Grátis para todo o Brasil",
+                       valor_frete: "0,00"
+            },
+            "VOL4x10": {
+                       skuEduzz: "R9JY5RRY9X",
+                       item_produto: "10 exemplares do Volume 4 com a oferta do Pré-Lançamento",
+                       valor: "287,90",
+                       item_frete: "Calcule o frete inserindo o seu CEP abaixo",
+                       valor_frete: "-,--"
             }
+
         };
         
         if (cupom) {
@@ -473,7 +502,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           linha_frete.style.display="none";
         }
         
-        
+        if (valor_frete == "-,--") {
+          valor_frete = "0,00";
+        }
         total_inicial = valorFloat(valor)+valorFloat(valor_frete);
         text_subtotal.innerText = formatCurrency(total_inicial);
 
