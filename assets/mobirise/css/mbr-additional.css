@@ -54334,6 +54334,21 @@ section.lazy-placeholder:after {
   top: 27px;
   padding-top: 7px;
 }
+.cid-urNGldm9BN .ribbon2 {
+  width: 219px;
+  height: 56px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+  background: #D0923F;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: -51px;
+  top: 30px;
+  padding-top: 7px;
+}
 .cid-urNGldm9BN .verde {
   color: #41a21e;
 }
