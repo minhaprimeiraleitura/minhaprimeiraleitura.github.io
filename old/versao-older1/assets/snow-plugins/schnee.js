@@ -19,14 +19,14 @@ var snow_fonts  = new Array('Arial Black', 'Arial Narrow', 'Times', 'Comic Sans 
 
 var snow_char = '*';		// das Zeichen, das als Schneeflocke verwendet wird
 var snow_gravity = 0.8;		// wie schnell die Schneeflocken fallen
-var snow_max_size = 22;		// die maximale Schriftgröße einer Schneeflocke
-var snow_min_size = 10;		// die minimale Schriftgröße einer Schneeflocke
+var snow_max_size = 22;		// die maximale SchriftgrÃ¶ÃŸe einer Schneeflocke
+var snow_min_size = 10;		// die minimale SchriftgrÃ¶ÃŸe einer Schneeflocke
 
-var snow_init_delay = 50;	// Verzögerungszeit in Millisekunden, bevor es zu schneien anfängt
+var snow_init_delay = 50;	// VerzÃ¶gerungszeit in Millisekunden, bevor es zu schneien anfÃ¤ngt
 
 
 // ######################################################################
-// HIER ENDET DIE KONFIGURATION. ÄNDERUNGEN IM FOLGENDEN SETZEN JAVSCRIPT-KENNTNISSE VORAUS
+// HIER ENDET DIE KONFIGURATION. Ã„NDERUNGEN IM FOLGENDEN SETZEN JAVSCRIPT-KENNTNISSE VORAUS
 // ######################################################################
 
 var snow_init_time = 0;
