@@ -40465,6 +40465,30 @@ section.lazy-placeholder:after {
 .cid-tAbE9mDEFr .assinatura-info2 .mbr-text {
   color: #767;
 }
+.cid-uMiBiwjdWS {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffd10a;
+}
+.cid-uMiBiwjdWS .line {
+  background-color: #149dcc;
+  color: #149dcc;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-uMiBiwjdWS .section-text {
+  padding: 2rem 0;
+  color: #7640e0;
+}
+.cid-uMiBiwjdWS .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-uMiBiwjdWS .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-tAbzWfsKWv {
   padding-top: 0px;
   padding-bottom: 15px;
