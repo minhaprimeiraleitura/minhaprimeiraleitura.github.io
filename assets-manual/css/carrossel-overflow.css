@@ -1,0 +1,63 @@
+/* Carrossel externo (área de rolagem) */
+
+.carrossel-overflow {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: grab;
+}
+
+.carrossel-overflow::-webkit-scrollbar {
+  display: none;
+}
+
+/* Faixa de itens roláveis */
+
+.carrossel-overflow-itens {
+  display: flex;
+  gap: 10px;
+  white-space: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: grab;
+}
+
+.carrossel-overflow-itens.dragging {
+  cursor: grabbing;
+}
+
+.carrossel-overflow-itens::-webkit-scrollbar {
+  display: none;
+}
+
+/* Cada item ocupa proporção ajustável da largura do container pai */
+
+.carrossel-overflow-item {
+  flex: 0 0 var(--card-width, calc(33.333% - 10px));
+  max-width: var(--card-max-width, 280px);
+  min-width: var(--card-min-width, 180px);
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Área da imagem com aspect ratio controlado */
+
+.tam-card-carousel {
+  width: 100%;
+  aspect-ratio: var(--card-aspect-ratio, 2/3);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Imagens dentro dos cards */
+
+.carrossel-overflow-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
