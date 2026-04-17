@@ -144,8 +144,16 @@ h1, h2, h3, h4 {
 
 /* ── COLUNA COM ALTURA MÍNIMA para o mt-auto funcionar ── */
 
-.coluna-headline-carrossel {
-  min-height: 360px;
+@media (min-width: 992px) {
+  .coluna-headline-carrossel {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 576px) {
+  .coluna-headline-carrossel {
+    min-height: 215px;
+  }
 }
 
 /* ── BOTÃO CTA ──
