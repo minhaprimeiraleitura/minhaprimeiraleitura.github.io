@@ -1,0 +1,11 @@
+.barra-inicial {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #138510;
+  /*height: 90px;*/
+}
+
+.logo-barra {
+  max-height: 50px;
+}
+

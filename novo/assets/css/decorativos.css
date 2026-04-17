@@ -1,0 +1,200 @@
+/* ============================================================
+   DECORATIVOS LÚDICOS — MINHA PRIMEIRA LEITURA
+   Versão 1.0 | 2026
+   
+   USO:
+   1. A <section> pai precisa ter position: relative
+   2. Insira o <span> do decorativo dentro da section
+   3. No mobile todos somem automaticamente
+   
+   CLASSES DE POSIÇÃO:
+   .deco-top-right    → canto superior direito
+   .deco-top-left     → canto superior esquerdo
+   .deco-bottom-right → canto inferior direito
+   .deco-bottom-left  → canto inferior esquerdo
+   ============================================================ */
+
+/* ── BASE ── */
+
+.deco {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  opacity: 0.20;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gato-ludico {
+  /*position: absolute;*/
+  bottom: -40px;
+  right: 5%;
+  max-width: 120px;
+  z-index: 5;
+  animation: float 4s ease-in-out infinite;
+}
+
+/* ── POSICIONAMENTOS ── */
+
+.deco-top-right {
+  top: 20px;
+  right: 28px;
+}
+
+.deco-top-left {
+  top: 20px;
+  left: 28px;
+}
+
+.deco-bottom-right {
+  bottom: 20px;
+  right: 28px;
+}
+
+.deco-bottom-right-up {
+  top: -47px;
+  right: 55px;
+}
+
+.deco-bottom-left {
+  bottom: 20px;
+  left: 130px;
+}
+
+/* ──────────────────────────────────────────────────────
+   1. ESTRELA DUPLA
+   Roxo #A92CCD (maior) + Azul #1188FD (menor)
+   Uso: faixa de impacto, cards de benefícios
+────────────────────────────────────────────────────── */
+
+.deco-estrela-dupla {
+  width: 90px;
+  height: 80px;
+  background-image: url("data:image/svg+xml,%3Csvg width='90' height='80' viewBox='0 0 90 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23A92CCD' d='M55 6 L60 28 L82 34 L60 40 L55 62 L50 40 L28 34 L50 28Z'/%3E%3Cpath fill='%231188FD' d='M22 30 L25 42 L37 45 L25 48 L22 60 L19 48 L7 45 L19 42Z'/%3E%3C/svg%3E");
+}
+
+/* ──────────────────────────────────────────────────────
+   2. ESTRELINHAS MIX
+   Dourado #D68C2B (maior) + Roxo #A92CCD (média) + Azul #1188FD (menor)
+   Uso: carrossel de crianças, ponte solução
+────────────────────────────────────────────────────── */
+
+.deco-estrelinhas-mix {
+  width: 90px;
+  height: 66px;
+  background-image: url("data:image/svg+xml,%3Csvg width='90' height='66' viewBox='0 0 90 66' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23D68C2B' d='M52 14 L56 28 L70 32 L56 36 L52 50 L48 36 L34 32 L48 28Z'/%3E%3Cpath fill='%23A92CCD' d='M16 4 L18.5 13 L28 15.5 L18.5 18 L16 27 L13.5 18 L4 15.5 L13.5 13Z'/%3E%3Cpath fill='%231188FD' d='M78 2 L79.5 8 L86 9.5 L79.5 11 L78 17 L76.5 11 L70 9.5 L76.5 8Z'/%3E%3C/svg%3E");
+}
+
+/* ──────────────────────────────────────────────────────
+   3. RABISCO DUPLO EM ARCO
+   Laranja #E8440A — abre para a direita
+   Uso: canto inferior direito de seções claras
+────────────────────────────────────────────────────── */
+
+.deco-rabisco {
+  width: 100px;
+  height: 60px;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='60' viewBox='0 0 100 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='none' stroke='%230f063a' stroke-width='6' stroke-linecap='round' d='M92,48 C76,10 40,6 8,20'/%3E%3Cpath fill='none' stroke='%23E8440A' stroke-width='4.5' stroke-linecap='round' d='M92,58 C74,22 38,16 6,30'/%3E%3C/svg%3E");
+}
+
+/* ──────────────────────────────────────────────────────
+   4. BOLINHAS SOBREPOSTAS
+   Roxo #A92CCD + Amarelo #FFD43B + Azul #1188FD
+   Uso: bloco da dor (fundo escuro) — borda de separação #0B1D33
+────────────────────────────────────────────────────── */
+
+.deco-bolinhas {
+  width: 90px;
+  height: 44px;
+  background-image: url("data:image/svg+xml,%3Csvg width='90' height='44' viewBox='0 0 90 44' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle fill='%23A92CCD' cx='18' cy='22' r='18'/%3E%3Ccircle fill='%23FFD43B' cx='42' cy='22' r='18'/%3E%3Ccircle fill='%231188FD' cx='66' cy='22' r='18'/%3E%3Ccircle fill='none' stroke='%230B1D33' stroke-width='2.5' cx='42' cy='22' r='18'/%3E%3Ccircle fill='none' stroke='%230B1D33' stroke-width='2.5' cx='66' cy='22' r='18'/%3E%3C/svg%3E");
+}
+
+/* ──────────────────────────────────────────────────────
+   5A. PATAS ALTERNADAS — cinza escuro #3D3D3D
+   Para fundos claros e creme
+   Sequência: esquerda → direita → esquerda (perspectiva)
+────────────────────────────────────────────────────── */
+
+.deco-patas {
+  width: 130px;
+  height: 80px;
+  background-image: url("data:image/svg+xml,%3Csvg width='130' height='80' viewBox='0 0 130 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform='translate(2%2C2) rotate(15%2C18%2C30) scale(0.65)'%3E%3Cellipse fill='%233D3D3D' cx='18' cy='36' rx='11' ry='9'/%3E%3Ccircle fill='%233D3D3D' cx='18' cy='20' r='5.5'/%3E%3Ccircle fill='%233D3D3D' cx='7' cy='26' r='5'/%3E%3Ccircle fill='%233D3D3D' cx='29' cy='26' r='5'/%3E%3C/g%3E%3Cg transform='translate(44%2C22) scale(-0.80%2C0.80) rotate(-15%2C18%2C30)'%3E%3Cellipse fill='%233D3D3D' cx='18' cy='36' rx='11' ry='9'/%3E%3Ccircle fill='%233D3D3D' cx='18' cy='20' r='5.5'/%3E%3Ccircle fill='%233D3D3D' cx='7' cy='26' r='5'/%3E%3Ccircle fill='%233D3D3D' cx='29' cy='26' r='5'/%3E%3C/g%3E%3Cg transform='translate(82%2C38) rotate(15%2C18%2C30) scale(0.95)'%3E%3Cellipse fill='%233D3D3D' cx='18' cy='36' rx='11' ry='9'/%3E%3Ccircle fill='%233D3D3D' cx='18' cy='20' r='5.5'/%3E%3Ccircle fill='%233D3D3D' cx='7' cy='26' r='5'/%3E%3Ccircle fill='%233D3D3D' cx='29' cy='26' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* ──────────────────────────────────────────────────────
+   5B. PATAS ALTERNADAS — fantasma (para fundo escuro)
+   Opacidade crescente: 0.22 → 0.35 → 0.50 (efeito aproximação)
+────────────────────────────────────────────────────── */
+
+.deco-patas-fantasma {
+  width: 130px;
+  height: 80px;
+  background-image: url("data:image/svg+xml,%3Csvg width='130' height='80' viewBox='0 0 130 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform='translate(2%2C2) rotate(15%2C18%2C30) scale(0.65)'%3E%3Cellipse fill='rgba(255%2C255%2C255%2C0.22)' cx='18' cy='36' rx='11' ry='9'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.22)' cx='18' cy='20' r='5.5'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.22)' cx='7' cy='26' r='5'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.22)' cx='29' cy='26' r='5'/%3E%3C/g%3E%3Cg transform='translate(44%2C22) scale(-0.80%2C0.80) rotate(-15%2C18%2C30)'%3E%3Cellipse fill='rgba(255%2C255%2C255%2C0.35)' cx='18' cy='36' rx='11' ry='9'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.35)' cx='18' cy='20' r='5.5'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.35)' cx='7' cy='26' r='5'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.35)' cx='29' cy='26' r='5'/%3E%3C/g%3E%3Cg transform='translate(82%2C38) rotate(15%2C18%2C30) scale(0.95)'%3E%3Cellipse fill='rgba(255%2C255%2C255%2C0.50)' cx='18' cy='36' rx='11' ry='9'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.50)' cx='18' cy='20' r='5.5'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.50)' cx='7' cy='26' r='5'/%3E%3Ccircle fill='rgba(255%2C255%2C255%2C0.50)' cx='29' cy='26' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* ── MOBILE: decorativos somem ── */
+
+@media (max-width: 767px) {
+  .deco {
+    display: none;
+  }
+}
+
+/* ============================================================
+   CURVA SEPARADORA — HERO → PRÓXIMA SEÇÃO
+   
+   REGRA DE COR:
+   O fill do SVG deve ser IGUAL à cor de fundo
+   da seção que vem DEPOIS da curva.
+   
+   Exemplos:
+   - Próxima seção é branca (#fff)    → use .hero-wave (padrão)
+   - Próxima seção é creme (#FDF6E3)  → use .hero-wave-creme
+   - Próxima seção é escura (#0B1D33) → use .hero-wave-escuro
+   
+   A cor de fundo do hero "vaza" por baixo
+   criando o efeito de onda sem sobreposição.
+   ============================================================ */
+
+.hero-wave {
+  line-height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hero-wave svg {
+  display: block;
+  width: 100%;
+  height: 72px;
+}
+
+/* variante: próxima seção branca */
+
+.hero-wave-branco svg path {
+  fill: #ffffff;
+}
+
+/* variante: próxima seção creme */
+
+.hero-wave-creme svg path {
+  fill: #FDF6E3;
+}
+
+/* variante: próxima seção escura */
+
+.hero-wave-escuro svg path {
+  fill: #0B1D33;
+}
+
+@media (max-width: 768px) {
+  .hero-wave svg {
+    height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-wave svg {
+    height: 34px;
+  }
+}
+
