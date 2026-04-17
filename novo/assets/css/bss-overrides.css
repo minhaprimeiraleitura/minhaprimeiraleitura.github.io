@@ -207,6 +207,10 @@
   padding-top: 3rem!important;
 }
 
+.pe-0 {
+  padding-right: 0!important;
+}
+
 .pe-2 {
   padding-right: .5rem!important;
 }
