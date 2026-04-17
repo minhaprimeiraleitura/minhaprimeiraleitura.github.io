@@ -1,3 +1,7 @@
+.m-2 {
+  margin: .5rem!important;
+}
+
 .m-3 {
   margin: 1rem!important;
 }
@@ -132,6 +136,11 @@
   padding: 1.5rem!important;
 }
 
+.px-1 {
+  padding-right: .25rem!important;
+  padding-left: .25rem!important;
+}
+
 .px-2 {
   padding-right: .5rem!important;
   padding-left: .5rem!important;
@@ -186,16 +195,16 @@
   padding-top: .5rem!important;
 }
 
+.pt-3 {
+  padding-top: 1rem!important;
+}
+
 .pt-4 {
   padding-top: 1.5rem!important;
 }
 
 .pt-5 {
   padding-top: 3rem!important;
-}
-
-.pt-6 {
-  padding-top: 4.5rem !important;
 }
 
 .pe-2 {
@@ -222,8 +231,18 @@
   padding-bottom: 6rem !important;
 }
 
+.ps-2 {
+  padding-left: .5rem!important;
+}
+
 .ps-5 {
   padding-left: 3rem!important;
+}
+
+@media (min-width:768px) {
+  .m-md-3 {
+    margin: 1rem!important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -260,6 +279,12 @@
 @media (min-width:768px) {
   .mb-md-2 {
     margin-bottom: .5rem!important;
+  }
+}
+
+@media (min-width:768px) {
+  .mb-md-5 {
+    margin-bottom: 3rem!important;
   }
 }
 
@@ -327,6 +352,12 @@
   }
 }
 
+@media (min-width:768px) {
+  .pt-md-5 {
+    padding-top: 3rem!important;
+  }
+}
+
 @media (min-width: 768px) {
   .pt-md-6 {
     padding-top: 4.5rem !important;
@@ -342,6 +373,12 @@
 @media (min-width: 768px) {
   .pb-md-8 {
     padding-bottom: 7.5rem !important;
+  }
+}
+
+@media (min-width:768px) {
+  .ps-md-5 {
+    padding-left: 3rem!important;
   }
 }
 
