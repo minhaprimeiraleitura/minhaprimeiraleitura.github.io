@@ -104,10 +104,6 @@
   margin-bottom: 7.5rem !important;
 }
 
-.mb-9 {
-  margin-bottom: 9rem !important;
-}
-
 .ms-3 {
   margin-left: 1rem!important;
 }
@@ -230,6 +226,13 @@
   padding-left: 3rem!important;
 }
 
+@media (min-width: 768px) {
+  .my-md-6 {
+    margin-top: 4.5rem !important;
+    margin-bottom: 4.5rem !important;
+  }
+}
+
 @media (min-width:768px) {
   .mt-md-3 {
     margin-top: 1rem!important;
@@ -269,6 +272,12 @@
 @media (min-width: 768px) {
   .mb-md-7 {
     margin-bottom: 6rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .mb-md-9 {
+    margin-bottom: 9rem !important;
   }
 }
 
@@ -314,6 +323,18 @@
 @media (min-width:768px) {
   .py-md-5 {
     padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+  }
+}
+
+@media (min-width: 768px) {
+  .pt-md-6 {
+    padding-top: 4.5rem !important;
+  }
+}
+
+@media (min-width:768px) {
+  .pb-md-5 {
     padding-bottom: 3rem!important;
   }
 }
