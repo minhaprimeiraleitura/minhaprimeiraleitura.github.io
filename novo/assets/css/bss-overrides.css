@@ -387,6 +387,18 @@
 }
 
 @media (min-width:992px) {
+  .mt-lg-0 {
+    margin-top: 0!important;
+  }
+}
+
+@media (min-width:992px) {
+  .mb-lg-5 {
+    margin-bottom: 3rem!important;
+  }
+}
+
+@media (min-width:992px) {
   .p-lg-5 {
     padding: 3rem!important;
   }
