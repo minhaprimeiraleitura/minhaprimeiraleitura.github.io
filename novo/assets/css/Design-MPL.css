@@ -55,8 +55,9 @@
   --G-roxo-escuro: #534AB7;
   --G-verde-clarinho: #E4EBCC;
   --G-verde-medio: #40C057;
-  --G--laranja-medio: #f59f00;
-  --G--marrom-medio: #8a6a00;
+  --G-laranja-medio: #f59f00;
+  --G-marrom-medio: #8a6a00;
+  --G-violeta-medio: #6B3ACF;
   --g-font-display: 'Fredoka One', cursive;
   --g-font-body: 'Nunito', sans-serif;
   --g-fs-xs: clamp(10px, 0.94vw, 12px);
@@ -484,11 +485,15 @@
 }
 
 .bg-g-laranja-medio {
-  background-color: var(--G--laranja-medio) !important;
+  background-color: var(--G-laranja-medio) !important;
 }
 
 .bg-g-marrom-medio {
-  background-color: var(--G--marrom-medio) !important;
+  background-color: var(--G-marrom-medio) !important;
+}
+
+.bg-g-violeta-medio {
+  background-color: var(--G-violeta-medio) !important;
 }
 
 .cor-g-azul-fechado {
@@ -536,11 +541,15 @@
 }
 
 .cor-g-laranja-medio {
-  color: var(--G--laranja-medio) !important;
+  color: var(--G-laranja-medio) !important;
 }
 
 .cor-g-marrom-medio {
-  color: var(--G--marrom-medio) !important;
+  color: var(--G-marrom-medio) !important;
+}
+
+.cor-g-violeta-medio {
+  color: var(--G-violeta-medio) !important;
 }
 
 .border-fv-verde-principal {

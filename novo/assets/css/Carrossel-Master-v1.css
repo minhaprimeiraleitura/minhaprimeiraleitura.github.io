@@ -1,7 +1,8 @@
 .custom-carousel-track {
-  display: flex !important;
-  gap: var(--gap, 20px);
+  --card-width: clamp(270px, 75vw, 520px);
+  gap: clamp(10px, 1vw, 40px);
   padding-bottom: 20px;
+  display: flex !important;
   flex-wrap: nowrap !important;
   overflow-x: auto !important;
   scroll-snap-type: x mandatory !important;
@@ -22,8 +23,8 @@
 }
 
 .custom-carousel-track > div {
-  flex: 0 0 var(--card-width, 320px) !important;
-  max-width: var(--card-width, 85vw) !important;
+  flex: 0 0 var(--card-width) !important;
+  max-width: var(--card-width) !important;
   scroll-snap-align: center !important;
 }
 

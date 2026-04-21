@@ -120,6 +120,13 @@ h1, h2, h3, h4 {
   box-shadow: var(--g-shadow-md);
 }
 
+/* Carrossel track */
+
+custom-carousel-track {
+  --card-width: 550px !important;
+  --gap: 20px !important;
+}
+
 /* ── BARRA INICIAL ── */
 
 .barra-inicial {
