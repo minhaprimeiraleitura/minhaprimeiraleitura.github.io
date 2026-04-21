@@ -120,13 +120,6 @@ h1, h2, h3, h4 {
   box-shadow: var(--g-shadow-md);
 }
 
-/* Carrossel track */
-
-custom-carousel-track {
-  --card-width: 550px !important;
-  --gap: 20px !important;
-}
-
 /* ── BARRA INICIAL ── */
 
 .barra-inicial {
@@ -1688,6 +1681,15 @@ custom-carousel-track {
   max-width: 680px;
   margin: 0 auto 24px;
   position: relative;
+}
+
+@media (max-width: 900px) {
+  .card-ofertas {
+    padding: 30px 14px 20px;
+    max-width: 680px;
+    margin: 0 auto 20px;
+    position: relative;
+  }
 }
 
 .border-oferta-principal {
