@@ -1121,7 +1121,6 @@ h1, h2, h3, h4 {
 
 .table-wrap {
   overflow-x: auto;
-  padding: 0 clamp(16px, 3vw, 44px) clamp(28px, 4vw, 48px);
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
   scrollbar-color: var(--AV-vol1-suave) transparent;

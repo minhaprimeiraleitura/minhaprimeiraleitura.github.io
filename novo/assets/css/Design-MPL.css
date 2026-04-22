@@ -64,11 +64,11 @@
   --g-fs-sm: clamp(11px, 1.09vw, 14px);
   --g-fs-base: clamp(13px, 1.25vw, 16px);
   --g-fs-md: clamp(14px, 1.41vw, 18px);
-  --g-fs-lg: clamp(15px, 1.56vw, 20px);
+  --g-fs-lg: clamp(15px, 1.6vw, 20px);
   --g-fs-2lg: clamp(15px, 1.8vw, 25px);
   --g-fs-3lg: clamp(17px, 2.2vw, 30px);
-  --g-fs-4lg: clamp(18px, 2.7vw, 40px);
-  --g-fs-5lg: clamp(26px, 3.2vw, 44px);
+  --g-fs-4lg: clamp(18px, 2.6vw, 36px);
+  --g-fs-5lg: clamp(26px, 3.2vw, 46px);
   --g-fs-xl: clamp(17px, 1.88vw, 24px);
   --g-fs-2xl: clamp(19px, 2.19vw, 28px);
   --g-fs-3xl: clamp(22px, 2.50vw, 32px);
