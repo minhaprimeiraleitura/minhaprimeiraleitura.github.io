@@ -22,9 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  let currentTrack = null; // Guarda a referência da track que foi pausada
+
   function openZoom(img) {
-    const track = img.closest('.marquee-track');
-    if (track) track.style.animationPlayState = 'paused';
+    currentTrack = img.closest('.marquee-track');
+    
+    // Pausa a animação via inline style
+    if (currentTrack) {
+        currentTrack.style.animationPlayState = 'paused';
+    }
 
     clone = img.cloneNode(true);
     clone.classList.add('img-zoomed-clone');
@@ -46,6 +52,12 @@ document.addEventListener('DOMContentLoaded', function() {
     overlay.classList.remove('active');
     closeBtn.style.display = 'none';
     document.body.style.overflow = '';
+    
+    // Retoma a animação limpando o estilo inline (voltando para a regra do CSS)
+    if (currentTrack) {
+        currentTrack.style.animationPlayState = '';
+        currentTrack = null; // Limpa a referência
+    }
   }
 
   overlay.addEventListener('click', closeZoom);
