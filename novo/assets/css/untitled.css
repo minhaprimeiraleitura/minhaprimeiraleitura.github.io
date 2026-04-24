@@ -1863,15 +1863,15 @@ h1, h2, h3, h4 {
   background: var(--verde);
   color: #fff;
   font-family: 'Nunito', sans-serif;
+  font-size: 9px;
+  padding: 12px 10px;
   font-weight: 900;
-  font-size: 18px;
-  padding: 17px 36px;
   border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 6px 24px rgba(43,138,62,.35);
   transition: transform .2s, box-shadow .2s;
   border: none;
   cursor: pointer;
+  box-shadow: 0 6px 24px rgba(245,159,0,.35);
 }
 
 .btn-cta:hover {
@@ -1879,13 +1879,29 @@ h1, h2, h3, h4 {
   box-shadow: 0 10px 32px rgba(43,138,62,.40);
 }
 
-.btn-cta.bg-g-laranja-medio {
-  box-shadow: 0 6px 24px rgba(245,159,0,.35);
+@media (min-width: 300px) {
+  .btn-cta {
+    font-size: 10px!important;
+  }
 }
 
-.btn-cta.bg-g-laranja-medio:hover {
-  background: var(--FV-vol4-forte);
-  box-shadow: 0 10px 32px rgba(245,159,0,.45);
+@media (min-width: 350px) {
+  .btn-cta {
+    font-size: 11px!important;
+  }
+}
+
+@media (min-width: 400px) {
+  .btn-cta {
+    font-size: 12px!important;
+  }
+}
+
+@media (min-width: 600px) {
+  .btn-cta {
+    font-size: 15px!important;
+    padding: 17px 36px;
+  }
 }
 
 /* ─── RESPONSIVO ─── */
@@ -2094,5 +2110,17 @@ h1, h2, h3, h4 {
 .whatsapp-btn:hover {
   transform: translateY(-2px);
   color: #fff;
+}
+
+@media (min-width: 300px) {
+  .btn-oferta {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-oferta {
+    font-size: 22px;
+  }
 }
 

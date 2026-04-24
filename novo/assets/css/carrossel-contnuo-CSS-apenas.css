@@ -53,11 +53,11 @@
 }
 
 .track-left {
-  animation: scrollMarquee 40s linear infinite;
+  animation: scrollMarquee 120s linear infinite;
 }
 
 .track-right {
-  animation: scrollRight 45s linear infinite;
+  animation: scrollRight 100s linear infinite;
   transform: translateX(-50%);
 }
 
