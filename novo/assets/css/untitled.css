@@ -75,6 +75,54 @@ h1, h2, h3, h4 {
   color: #fff!important;
 }
 
+@media (min-width: 300px) {
+  .header-footer {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 400px) {
+  .header-footer {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 576px) {
+  .header-footer {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-footer {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 300px) {
+  .footer-header-button {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 400px) {
+  .footer-header-button {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer-header-button {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-header-button {
+    font-size: 18px;
+  }
+}
+
 /* ── COMPONENTES ── */
 
 /* tags de textos */
