@@ -1,0 +1,113 @@
+/* ── Tokens da marca ── */
+
+:root {
+  --mpl-green: #098605;
+  --mpl-green-mid: #25923F;
+  --mpl-green-light: #52bb4f;
+  --mpl-green-pale: #eaf7ea;
+  --mpl-orange: #d68c2b;
+  --mpl-text: #1a2e1a;
+  --mpl-muted: #5a7060;
+  --mpl-border: #d4e8d4;
+  --mpl-surface: #f5faf5;
+  --ff-body: 'Nunito', sans-serif;
+  --ff-display: 'Fraunces', serif;
+}
+
+/* ── Base ── */
+
+body {
+  font-family: var(--ff-body);
+  background-color: var(--mpl-surface);
+  color: var(--mpl-text);
+}
+
+/* ── Logo responsiva ── */
+
+.mpl-logo {
+  width: 220px;
+  height: auto;
+}
+
+@media (max-width: 575px) {
+  .mpl-logo {
+    width: 150px;
+  }
+}
+
+/* ── Gradiente do cabeçalho ── */
+
+.mpl-header-bg {
+  background: linear-gradient(135deg, #098605 0%, #25923F 60%, #52bb4f 100%);
+}
+
+/* ── Fonte display ── */
+
+.ff-display {
+  font-family: var(--ff-display);
+}
+
+/* ── Cores utilitárias extras ── */
+
+.text-mpl-green {
+  color: var(--mpl-green);
+}
+
+.text-mpl-muted {
+  color: var(--mpl-muted);
+}
+
+.bg-mpl-pale {
+  background-color: var(--mpl-green-pale);
+}
+
+.border-mpl {
+  border-color: var(--mpl-border) !important;
+}
+
+/* ── Preços ── */
+
+.mpl-price-full {
+  font-size: .85rem;
+  font-weight: 700;
+  opacity: .75;
+  text-decoration: line-through;
+}
+
+.mpl-price-promo {
+  font-family: var(--ff-display);
+  font-size: clamp(1.8rem, 5vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* ── Loading do iframe ── */
+
+.mpl-loading {
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  z-index: 2;
+  transition: opacity .4s ease;
+}
+
+.mpl-loading.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mpl-spinner {
+  width: 44px;
+  height: 44px;
+  border: 4px solid var(--mpl-border);
+  border-top-color: var(--mpl-green);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+

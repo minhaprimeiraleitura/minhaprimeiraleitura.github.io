@@ -67,6 +67,10 @@
   margin-top: auto!important;
 }
 
+.me-1 {
+  margin-right: .25rem!important;
+}
+
 .me-2 {
   margin-right: .5rem!important;
 }
@@ -220,6 +224,10 @@
 
 .pe-2 {
   padding-right: .5rem!important;
+}
+
+.pb-1 {
+  padding-bottom: .25rem!important;
 }
 
 .pb-3 {
