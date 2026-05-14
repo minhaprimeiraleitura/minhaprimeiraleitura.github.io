@@ -65,10 +65,6 @@
     });
 
     /* ── iframe Eduzz ── */
-    const eduzzParams = new URLSearchParams();
-    if (parcelas) eduzzParams.set('p', parcelas);
-    if (coupon)   eduzzParams.set('coupon', coupon);
-
     const iframe = $('mpl-eduzz-iframe');
     const baseUrl = kit.checkoutUrl || `https://eduzz.com/checkout/${kit.eduzzId}`;
     const eduzzParams = new URLSearchParams();
