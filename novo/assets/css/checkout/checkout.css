@@ -1,0 +1,259 @@
+/* ============================================================
+   MPL Checkout — Folha de estilos de marca
+   Depende do Bootstrap 5. Não duplica nada que o BS já faz.
+   ============================================================ */
+
+/* ── 1. TOKENS ─────────────────────────────────────────────── */
+
+:root {
+  --mpl-green: #098605;
+  --mpl-green-mid: #25923F;
+  --mpl-green-light: #52bb4f;
+  --mpl-green-pale: #eaf7ea;
+  --mpl-orange: #d68c2b;
+  --mpl-text: #1a2e1a;
+  --mpl-muted: #5a7060;
+  --mpl-border: #d4e8d4;
+  --mpl-surface: #f5faf5;
+  --ff-body: 'Nunito', sans-serif;
+  --ff-display: 'Fraunces', serif;
+}
+
+/* ── 2. BASE ────────────────────────────────────────────────── */
+
+body {
+  font-family: var(--ff-body);
+  background-color: var(--mpl-surface);
+  color: var(--mpl-text);
+}
+
+/* ── 3. TIPOGRAFIA ─────────────────────────────────────────── */
+
+.ff-display {
+  font-family: var(--ff-display);
+}
+
+/* Tamanhos semânticos usados no HTML no lugar de font-size inline */
+
+.mpl-text-xs {
+  font-size: .72rem;
+}
+
+.mpl-text-sm {
+  font-size: .78rem;
+}
+
+.mpl-ls-wide {
+  letter-spacing: .08em;
+}
+
+/* Título do produto no cabeçalho verde */
+
+.mpl-product-title {
+  font-size: clamp(1.4rem, 3.5vw, 1.9rem);
+}
+
+/* ── 4. CORES UTILITÁRIAS ──────────────────────────────────── */
+
+/* Texto */
+
+.text-mpl-green {
+  color: var(--mpl-green);
+}
+
+.text-mpl-muted {
+  color: var(--mpl-muted);
+}
+
+/* Fundos */
+
+.bg-mpl-pale {
+  background-color: var(--mpl-green-pale);
+}
+
+/* Bordas — usa !important para sobrepor a cor padrão do .border do BS */
+
+.border-mpl {
+  border-color: var(--mpl-border) !important;
+}
+
+/* ── 5. COMPONENTES ────────────────────────────────────────── */
+
+/* Logo responsiva (proporção original 713×121) */
+
+.mpl-logo {
+  width: 220px;
+  height: auto;
+}
+
+@media (max-width: 575px) {
+  .mpl-logo {
+    width: 150px;
+  }
+}
+
+/* Badge de "Compra Segura" no header */
+
+.mpl-secure-badge {
+  font-size: .72rem;
+}
+
+/* Ícones — tamanhos reutilizáveis */
+
+.mpl-icon-sm {
+  font-size: .95rem;
+}
+
+.mpl-icon-xl {
+  font-size: 2rem;
+}
+
+/* Botão verde principal */
+
+.btn-mpl-green {
+  background-color: var(--mpl-green);
+  color: #fff;
+}
+
+.btn-mpl-green:hover, .btn-mpl-green:focus {
+  background-color: var(--mpl-green-mid);
+  color: #fff;
+}
+
+/* Gradiente do cabeçalho do produto */
+
+.mpl-header-bg {
+  background: linear-gradient(135deg, #098605 0%, #25923F 60%, #52bb4f 100%);
+}
+
+/* Badge de vidro (sobre o gradiente verde) */
+
+.mpl-badge-glass {
+  background: rgba(255, 255, 255, .18);
+  border: 1px solid rgba(255, 255, 255, .30);
+}
+
+/* ── 6. TABELA DE PREÇOS ───────────────────────────────────── */
+
+.mpl-price-table {
+  border-collapse: collapse;
+}
+
+/* Células base */
+
+.mpl-tbl-cell {
+  padding: 5px 0;
+  font-size: .82rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, .88);
+  vertical-align: middle;
+}
+
+/* Coluna de valores: alinhada à direita, negrito */
+
+.mpl-tbl-val {
+  text-align: right;
+  font-weight: 700;
+}
+
+/* Linha de desconto */
+
+.mpl-row-discount .mpl-tbl-cell {
+  color: rgba(255, 255, 255, .75);
+}
+
+.mpl-discount-val {
+  color: #b5ffb0;
+}
+
+/* Linha de total — separador + destaque */
+
+.mpl-row-separator .mpl-tbl-cell {
+  border-top: 1px solid rgba(255, 255, 255, .25);
+  padding-top: 8px;
+}
+
+.mpl-tbl-total {
+  font-size: .95rem;
+  font-weight: 800;
+  color: #fff;
+  padding-top: 6px;
+}
+
+/* Linha de parcelas */
+
+.mpl-row-installments .mpl-tbl-cell {
+  font-size: .75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, .70);
+  padding-top: 1px;
+}
+
+/* ── 7. CUPOM SUGERIDO ─────────────────────────────────────── */
+
+.mpl-coupon-suggest {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(255, 220, 50, .15);
+  border: 1px solid rgba(255, 220, 50, .40);
+  font-size: .78rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .90);
+}
+
+/* ── 8. IFRAME ─────────────────────────────────────────────── */
+
+.mpl-iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  min-height: 700px;
+  transition: min-height .3s ease;
+}
+
+/* ── 9. LOADING OVERLAY ────────────────────────────────────── */
+
+.mpl-loading {
+  background: #fff;
+  z-index: 2;
+  transition: opacity .4s ease;
+}
+
+.mpl-loading.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mpl-spinner {
+  width: 44px;
+  height: 44px;
+  border: 4px solid var(--mpl-border);
+  border-top-color: var(--mpl-green);
+  border-radius: 50%;
+  animation: mpl-spin .8s linear infinite;
+}
+
+@keyframes mpl-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Mantém cor e fundo do botão do accordion na identidade MPL */
+
+#accordionItens .accordion-button {
+  background-color: #fff;
+  color: var(--mpl-green);
+  box-shadow: none;
+}
+
+#accordionItens .accordion-button:not(.collapsed) {
+  background-color: var(--mpl-green-pale);
+  color: var(--mpl-green);
+  box-shadow: none;
+}
+
+#accordionItens .accordion-button::after {
+  filter: hue-rotate(80deg);
+}
+
