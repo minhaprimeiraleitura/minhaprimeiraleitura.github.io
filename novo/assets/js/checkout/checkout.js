@@ -15,44 +15,46 @@
   if (!kit) { show('mpl-error'); return; }
   show('mpl-main');
 
+  /* ── Nome de exibição: usa 'resume' se existir, senão 'name' ── */
+  const displayName = kit.resume || kit.name;
+
   /* ── Imagem do produto ── */
   const imgEl = $('img-produto');
   if (imgEl) {
     imgEl.src = kit.image || 'produtos/mpl-kit-completo.jpg';
-    imgEl.alt = kit.name;
+    imgEl.alt = displayName;
   }
 
   /* ── Cabeçalho: badge, nome e descrição ── */
-  setText('hdr-badge', kit.name);
-  setText('hdr-name',  kit.name);
+  setText('hdr-badge', displayName);
+  setText('hdr-name',  displayName);
   setText('hdr-desc',  kit.description);
 
-  /* ── Resumo de preço ──────────────────────────────
-   *
-   *  Linha Produto      → price.full (preço cheio riscado na tabela verde)
-   *  Linha Desconto     → diferença entre full e promotional (se houver)
-   *  Linha Frete        → custo do frete (0 = Grátis; null = a calcular)
-   *  Linha Total        → promotional + frete
-   *  Linha Parcelamento → installmentLabel fixo do dicionário (se existir)
-   *  Linha Cupom        → código do cupom vindo da URL (se existir)
-   *
-   *  Esses dados alimentam DOIS lugares:
-   *    1. O card "Resumo da compra" (topo da página, fundo branco)
-   *    2. A tabela no cabeçalho verde (mpl-header-bg)
-   *  Os IDs são compartilhados — o JS preenche uma vez, ambos atualizam.
-   */
+  /* ── Resumo de preço ── */
   const sh        = kit.shipping;
   const freteCost = sh.cost ?? 0;
   const desconto  = kit.price.full - kit.price.promotional;
   const total     = kit.price.promotional + freteCost;
 
-  /* Preço cheio (linha "Produto") */
-  setText('tbl-price-full', MPL_formatCurrency(kit.price.full));
-
   /* Nome do produto no card de resumo */
-  setText('hdr-name-resumo', kit.name);
+  setText('hdr-name-resumo', displayName);
 
-  /* Frete */
+  /* Linha de preço: "cheio − desconto = promocional" ou apenas "cheio" */
+  const precoEl = $('resumo-preco-linha');
+  if (precoEl) {
+    if (desconto > 0) {
+      precoEl.innerHTML =
+        `<span class="text-decoration-line-through text-muted">${MPL_formatCurrency(kit.price.full)}</span>`
+        + ` <span class="text-muted">−</span> `
+        + `<span class="text-success">${MPL_formatCurrency(desconto)}</span>`
+        + ` <span class="text-muted">=</span> `
+        + `<span class="fw-bold">${MPL_formatCurrency(kit.price.promotional)}</span>`;
+    } else {
+      precoEl.innerHTML = `<span class="fw-bold">${MPL_formatCurrency(kit.price.full)}</span>`;
+    }
+  }
+
+  /* Frete (com sinal de +) */
   setText('tbl-shipping-label', sh.label || 'Frete');
   setText('tbl-deadline',       sh.deadlineLabel || '');
   setText('tbl-shipping-cost',
@@ -63,25 +65,14 @@
         : MPL_formatCurrency(sh.cost)
   );
 
-  /* Texto de frete no card de resumo (linha simples) */
   setText('resumo-frete-label', sh.label || 'Frete');
   setText('resumo-frete-val',
     sh.cost === null
       ? 'a calcular'
       : sh.cost === 0
         ? 'Grátis'
-        : MPL_formatCurrency(sh.cost)
+        : `+ ${MPL_formatCurrency(sh.cost)}`
   );
-
-  /* Desconto — só exibe se houver */
-  if (desconto > 0) {
-    show('row-desconto');
-    setText('tbl-discount',    `− ${MPL_formatCurrency(desconto)}`);
-    setText('resumo-desc-val', `− ${MPL_formatCurrency(desconto)}`);
-  } else {
-    hide('row-desconto');
-    hide('resumo-row-desconto');
-  }
 
   /* Total */
   setText('tbl-total',    MPL_formatCurrency(total));

@@ -79,6 +79,7 @@ const MPL_PRODUCTS = {
     checkoutUrl: "https://chk.eduzz.com/6W48Q1KN0Z",
     name:        "Kit Completo",
     description: "Leitura + Atividades + Bônus",
+    resume: "Valor da Oferta:",
     image:       IMG_KIT_COMPLETO,
     price: {
       full:             22700,                     // R$227,00
@@ -87,7 +88,7 @@ const MPL_PRODUCTS = {
     },
     shipping: {
       cost:          2493,   // R$24,93
-      label:         "Frete Fixo",
+      label:         "Valor do Frete Fixo:",
       deadlineLabel: FRETE_NOVO,
     },
     items: [
