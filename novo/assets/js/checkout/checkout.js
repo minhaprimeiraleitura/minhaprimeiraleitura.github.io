@@ -34,15 +34,17 @@
   const sh        = kit.shipping;
   const freteCost = sh.cost ?? 0;
   const desconto  = kit.price.full - kit.price.promotional;
-  const total     = kit.price.promotional + freteCost;
+  const finalPrice = kit.price.promotional || kit.price.full;
+  const total     = finalPrice + freteCost;
 
   /* Nome do produto no card de resumo */
   setText('hdr-name-resumo', displayName);
 
-  /* Linha de preço: "cheio − desconto = promocional" ou apenas "cheio" */
+  /* Linha de preço — depende de show_add */
   const precoEl = $('resumo-preco-linha');
   if (precoEl) {
-    if (desconto > 0) {
+    if (kit.show_add && desconto > 0) {
+      /* show_add = true: mostra "cheio − desconto = promocional" */
       precoEl.innerHTML =
         `<span class="text-decoration-line-through text-muted">${MPL_formatCurrency(kit.price.full)}</span>`
         + ` <span class="text-muted">−</span> `
@@ -50,7 +52,8 @@
         + ` <span class="text-muted">=</span> `
         + `<span class="fw-bold">${MPL_formatCurrency(kit.price.promotional)}</span>`;
     } else {
-      precoEl.innerHTML = `<span class="fw-bold">${MPL_formatCurrency(kit.price.full)}</span>`;
+      /* show_add = false (ou sem desconto): mostra só o valor final */
+      precoEl.innerHTML = `<span class="fw-bold">${MPL_formatCurrency(finalPrice)}</span>`;
     }
   }
 

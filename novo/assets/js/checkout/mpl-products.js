@@ -80,6 +80,7 @@ const MPL_PRODUCTS = {
     name:        "Kit Completo",
     description: "Leitura + Atividades + Bônus",
     resume: "Valor da Oferta:",
+    show_add: false,
     image:       IMG_KIT_COMPLETO,
     price: {
       full:             22700,                     // R$227,00
@@ -104,6 +105,7 @@ const MPL_PRODUCTS = {
     checkoutUrl: "https://chk.eduzz.com/G961DX8YW1",
     name:        "Kit Só Leitura",
     description: "Leitura + Bônus",
+    show_add: true,
     image:       IMG_KIT_LEITURA,
     price: {
       full:             16700,                     // R$167,00
