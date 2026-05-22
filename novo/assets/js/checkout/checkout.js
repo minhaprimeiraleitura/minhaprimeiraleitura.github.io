@@ -14,6 +14,7 @@
 
   if (!kit) { show('mpl-error'); return; }
   show('mpl-main');
+  show('mpl-footer');
 
   /* ── Nome de exibição: usa 'resume' se existir, senão 'name' ── */
   const displayName = kit.resume || kit.name;
@@ -44,7 +45,6 @@
   const precoEl = $('resumo-preco-linha');
   if (precoEl) {
     if (kit.show_add && desconto > 0) {
-      /* show_add = true: mostra "cheio − desconto = promocional" */
       precoEl.innerHTML =
         `<span class="text-decoration-line-through text-muted">${MPL_formatCurrency(kit.price.full)}</span>`
         + ` <span class="text-muted">−</span> `
@@ -52,7 +52,6 @@
         + ` <span class="text-muted">=</span> `
         + `<span class="fw-bold">${MPL_formatCurrency(kit.price.promotional)}</span>`;
     } else {
-      /* show_add = false (ou sem desconto): mostra só o valor final */
       precoEl.innerHTML = `<span class="fw-bold">${MPL_formatCurrency(finalPrice)}</span>`;
     }
   }
@@ -132,13 +131,84 @@
     });
   }
 
-  /* ── iframe Eduzz ── */
-  const iframe  = $('mpl-eduzz-iframe');
+  /* ══════════════════════════════════════════════════════════════
+     iframe Eduzz — monta URL com parâmetros da URL + defaults
+     ══════════════════════════════════════════════════════════════ */
+  const iframe = $('mpl-eduzz-iframe');
   if (iframe) {
-    const baseUrl = kit.checkoutUrl || `https://eduzz.com/checkout/${kit.eduzzId}`;
+    const baseUrl = kit.checkoutUrl || `https://chk.eduzz.com/${kit.eduzzId}`;
+
+    /*
+     * Parâmetros Eduzz aceitos pela URL do checkout.
+     * Tudo que vier na URL da nossa página e pertencer a esta lista
+     * é repassado para o iframe. Params internos (product, coupon)
+     * são tratados separadamente e NÃO entram nesta lista.
+     */
+    const EDUZZ_PARAMS = [
+      'cupom',            // cupom de desconto
+      'p',                // pré-seleciona parcelas
+      'pf',               // força seleção de parcelas
+      'np',               // máximo de parcelas exibidas
+      'b',                // boleto (1=sim, 0=não)
+      'nome', 'name',     // nome do cliente
+      'email',            // e-mail do cliente
+      'cel', 'phone',     // celular
+      'doc',              // CPF/CNPJ
+      'cep', 'zip',       // CEP
+      'num',              // número do endereço
+      'without_number',   // sem número
+      'comp',             // complemento
+      'state',            // estado
+      'city',             // cidade
+      'street',           // rua
+      'district',         // bairro
+      'country',          // país (ISO3166 alpha-3)
+      'currency',         // moeda/idioma
+      'df',               // só CPF
+      'dj',               // só CNPJ
+      'dv',               // vencimento boleto (dias)
+      'dd',               // vencimento boleto (data fixa)
+      'a',                // afiliado
+      'u',                // upsell one click
+      'skip',             // pula step 1 se dados preenchidos
+      'showDescription',  // mostra/esconde descrição (Elements)
+      'utm_source',       // UTMs
+      'utm_medium',
+      'utm_campaign',
+      'utm_content',
+    ];
+
+    /* Defaults — aplicados se o parâmetro NÃO vier na URL */
+    const DEFAULTS = {
+      pf:              '1',   // força seleção de parcelas
+      showDescription: '0',   // esconde descrição do produto
+    };
+
+    /* Lê todos os params da URL atual */
+    const urlParams = new URLSearchParams(window.location.search);
+
+    /* Monta os params para o iframe */
     const eduzzParams = new URLSearchParams();
-    if (coupon) eduzzParams.set('coupon', coupon);
-    iframe.src = `${baseUrl}?${eduzzParams.toString()}`;
+
+    /* 1. Cupom: aceita 'coupon' (nosso) ou 'cupom' (Eduzz) na URL */
+    const cupomVal = urlParams.get('cupom') || coupon;
+    if (cupomVal) eduzzParams.set('cupom', cupomVal);
+
+    /* 2. Repassa todos os params Eduzz que vieram na URL (exceto cupom, já tratado) */
+    EDUZZ_PARAMS.forEach(param => {
+      if (param === 'cupom') return; // já tratado acima
+      const val = urlParams.get(param);
+      if (val !== null) eduzzParams.set(param, val);
+    });
+
+    /* 3. Aplica defaults para params que não vieram na URL */
+    Object.entries(DEFAULTS).forEach(([key, defaultVal]) => {
+      if (!eduzzParams.has(key)) eduzzParams.set(key, defaultVal);
+    });
+
+    /* Monta URL final */
+    const paramString = eduzzParams.toString();
+    iframe.src = baseUrl + (paramString ? `?${paramString}` : '');
 
     /* Resize dinâmico via postMessage da Eduzz */
     window.addEventListener('message', (e) => {
